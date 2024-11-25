@@ -1,0 +1,1295 @@
+Loaded 21 batches for train set
+Training Parameters:
+Data Directory: activations_data
+Batch Size: 8192
+Test Fraction: 0.01
+Scale Factor: 34.12206415510119
+Seed: 42
+Optimizer: Adam
+Learning Rate: 0.001
+L1 Lambda: 1e-09
+Number of Epochs: 10
+SAE Input Dimension: 3072
+SAE Hidden Dimension: 4096
+-----------------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 31.544763565063477
+Active Features: 49.71%
+Decoder Weight Norm (Mean): 0.499939501285553
+MSE Loss: 1.4405, L1 Loss: 6.5618
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 30.178911209106445
+Active Features: 23.25%
+Decoder Weight Norm (Mean): 0.46237146854400635
+MSE Loss: 0.8288, L1 Loss: 2.1490
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 28.861650466918945
+Active Features: 8.08%
+Decoder Weight Norm (Mean): 0.42848262190818787
+MSE Loss: 1.1052, L1 Loss: 0.9445
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 27.3585205078125
+Active Features: 2.48%
+Decoder Weight Norm (Mean): 0.39956027269363403
+MSE Loss: 1.0173, L1 Loss: 0.4883
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 25.778514862060547
+Active Features: 0.75%
+Decoder Weight Norm (Mean): 0.37492409348487854
+MSE Loss: 1.0032, L1 Loss: 0.3109
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 24.13978385925293
+Active Features: 0.27%
+Decoder Weight Norm (Mean): 0.3537020981311798
+MSE Loss: 1.0753, L1 Loss: 0.2343
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 22.434524536132812
+Active Features: 0.12%
+Decoder Weight Norm (Mean): 0.3351641297340393
+MSE Loss: 1.0079, L1 Loss: 0.1579
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 20.70650863647461
+Active Features: 0.07%
+Decoder Weight Norm (Mean): 0.3189183175563812
+MSE Loss: 1.0136, L1 Loss: 0.1165
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 18.98711585998535
+Active Features: 0.04%
+Decoder Weight Norm (Mean): 0.3046301603317261
+MSE Loss: 0.7390, L1 Loss: 0.0607
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 18.10799789428711
+Active Features: 0.03%
+Decoder Weight Norm (Mean): 0.2921544313430786
+MSE Loss: 0.7059, L1 Loss: 0.0445
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 19.248159408569336
+Active Features: 0.04%
+Decoder Weight Norm (Mean): 0.2812497019767761
+MSE Loss: 0.9825, L1 Loss: 0.0539
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 21.284194946289062
+Active Features: 0.03%
+Decoder Weight Norm (Mean): 0.2716115415096283
+MSE Loss: 1.0478, L1 Loss: 0.0513
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 23.456541061401367
+Active Features: 0.03%
+Decoder Weight Norm (Mean): 0.26304054260253906
+MSE Loss: 1.0038, L1 Loss: 0.0470
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 25.74146270751953
+Active Features: 0.03%
+Decoder Weight Norm (Mean): 0.2553807497024536
+MSE Loss: 0.9877, L1 Loss: 0.0477
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 28.12419891357422
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.24847495555877686
+MSE Loss: 0.8055, L1 Loss: 0.0406
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 30.567707061767578
+Active Features: 0.03%
+Decoder Weight Norm (Mean): 0.2422352433204651
+MSE Loss: 1.2641, L1 Loss: 0.0753
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 33.11041259765625
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.23631936311721802
+MSE Loss: 1.0113, L1 Loss: 0.0672
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 35.73121643066406
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.23069509863853455
+MSE Loss: 0.9747, L1 Loss: 0.0748
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 38.419944763183594
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.2252339869737625
+MSE Loss: 0.7365, L1 Loss: 0.0632
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 41.12400436401367
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.21996527910232544
+MSE Loss: 0.8621, L1 Loss: 0.0887
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 43.87926483154297
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.21464359760284424
+MSE Loss: 0.9149, L1 Loss: 0.1113
+Epoch [1/10], Loss: 32.3171 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 46.6981315612793
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.2090725153684616
+MSE Loss: 0.6494, L1 Loss: 0.0874
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 49.516090393066406
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.203446164727211
+MSE Loss: 0.6252, L1 Loss: 0.0986
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 52.341590881347656
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.19766783714294434
+MSE Loss: 0.5968, L1 Loss: 0.1102
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 55.18231201171875
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.1916535198688507
+MSE Loss: 0.4940, L1 Loss: 0.1031
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 58.013465881347656
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.1854841113090515
+MSE Loss: 0.3435, L1 Loss: 0.0742
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 60.76958465576172
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.17941734194755554
+MSE Loss: 0.3813, L1 Loss: 0.1035
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 63.55198287963867
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.17319518327713013
+MSE Loss: 0.3510, L1 Loss: 0.1129
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 66.51200866699219
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.166757732629776
+MSE Loss: 0.3417, L1 Loss: 0.1330
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 69.45524597167969
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.1599593311548233
+MSE Loss: 0.2668, L1 Loss: 0.1134
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 72.32453918457031
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.15302494168281555
+MSE Loss: 0.2629, L1 Loss: 0.1439
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 75.14242553710938
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.14570459723472595
+MSE Loss: 0.2049, L1 Loss: 0.1159
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 77.86253356933594
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.13832788169384003
+MSE Loss: 0.1953, L1 Loss: 0.1449
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 80.50875091552734
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.1306387484073639
+MSE Loss: 0.1512, L1 Loss: 0.0919
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 83.00692749023438
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.12326886504888535
+MSE Loss: 0.1490, L1 Loss: 0.1470
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 85.37306213378906
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.1155867725610733
+MSE Loss: 0.1338, L1 Loss: 0.1323
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 87.56216430664062
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.10788001120090485
+MSE Loss: 0.1255, L1 Loss: 0.0958
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 89.54407501220703
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.10092669725418091
+MSE Loss: 0.1259, L1 Loss: 0.1128
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 91.29563903808594
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.09483499079942703
+MSE Loss: 0.1287, L1 Loss: 0.1234
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.812255859375
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.09027646481990814
+MSE Loss: 0.1316, L1 Loss: 0.1198
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.10264587402344
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.0882158949971199
+MSE Loss: 0.1372, L1 Loss: 0.1234
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 95.05731201171875
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.08756614476442337
+MSE Loss: 0.1386, L1 Loss: 0.1045
+Epoch [2/10], Loss: 8.3258 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 95.7039794921875
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.08719765394926071
+MSE Loss: 0.1399, L1 Loss: 0.0997
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 96.0587158203125
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.08631259202957153
+MSE Loss: 0.1432, L1 Loss: 0.1127
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 96.13631439208984
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.08436895906925201
+MSE Loss: 0.1429, L1 Loss: 0.1096
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 96.04893493652344
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.08145666122436523
+MSE Loss: 0.1427, L1 Loss: 0.1222
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 95.73275756835938
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.07748597860336304
+MSE Loss: 0.1345, L1 Loss: 0.0942
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 95.260986328125
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.07322190701961517
+MSE Loss: 0.1318, L1 Loss: 0.0875
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.66465759277344
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.06893430650234222
+MSE Loss: 0.1262, L1 Loss: 0.0913
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.9636001586914
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.06474027782678604
+MSE Loss: 0.1240, L1 Loss: 0.0614
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.23749542236328
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.061994682997465134
+MSE Loss: 0.1207, L1 Loss: 0.0817
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.48841857910156
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.06017192453145981
+MSE Loss: 0.1192, L1 Loss: 0.0804
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 91.74911499023438
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.05911913141608238
+MSE Loss: 0.1196, L1 Loss: 0.0690
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 91.0533218383789
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.05825169384479523
+MSE Loss: 0.1200, L1 Loss: 0.0399
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 90.42469024658203
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.057621508836746216
+MSE Loss: 0.1234, L1 Loss: 0.0670
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 89.88835144042969
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.0558723509311676
+MSE Loss: 0.1214, L1 Loss: 0.0466
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 89.44686126708984
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.05378407984972
+MSE Loss: 0.1230, L1 Loss: 0.0418
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 89.10259246826172
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.05151437222957611
+MSE Loss: 0.1288, L1 Loss: 0.0615
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 88.8958511352539
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.04873361811041832
+MSE Loss: 0.1258, L1 Loss: 0.0308
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 88.77192687988281
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.0469440296292305
+MSE Loss: 0.1322, L1 Loss: 0.0511
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 88.77640533447266
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.045276522636413574
+MSE Loss: 0.1321, L1 Loss: 0.0547
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 88.91568756103516
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.043964970856904984
+MSE Loss: 0.1299, L1 Loss: 0.0439
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 89.15274047851562
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.04323216900229454
+MSE Loss: 0.1279, L1 Loss: 0.0378
+Epoch [3/10], Loss: 4.1941 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 89.46210479736328
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.042492978274822235
+MSE Loss: 0.1283, L1 Loss: 0.0479
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 89.85601043701172
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.04090292006731033
+MSE Loss: 0.1264, L1 Loss: 0.0480
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 90.31797790527344
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.03889632225036621
+MSE Loss: 0.1245, L1 Loss: 0.0410
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 90.81502532958984
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.03745550662279129
+MSE Loss: 0.1215, L1 Loss: 0.0430
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 91.33241271972656
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.036365773528814316
+MSE Loss: 0.1195, L1 Loss: 0.0343
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 91.8415298461914
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.03560822829604149
+MSE Loss: 0.1205, L1 Loss: 0.0385
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.33030700683594
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.0347980335354805
+MSE Loss: 0.1174, L1 Loss: 0.0394
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.78032684326172
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.03358586132526398
+MSE Loss: 0.1197, L1 Loss: 0.0397
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.175048828125
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.03212958574295044
+MSE Loss: 0.1173, L1 Loss: 0.0227
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.51553344726562
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.03149406239390373
+MSE Loss: 0.1174, L1 Loss: 0.0293
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.78952026367188
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.030867379158735275
+MSE Loss: 0.1181, L1 Loss: 0.0370
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.98129272460938
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.029912374913692474
+MSE Loss: 0.1187, L1 Loss: 0.0239
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.11234283447266
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.029232211410999298
+MSE Loss: 0.1193, L1 Loss: 0.0247
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.18144226074219
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.028373632580041885
+MSE Loss: 0.1173, L1 Loss: 0.0252
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.19046020507812
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.027534225955605507
+MSE Loss: 0.1171, L1 Loss: 0.0293
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.13397979736328
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.02700714021921158
+MSE Loss: 0.1177, L1 Loss: 0.0227
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.03398132324219
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.026286296546459198
+MSE Loss: 0.1194, L1 Loss: 0.0289
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.88439178466797
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.025815362110733986
+MSE Loss: 0.1189, L1 Loss: 0.0237
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.70573425292969
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.025013718754053116
+MSE Loss: 0.1174, L1 Loss: 0.0217
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.5103759765625
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.024407492950558662
+MSE Loss: 0.1175, L1 Loss: 0.0284
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.2985610961914
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.02412126027047634
+MSE Loss: 0.1175, L1 Loss: 0.0310
+Epoch [4/10], Loss: 3.1918 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.0794448852539
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.023375995457172394
+MSE Loss: 0.1183, L1 Loss: 0.0219
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.87171173095703
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.022831842303276062
+MSE Loss: 0.1175, L1 Loss: 0.0241
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.68404388427734
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.02234799973666668
+MSE Loss: 0.1181, L1 Loss: 0.0263
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.52625274658203
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.021816311404109
+MSE Loss: 0.1170, L1 Loss: 0.0191
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.4000015258789
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.021284788846969604
+MSE Loss: 0.1172, L1 Loss: 0.0212
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.31072235107422
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.020970823243260384
+MSE Loss: 0.1186, L1 Loss: 0.0113
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.24605560302734
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.021042436361312866
+MSE Loss: 0.1165, L1 Loss: 0.0130
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.2077865600586
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.020113462582230568
+MSE Loss: 0.1191, L1 Loss: 0.0124
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.19566345214844
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.019835393875837326
+MSE Loss: 0.1175, L1 Loss: 0.0212
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.22562408447266
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.019497044384479523
+MSE Loss: 0.1170, L1 Loss: 0.0176
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.28699493408203
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.019003432244062424
+MSE Loss: 0.1178, L1 Loss: 0.0140
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.36922454833984
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.018799446523189545
+MSE Loss: 0.1180, L1 Loss: 0.0223
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.48236846923828
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.01869744062423706
+MSE Loss: 0.1179, L1 Loss: 0.0184
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.61229705810547
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.018047630786895752
+MSE Loss: 0.1162, L1 Loss: 0.0134
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.746826171875
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.017906639724969864
+MSE Loss: 0.1159, L1 Loss: 0.0206
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 92.88733673095703
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.017708249390125275
+MSE Loss: 0.1162, L1 Loss: 0.0168
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.02342224121094
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.017167143523693085
+MSE Loss: 0.1181, L1 Loss: 0.0170
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.1504135131836
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.017240935936570168
+MSE Loss: 0.1178, L1 Loss: 0.0157
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.2637710571289
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.01666642725467682
+MSE Loss: 0.1163, L1 Loss: 0.0193
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.35835266113281
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.017122410237789154
+MSE Loss: 0.1169, L1 Loss: 0.0185
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.43048858642578
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.016537325456738472
+MSE Loss: 0.1170, L1 Loss: 0.0144
+Epoch [5/10], Loss: 2.8433 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.48272705078125
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.016052983701229095
+MSE Loss: 0.1172, L1 Loss: 0.0133
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.51639556884766
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.01604660041630268
+MSE Loss: 0.1162, L1 Loss: 0.0186
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.52717590332031
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.015537460334599018
+MSE Loss: 0.1173, L1 Loss: 0.0193
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.51475524902344
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.01573595218360424
+MSE Loss: 0.1163, L1 Loss: 0.0143
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.48810577392578
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.015301480889320374
+MSE Loss: 0.1154, L1 Loss: 0.0196
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.44506072998047
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.015541961416602135
+MSE Loss: 0.1179, L1 Loss: 0.0102
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.39839172363281
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.016209039837121964
+MSE Loss: 0.1152, L1 Loss: 0.0126
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.34915924072266
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.015202265232801437
+MSE Loss: 0.1180, L1 Loss: 0.0137
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.29996490478516
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.014647819101810455
+MSE Loss: 0.1160, L1 Loss: 0.0132
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.25407409667969
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.014852698892354965
+MSE Loss: 0.1157, L1 Loss: 0.0121
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.21358489990234
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.0145122604444623
+MSE Loss: 0.1165, L1 Loss: 0.0142
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.18173217773438
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.014033649116754532
+MSE Loss: 0.1174, L1 Loss: 0.0159
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.16150665283203
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.014058460481464863
+MSE Loss: 0.1171, L1 Loss: 0.0165
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.1541519165039
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.013783684000372887
+MSE Loss: 0.1153, L1 Loss: 0.0123
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.15715026855469
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.013540424406528473
+MSE Loss: 0.1150, L1 Loss: 0.0099
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.16799926757812
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.013342948630452156
+MSE Loss: 0.1162, L1 Loss: 0.0124
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.1881332397461
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.013204138725996017
+MSE Loss: 0.1173, L1 Loss: 0.0128
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.21707153320312
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.013015330769121647
+MSE Loss: 0.1171, L1 Loss: 0.0142
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.25475311279297
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.013000979088246822
+MSE Loss: 0.1159, L1 Loss: 0.0073
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.29364013671875
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.013203620910644531
+MSE Loss: 0.1161, L1 Loss: 0.0133
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.33619689941406
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.01274644210934639
+MSE Loss: 0.1162, L1 Loss: 0.0139
+Epoch [6/10], Loss: 2.7349 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.38044738769531
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.012885404750704765
+MSE Loss: 0.1166, L1 Loss: 0.0119
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.42361450195312
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.012617623433470726
+MSE Loss: 0.1155, L1 Loss: 0.0086
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.4639892578125
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.012400000356137753
+MSE Loss: 0.1166, L1 Loss: 0.0115
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.50029754638672
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.012337743304669857
+MSE Loss: 0.1157, L1 Loss: 0.0144
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.53202819824219
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.012391569092869759
+MSE Loss: 0.1154, L1 Loss: 0.0120
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.55791473388672
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.012046631425619125
+MSE Loss: 0.1168, L1 Loss: 0.0131
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.5777816772461
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.0122301634401083
+MSE Loss: 0.1147, L1 Loss: 0.0098
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.59278106689453
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.012104181572794914
+MSE Loss: 0.1175, L1 Loss: 0.0122
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.60231018066406
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011956863105297089
+MSE Loss: 0.1155, L1 Loss: 0.0139
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.60660552978516
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.011886302381753922
+MSE Loss: 0.1153, L1 Loss: 0.0095
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.60802459716797
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011761130765080452
+MSE Loss: 0.1160, L1 Loss: 0.0118
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.6070556640625
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011706801131367683
+MSE Loss: 0.1166, L1 Loss: 0.0131
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.6044692993164
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011563120409846306
+MSE Loss: 0.1162, L1 Loss: 0.0106
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.60182189941406
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011396246962249279
+MSE Loss: 0.1151, L1 Loss: 0.0123
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.60037231445312
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.01150638796389103
+MSE Loss: 0.1149, L1 Loss: 0.0119
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.60079193115234
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011211749166250229
+MSE Loss: 0.1152, L1 Loss: 0.0103
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.6037826538086
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011207928881049156
+MSE Loss: 0.1165, L1 Loss: 0.0130
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.6106185913086
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.011263410560786724
+MSE Loss: 0.1165, L1 Loss: 0.0099
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.62039184570312
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.011027122847735882
+MSE Loss: 0.1154, L1 Loss: 0.0092
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.63296508789062
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.010954853147268295
+MSE Loss: 0.1155, L1 Loss: 0.0105
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.64877319335938
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.010885823518037796
+MSE Loss: 0.1158, L1 Loss: 0.0099
+Epoch [7/10], Loss: 2.6732 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.66751098632812
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010757498443126678
+MSE Loss: 0.1159, L1 Loss: 0.0081
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.68754577636719
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.010627493262290955
+MSE Loss: 0.1150, L1 Loss: 0.0097
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.7096939086914
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.01072637364268303
+MSE Loss: 0.1158, L1 Loss: 0.0102
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.73330688476562
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.010526733472943306
+MSE Loss: 0.1151, L1 Loss: 0.0146
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.75902557373047
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011596034280955791
+MSE Loss: 0.1149, L1 Loss: 0.0133
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.78369903564453
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.011006735265254974
+MSE Loss: 0.1168, L1 Loss: 0.0052
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.80669403076172
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.011014902964234352
+MSE Loss: 0.1145, L1 Loss: 0.0131
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.82820892333984
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010948028415441513
+MSE Loss: 0.1169, L1 Loss: 0.0082
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.84725952148438
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.011297712102532387
+MSE Loss: 0.1149, L1 Loss: 0.0089
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.86409759521484
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.01068873517215252
+MSE Loss: 0.1149, L1 Loss: 0.0080
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.8788833618164
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010555055923759937
+MSE Loss: 0.1159, L1 Loss: 0.0079
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.89251708984375
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010569155216217041
+MSE Loss: 0.1167, L1 Loss: 0.0092
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.90473937988281
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.010423479601740837
+MSE Loss: 0.1163, L1 Loss: 0.0099
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.9161605834961
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.01028202474117279
+MSE Loss: 0.1147, L1 Loss: 0.0089
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.92699432373047
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.010235307738184929
+MSE Loss: 0.1143, L1 Loss: 0.0101
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.93782806396484
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010162418708205223
+MSE Loss: 0.1154, L1 Loss: 0.0080
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.94873046875
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010075945407152176
+MSE Loss: 0.1163, L1 Loss: 0.0075
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.95985412597656
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009956762194633484
+MSE Loss: 0.1163, L1 Loss: 0.0114
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.9722671508789
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.01042286679148674
+MSE Loss: 0.1152, L1 Loss: 0.0082
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.98471069335938
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.010373051278293133
+MSE Loss: 0.1153, L1 Loss: 0.0094
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 93.99789428710938
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010096952319145203
+MSE Loss: 0.1157, L1 Loss: 0.0083
+Epoch [8/10], Loss: 2.6250 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.01168060302734
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009992575272917747
+MSE Loss: 0.1154, L1 Loss: 0.0098
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.02680969238281
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010124383494257927
+MSE Loss: 0.1147, L1 Loss: 0.0087
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.04253387451172
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009888365864753723
+MSE Loss: 0.1155, L1 Loss: 0.0124
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.06013488769531
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010520856827497482
+MSE Loss: 0.1148, L1 Loss: 0.0070
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.0772933959961
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.01119546964764595
+MSE Loss: 0.1142, L1 Loss: 0.0075
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.09320831298828
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.010443327017128468
+MSE Loss: 0.1165, L1 Loss: 0.0082
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.10892486572266
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009855268523097038
+MSE Loss: 0.1140, L1 Loss: 0.0085
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.12505340576172
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.010144539177417755
+MSE Loss: 0.1165, L1 Loss: 0.0103
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.14156341552734
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009870920330286026
+MSE Loss: 0.1145, L1 Loss: 0.0100
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.15872192382812
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009847844019532204
+MSE Loss: 0.1140, L1 Loss: 0.0096
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.17593383789062
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009724660776555538
+MSE Loss: 0.1152, L1 Loss: 0.0068
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.19287109375
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.00968763418495655
+MSE Loss: 0.1158, L1 Loss: 0.0094
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.2100601196289
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.00962330773472786
+MSE Loss: 0.1155, L1 Loss: 0.0101
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.22747802734375
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009596151299774647
+MSE Loss: 0.1140, L1 Loss: 0.0108
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.24520874023438
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009651399217545986
+MSE Loss: 0.1135, L1 Loss: 0.0102
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.26256561279297
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009493781253695488
+MSE Loss: 0.1141, L1 Loss: 0.0074
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.2796630859375
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009339170530438423
+MSE Loss: 0.1155, L1 Loss: 0.0073
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.29655456542969
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009337661787867546
+MSE Loss: 0.1157, L1 Loss: 0.0080
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.31319427490234
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009262237697839737
+MSE Loss: 0.1147, L1 Loss: 0.0076
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.32967376708984
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009143060073256493
+MSE Loss: 0.1148, L1 Loss: 0.0064
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.3458251953125
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.00906225387006998
+MSE Loss: 0.1151, L1 Loss: 0.0081
+Epoch [9/10], Loss: 2.5979 ----------------------------
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.3620834350586
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.0092458575963974
+MSE Loss: 0.1154, L1 Loss: 0.0086
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.37824249267578
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009115236811339855
+MSE Loss: 0.1145, L1 Loss: 0.0095
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.39459228515625
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009411351755261421
+MSE Loss: 0.1147, L1 Loss: 0.0128
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.41107177734375
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009903559461236
+MSE Loss: 0.1142, L1 Loss: 0.0088
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.42626953125
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009520528838038445
+MSE Loss: 0.1144, L1 Loss: 0.0070
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.44071197509766
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009485425427556038
+MSE Loss: 0.1156, L1 Loss: 0.0092
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.45531463623047
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009223402477800846
+MSE Loss: 0.1135, L1 Loss: 0.0103
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.47004699707031
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009614011272788048
+MSE Loss: 0.1167, L1 Loss: 0.0089
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.4842300415039
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009312024340033531
+MSE Loss: 0.1138, L1 Loss: 0.0083
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.49874114990234
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009285453706979752
+MSE Loss: 0.1139, L1 Loss: 0.0068
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.5136489868164
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009319281205534935
+MSE Loss: 0.1146, L1 Loss: 0.0090
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.52924346923828
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009203130379319191
+MSE Loss: 0.1156, L1 Loss: 0.0078
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.54534149169922
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009147516451776028
+MSE Loss: 0.1152, L1 Loss: 0.0095
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.56282806396484
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009185313247144222
+MSE Loss: 0.1139, L1 Loss: 0.0053
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.57994079589844
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009620392695069313
+MSE Loss: 0.1133, L1 Loss: 0.0100
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.59738159179688
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.008930457755923271
+MSE Loss: 0.1138, L1 Loss: 0.0062
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.61458587646484
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009341123513877392
+MSE Loss: 0.1158, L1 Loss: 0.0083
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.6321029663086
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.008947198279201984
+MSE Loss: 0.1156, L1 Loss: 0.0089
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.64995574951172
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009177563712000847
+MSE Loss: 0.1145, L1 Loss: 0.0081
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.66748809814453
+Active Features: 0.02%
+Decoder Weight Norm (Mean): 0.009040676057338715
+MSE Loss: 0.1147, L1 Loss: 0.0094
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+Encoded Activation Range: 0.0, 94.68558502197266
+Active Features: 0.01%
+Decoder Weight Norm (Mean): 0.009022453799843788
+MSE Loss: 0.1148, L1 Loss: 0.0055
+Epoch [10/10], Loss: 2.5868 ----------------------------
+Time taken: 247.41 seconds
+
+Loaded 1 batches for test set
+Activation Range Before Normalization: -303.5 332.25
+Activation Range After Normalization: -492.9853210449219 539.6849365234375
+tensor(94.7030, device='cuda:0', grad_fn=<MaxBackward1>) tensor(0., device='cuda:0', grad_fn=<MinBackward1>)
+tensor(0.6017, device='cuda:0')
+MSE Loss: 0.1144, L1 Loss: 0.0519, Explained Var: 0.8844
+Total Test Loss: 0.1663
+Total MSE Loss: 0.1144
+Total L1 Loss: 0.0519

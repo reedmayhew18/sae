@@ -1,0 +1,140 @@
+"We note that losses with different L1 coefficients are not comparable – ultimately, we select the L1 coefficients that produce the most useful features for downstream interpretability analyses."
+"For all three SAEs, the average number of features active (i.e. with nonzero activations) on a given token was fewer than 300, and the SAE reconstruction explained at least 65% of the variance of the model activations. At the end of training, we defined “dead” features as those which were not active over a sample of 10^{7} tokens. The proportion of dead features was roughly 2% for the 1M SAE, 35% for the 4M SAE, and 65% for the 34M SAE. We expect that improvements to the training procedure may be able to reduce the number of dead features in future experiments."
+2^23 = 8mil; 10^7 = 10mil
+
+experiments beloow done on (unless explicitly specified differently)
+Loaded 21 batches for train set
+Training Parameters:
+Data Directory: activations_data
+Batch Size: 8192
+Test Fraction: 0.01
+Scale Factor: 34.12206415510119
+Seed: 42
+Optimizer: Adam
+Learning Rate: 0.001
+L1 Lambda: 1e-09
+Number of Epochs: 10
+SAE Input Dimension: 3072
+SAE Hidden Dimension: 4096
+
+!!important!! >>>>>>> denotes new implementation fix
+
+they: bigger lambda, lower l1, hihger mse
+me: bigger lambda, higher l1
+
+>>>>>> new formulas fixed (no sigmoid, l1 loss fix)
+smaller lambda - no effect on speed of sparsity collapse (how fast we come to 0% active features)
+smaller scaling factor (1/10th of actual) - all no effect on speed of collapse
+
+>>>>> new print(mse, l1)
+at l1_lambda = 10e-5
+l1 loss drops sucessfuly from millions to 3 with var of +/-1.5
+mse loss always keeps howering around 100
+
+at l1_lambda = 0.001
+l1 loss drops sucessfuly from millions to 20 with var of +/-5
+mse loss always keeps howering around 100  -> of course, if all features are 0.0, then you cannot reconstruct
+
+at l1_lambda = 0.0
+l1 loss is 0
+mse loss gradually drops from 100 to 5 +/-0.2
+active features goes from 50% to 12, then starts to pick up and comes to 30%
+
+at l1_lambda=10
+l1 loss goes from millions to thousands , cca 20k +/-5k
+mse loss starts at 1.0 and stays at 1.0 +/- 0.2
+
+at l1_lambda=10e-10
+l1 loss starts at 6.4 and gradually decreases to 0.03
+mse loss starts at 1.1 and gradually decreases to 0.12
+decoder weight norm also decreases from 0.42 to 0.02
+active features = 0.02% even after 5 and 10 epochs, not 0 any more, 
+    but still 0.02% of 4092 is 1, why do we always start at 50% and get at the same pace to near 0?
+l1 loss at that point still goes down due to decoder weigts going down
+
+
+using LeakyReLU(0.01)
+we get active features between 0.03% and 0.04%, after epoch 5 it starts rising to 0.07%
+this might me just because the encoded activation range changes (min from -0.3 to -0.57)
+
++ the point is that: at the beginning l1 loss is huge (millions) and mse loss is small thus we very quickly force the active features to 0
+-> try very very small l1 lambda - [good]
+-> try 2 step training, first phase l1_lambda=0 train only for mse, second phase l1_lambda=small == add in sparsity  [not tried]
+-> try LeakyReLU (with relu sparse features cannot recover) - [not much help]
+
+
+>>>>>> % active feat. calc fixed
+(but only per batch % active tracked) -> in article: calculated for 10^7 -> i will need full 12 files in test
+(its not the exact measurment we want - but it serves as a good proxy information)
+at l1_lambda = 1e-09
+l1 loss starts at 6.4 and gradually decreases to 0.01
+mse loss starts at 1.1 and gradually decreases to 0.11
+decoder weight norm also decreases from 0.49 to 0.009
+% active feat. per batch from 100% to 6.8%
+TEST set (22*49k=1M tokens): 
+  Total MSE Loss: 2.5191
+  Total L1 Loss: 1.1466
+  Percent of Active Features: 23.65%
+
+at l1_lambda = 5
+l1 loss goes from millions to thousands , cca 8k +/-3k than hovers there
+mse loss starts at 1.0 and stays at 1.0 +/- 0.2
+% active feat. per batch from 100% to 1%
+decoder weight norm from 0.49 to 0.16 (in 1 epoch , than stays there)
+
+at l1_lambda = 5 , but hidden_dim= 2^13 = 8192
+same as above, except % active features comes down to 0.5%
+
+at l1_lambda = 0 (no sparsity constraint, only reconstruction error, sanity check)
+l1 loss is 0
+mse loss successfully drops from 1.6 to 0.03
+% active features per batch drop in 1 epoch from 100% to 71% and stay there (due to ReLU)
+decoder weight norm slowly raises from 0.49 to 0.61
+
++ why l1_lambda=0 , still reduces number of active feat.
+ -> because of ReLU (all negative values are clipped to 0)
+
++ mse_loss is not getting lower 
+ -> looking at outputs they are the same for any vector
+ -> encoded is all zeros
+ -> you cannot reconstruct anything from only zeros
+ -> too big l1 loss -> lower l1 lambda
+ >> lower learning rate helped, and a large number of features (hidden_dim=20000)
+
+all on train::
+at l1_lambda = 0, batch_size=2048, LR=0.01
+%active = 2%
+mse loss = 0.09
+
+at l1_lambda = 0, batch_size=4096, LR=0.01
+%active = 3%
+mse loss = 0.08
+
+at l1_lambda = 0, batch_size=8192, LR=0.01
+%active = 2%
+mse loss = 0.08
+
+at l1_lambda = 0, batch_size=2048, LR=0.001
+%active = 70%
+mse loss = 0.02
+
+at l1_lambda = 0, batch_size=4096, LR=0.001
+%active = 73%
+mse loss = 0.02
+
+at l1_lambda = 0, batch_size=8192, LR=0.001
+%active = 72%
+mse loss = 0.022
+
+at l1_lambda = 0, batch_size=8192, LR=0.0001
+%active = 100%
+mse loss = 0.015
+
+at l1_lambda = 0, batch_size=8192, LR=0.0001, #features=20k
+%active = 100%
+mse loss = 0.005
+
+at l1_lambda = 0.01, batch_size=2048, LR=0.0001, #features=20k
+%active = 77%
+mse loss = 0.08
+l1 loss = 2.4

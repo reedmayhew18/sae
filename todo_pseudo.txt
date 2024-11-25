@@ -1,0 +1,58 @@
+transformer - residual stream activations (llama3.2-3b : context length of 128k)
+sae - 2 layer, 1enc,1dec, 1m, 4m, 34m features, L2, L1=5, ReLU, 1epoch
+     - % dead/active features, reconstruction explained
+scaling laws - hyperparamter search: num of features (2^12-2^25), num of steps(train data)
+ 	     - fixed params: learning rate, batch size, optimization protocol, etc.
+feat. interpret - each feature > show 20 examples most strongly activate > max20( sae_f_alldata[:,feat_idx] )
+			       > and also bottom 20 (seems like the same words, but with different meanings)
+		- color how much each token is affected by/affects this sae feat. > put the whole sentence/context through transformer+SAE and take the values of the asked feature
+		- specificity: feat active == concept reliably present in context
+			- automated interpretability: asking the transformer to score features 0-3 
+				select feature > get 1000 non-zero activations > get context for each > transfor. score: feat.name vs sentence > plot
+		- influence on behavior: manipulating trans. act for this feat. - produces output in favor of that concept
+			- feature steering - clamp specific feat. to high (10x/5x its max acti val) or low values during forward pass [-10x,10x]
+				take mostly zero feat. vector > SAE decoder > reconstructed act. > x10 + into activation layer during forward pass
+		- feat. vs neuron - Pearson correlation between its activations and those of every neuron in all preceding layers?
+				  - act of a rand sel of SAE feat are significantly more interpretable on average than a rand sel of MLP neurons.
+		- local neighborhood - cosine similarity on features, UMAP  (initially take only subsample of features you are interested in)
+				> cosine similarity for all > take 1 and 100 most similar > umap
+				> do the same for 1M, 4M, 34M > take the vector for same concept > center origin > plot 
+		- feature splitting - 1 feat in smaller SAE splits into multiple feat. in larger SAE 
+					- geometrically close, semantically related more specific concept (see above)
+		- feat. completness - prompt concept > active feat. on last token > top5 feat > auto inter > human
+					- model know all london boroughs - features only for 60% of them
+					/if a concept is present in the training data only once in a billion tokens, then we should expect to need a dictionary 
+					/with on the order of a billion alive features in order to find a feature which uniquely represents that specific concept
+		- intermediates - attribution as a preliminary step to filter the set of features to ablate???
+feat. search  - single prompts : prompt for topic > which feat. active most strongly
+	      - prompt combinations : more prompts > feat. active in ALL; negative prompts > feat. NOT active; transformer generate prompts for a topic
+	      - geometric : (see local neighborhood)
+	      - attirbution
+	      - influence : boost neurons for specific feature : arbitrary feat. > influence forward pass > see output ("I am a" -> "bridge")
+
+in towards mono.: they use 40 mil contexts (250 tokens each) to train SAE of size 512 hidden dim - 131k hidden dim
+		  sample act vectors without replacement, batch size 8192 - 1 milion steps 
+    -> so we need 1M/131k=7.6x :: 304 mil contexts
+    - 1 training example to SAE should not be 1 context (1 sentence) but 1 token (1 word)
+			
+
+"Post-Training Analysis
+    Compute Metrics:
+        Percentage of dead (always inactive) vs. active features.
+        Reconstruction explained variance." - how do i calculate this reconstruction ex.var??
+
+where and why do i need to normalize what?
+
+is there a reason i need to save activations and to which token in which sentence they map precisely > yes for topk activations and getting their context
+
+
+ok, so i have the LLama 3.2 3B transformer, with the context lenght of 128k, and i have the pile dataset, which has different size sentences, 
+so i want to process each sentence in full at once (dynamic size), but then using the hook to extract activations in the middle layer and then save each tokens activation as a seperate row in a npy file, and i want to 8192 of the activations to be in 1 file (so like 1 batch) , but i would need to somehow remember which activation came from which token specifically, i dont know should i make a separate dictionary or something 
+because later i will need a reverse search look up, for a feature i will look at which examples its most active then i will need to get the token and its context (40 words around it)
+so maybe if we save the activation vector , sentence idx, position idx (inside the sentence) 
+so we have 3072+1+1 columns and 80k rows (10x8192 of tokens - from which we will later randomly subsample only 1/10 for SAE train, but we need to store all for later lookup)
+(and we will just forget the last two columns when training sae) 
+3074*10*8192 = 0.5 GB > 500GB to have 1mil training tokens
+wait but, these activations i will later use to train the SAE, for which, well i do need batches of 8k, but before that i need to shuffle the vectors and subsample
+so how do we do this, is it possible
+current code its not correct as i was doing 42 tokens contexts at a time
