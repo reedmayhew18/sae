@@ -1,0 +1,42 @@
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00000_0_HB=hidden_dim_65536_batch_size_4096,l1_lambda=0.0079,lr=0.0004_2024-12-04_12-54-03
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00001_1_HB=hidden_dim_20000_batch_size_2048,l1_lambda=0.0446,lr=0.0027_2024-12-04_12-54-03
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00002_2_HB=hidden_dim_32768_batch_size_2048,l1_lambda=0.0028,lr=0.0936_2024-12-04_12-54-03
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00003_3_HB=hidden_dim_65536_batch_size_2048,l1_lambda=0.0060,lr=0.0000_2024-12-04_12-59-20
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00004_4_HB=hidden_dim_20000_batch_size_4096,l1_lambda=0.0046,lr=0.0002_2024-12-04_13-03-09
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00005_5_HB=hidden_dim_20000_batch_size_8192,l1_lambda=0.0050,lr=0.0001_2024-12-04_13-05-26
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00006_6_HB=hidden_dim_20000_batch_size_8192,l1_lambda=0.0079,lr=0.0714_2024-12-04_13-09-22
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00007_7_HB=hidden_dim_20000_batch_size_4096,l1_lambda=0.0109,lr=0.0023_2024-12-04_13-13-16
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00008_8_HB=hidden_dim_20000_batch_size_2048,l1_lambda=0.0641,lr=0.0350_2024-12-04_13-15-29
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00009_9_HB=hidden_dim_32768_batch_size_4096,l1_lambda=0.0325,lr=0.0007_2024-12-04_13-20-11
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00010_10_HB=hidden_dim_20000_batch_size_2048,l1_lambda=0.0015,lr=0.0317_2024-12-04_13-22-35
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00011_11_HB=hidden_dim_32768_batch_size_4096,l1_lambda=0.0507,lr=0.0025_2024-12-04_13-26-28
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00012_12_HB=hidden_dim_20000_batch_size_4096,l1_lambda=0.0152,lr=0.0100_2024-12-04_13-28-41
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00013_13_HB=hidden_dim_32768_batch_size_2048,l1_lambda=0.0077,lr=0.0001_2024-12-04_13-30-55
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00014_14_HB=hidden_dim_20000_batch_size_4096,l1_lambda=0.0082,lr=0.0190_2024-12-04_13-34-54
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00015_15_HB=hidden_dim_32768_batch_size_4096,l1_lambda=0.0111,lr=0.0072_2024-12-04_13-38-52
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00016_16_HB=hidden_dim_20000_batch_size_4096,l1_lambda=0.0194,lr=0.0052_2024-12-04_13-42-40
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00017_17_HB=hidden_dim_65536_batch_size_4096,l1_lambda=0.0306,lr=0.0903_2024-12-04_13-46-33
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00018_18_HB=hidden_dim_20000_batch_size_4096,l1_lambda=0.0014,lr=0.0028_2024-12-04_13-48-49
+/kaggle/working/results/hyperparameter_search/train_model_d367c_00019_19_HB=hidden_dim_20000_batch_size_8192,l1_lambda=0.0357,lr=0.0538_2024-12-04_13-50-58
+
+Trial name 	status 	loc 	HB 	l1_lambda	lr	iter	total time (s)	train_loss	train_mse_loss	train_l1_loss
+train_model_d367c_00000	TERMINATED	172.19.2.2:407 	{'hidden_dim': _9ac0	0.00786079	0.000437945	80	310.756	0.99097 	0.990472	0.0634333
+train_model_d367c_00001	TERMINATED	172.19.2.2:553 	{'hidden_dim': _1c80	0.0446133 	0.00272249 	80	222.09 	0.9814 	0.9814 	0
+train_model_d367c_00002	TERMINATED	172.19.2.2:684 	{'hidden_dim': _2f80	0.0028269 	0.0936196 	40	129.275	33.1922 	33.1774 	5.24938
+train_model_d367c_00003	TERMINATED	172.19.2.2:804 	{'hidden_dim': _4500	0.00597965	2.5011e-05 	80	229.677	0.733222	0.560459	28.8919
+train_model_d367c_00004	TERMINATED	172.19.2.2:935 	{'hidden_dim': _8740	0.00462191	0.000219001	80	226.358	0.780682	0.706084	16.14
+train_model_d367c_00005	TERMINATED	172.19.2.2:1065	{'hidden_dim': _1600	0.00501011	6.88847e-05	40	126.053	1.06317 	0.920452	28.4863
+train_model_d367c_00006	TERMINATED	172.19.2.2:1185	{'hidden_dim': _bd40	0.00785182	0.0713815 	80	275.318	0.866764	0.866764	0
+train_model_d367c_00007	TERMINATED	172.19.2.2:1321	{'hidden_dim': _b040	0.010878 	0.00227305 	40	136.34 	0.994433	0.994433	0
+train_model_d367c_00008	TERMINATED	172.19.2.2:1442	{'hidden_dim': _aac0	0.0640658 	0.0350018 	80	225.41 	0.899889	0.899889	0
+train_model_d367c_00009	TERMINATED	172.19.2.2:1572	{'hidden_dim': _a080	0.0325109 	0.000724451	40	126.368	1.00699 	1.00698 	0.000323438
+train_model_d367c_00010	TERMINATED	172.19.2.2:1692	{'hidden_dim': _a900	0.00149003	0.0317228 	40	126.45 	1.3352 	1.33295 	1.51364
+train_model_d367c_00011	TERMINATED	172.19.2.2:1812	{'hidden_dim': _5f80	0.0506865 	0.00250166 	80	231.625	0.969197	0.969197	0
+train_model_d367c_00012	TERMINATED	172.19.2.2:1943	{'hidden_dim': _0bc0	0.0152066 	0.0100175 	80	230.669	0.932393	0.932393	0
+train_model_d367c_00013	TERMINATED	172.19.2.2:2074	{'hidden_dim': _2fc0	0.00771507	5.81585e-05	80	221.252	0.797458	0.666566	16.9658
+train_model_d367c_00014	TERMINATED	172.19.2.2:2204	{'hidden_dim': _e600	0.00818929	0.0189557 	80	225.78 	0.909667	0.909667	0
+train_model_d367c_00015	TERMINATED	172.19.2.2:2334	{'hidden_dim': _3200	0.0110571 	0.00724522 	40	129.153	0.972825	0.972825	0
+train_model_d367c_00016	TERMINATED	172.19.2.2:2454	{'hidden_dim': _6e80	0.0194216 	0.00515283 	40	121.657	0.979993	0.979993	0
+train_model_d367c_00017	TERMINATED	172.19.2.2:2574	{'hidden_dim': _abc0	0.0305513 	0.0902796 	80	250.343	0.865525	0.865525	0
+train_model_d367c_00018	TERMINATED	172.19.2.2:2713	{'hidden_dim': _f5c0	0.00135957	0.00277377 	80	228.462	0.852903	0.846311	4.84883
+train_model_d367c_00019	TERMINATED	172.19.2.2:2843	{'hidden_dim': _f140	0.0356565 	0.0538356 	80	286.665	0.873901	0.873901	0

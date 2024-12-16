@@ -1,0 +1,883 @@
+PROMPT:
+You are analyzing the top activations of sparse features from a latent vector model. Each feature corresponds to a specific linguistic or contextual pattern in the data. For each feature:
+
+    Identify the dominant tokens that consistently have the highest activation scores. Disregard outliers or anomalies unless they are part of a recurring pattern.
+    Describe the common patterns or contexts in which the feature activates. Focus on linguistic structures, document types, or thematic styles.
+    Summarize the feature by capturing its primary function or what it detects in the text. Be concise but specific.
+    If a feature activates only in specific types of content (e.g., Wikipedia articles, code snippets, financial documents), highlight this specificity.
+
+Output format:
+
+    Feature Index [X]:
+        Dominant Tokens: [list of tokens]
+        Patterns: [description of contexts or structures]
+        Summary: [clear and specific feature description]
+
+Ensure that each summary is accurate, avoids overgeneralization, and captures patterns meaningful for downstream analysis. Keep it short.
+
+Sometimes its just the word (word 'the' in any context), sometimes it is a specific context it appears in (appears in wiki articles), sometimes its structual element (start of sentence), sometimes its a combination. Find the commnalities/the pattern in the examples provided for a specific feature.
+Write it out in simple terms, so anyone can understand.
+
+
+
+### Feature Analysis:
+
+#### **Feature Index 192**:
+- **Dominant Tokens**: `' one'`, `' One'`, `' uno'`
+- **Patterns**: Appears frequently in contexts introducing examples or items in a list (e.g., "one of the reasons," "one more time"). Occasionally includes the Spanish equivalent "uno."
+- **Summary**: Detects instances of "one" used to highlight examples, reasons, or items in descriptive or explanatory contexts.
+
+---
+
+#### **Feature Index 481**:
+- **Dominant Tokens**: `'For'`, `' for'`
+- **Patterns**: Common in explanatory or illustrative sentences, often introducing reasons or examples ("For example," "For those who").
+- **Summary**: Captures the use of "for" in contexts where it introduces explanations, conditions, or examples.
+
+---
+
+#### **Feature Index 831**:
+- **Dominant Tokens**: `'\n'`, `')\n'`
+- **Patterns**: Activates in structural elements like the end of paragraphs or sections, often marking a new line or a conclusion of text blocks.
+- **Summary**: Recognizes structural boundaries or transitions in text.
+
+---
+
+#### **Feature Index 1064**:
+- **Dominant Tokens**: `_M`, `$`, `import`, `K`
+- **Patterns**: Found in programming or technical content, including code snippets or symbolic notations.
+- **Summary**: Identifies technical terms and syntax common in coding environments or technical documentation.
+
+---
+
+#### **Feature Index 1450**:
+- **Dominant Tokens**: `'\n'`, `'?'`, `' .'`
+- **Patterns**: Appears at the end of questions or statements in written answers or discussions.
+- **Summary**: Detects punctuation patterns associated with conversational or explanatory text.
+
+---
+
+#### **Feature Index 1453**:
+- **Dominant Tokens**: `' are'`, `' is'`, `' am'`
+- **Patterns**: Common in declarative or descriptive sentences, often forming part of subject-verb structures.
+- **Summary**: Highlights linking verbs in declarative contexts.
+
+---
+
+#### **Feature Index 2648**:
+- **Dominant Tokens**: `' the'`, `' The'`
+- **Patterns**: Prominent in contexts providing specificity or emphasis, often followed by descriptors or proper nouns.
+- **Summary**: Captures the definite article "the," particularly in structured or formal contexts.
+
+---
+
+#### **Feature Index 4163**:
+- **Dominant Tokens**: `' you'`, `'You'`
+- **Patterns**: Common in instructional or conversational text, addressing the reader or providing directions.
+- **Summary**: Identifies direct address or instructional language involving the second person.
+
+---
+
+#### **Feature Index 4255**:
+- **Dominant Tokens**: `'When'`, `' when'`, `' whenever'`
+- **Patterns**: Used to describe conditions or time-dependent events, often in explanatory contexts.
+- **Summary**: Recognizes temporal or conditional clauses starting with "when."
+
+---
+
+#### **Feature Index 4581**:
+- **Dominant Tokens**: `'A'`, `'The'`, `'In'`, `'No'`
+- **Patterns**: Activates at the start of sentences or headings, particularly in formal or technical documents.
+- **Summary**: Detects capitalization at sentence or section beginnings, often in structured text.
+
+---
+
+#### **Feature Index 4798**:
+- **Dominant Tokens**: `'.'`
+- **Patterns**: Found at the end of sentences, particularly in formal or academic text where periods conclude structured ideas.
+- **Summary**: Identifies sentence-ending punctuation in formal writing.
+
+---
+
+#### **Feature Index 5713**:
+- **Dominant Tokens**: `' I'`, `'I'`, `' am'`
+- **Patterns**: Common in first-person narratives or explanations, often reflecting a personal or subjective tone.
+- **Summary**: Highlights first-person pronoun usage in personal or explanatory contexts.
+
+---
+
+#### **Feature Index 6033**:
+- **Dominant Tokens**: `'\n'`, `'?'`, `' .'`
+- **Patterns**: Found at structural or conversational transitions, often marking new sections or questions.
+- **Summary**: Recognizes conversational or structural punctuation patterns.
+
+---
+
+#### **Feature Index 7956**:
+- **Dominant Tokens**: `'I'`, `'I'`, `'I am'`
+- **Patterns**: Similar to 5713, but with a stronger focus on technical or problem-solving discussions involving personal statements.
+- **Summary**: Captures first-person pronouns in technical contexts or problem-solving explanations.
+
+---
+
+### Feature Index 8352
+- **Dominant Token**: ' the'
+- **Patterns**:
+  - Appears frequently in structured explanatory or formal texts.
+  - Used within noun phrases or as a determiner, often in technical descriptions or academic contexts.
+  - High activation where precision or specificity is emphasized in descriptions.
+- **Summary**:
+  - Captures the determiner 'the' in contexts of structured, detail-rich text.
+
+---
+
+### Feature Index 8745
+- **Dominant Tokens**: Newlines (`'\n'`, `'\r'`), structural elements ('one', 'links').
+- **Patterns**:
+  - Activates almost **exclusively in Wikipedia-like articles**.
+  - Frequently found in structural elements such as category listings, external links, or references.
+  - Particularly sensitive to metadata or content structured for encyclopedic entries.
+- **Summary**:
+  - Focused on tokens marking Wikipedia-style document structures and categories.
+
+---
+
+### Feature Index 9888
+- **Dominant Token**: 'when'
+- **Patterns**:
+  - High activation in explanatory or narrative contexts, specifically when describing **time-sensitive events or conditions** (e.g., "when X happens").
+  - Often found in sequences explaining causality, timing, or events in step-by-step instructions.
+  - The hashtags (`#`) are outliers and not representative of the dominant token pattern.
+- **Summary**:
+  - Captures temporal or causal connections introduced by 'when,' often in explanatory or descriptive contexts.
+
+---
+
+### Feature Index 10538
+- **Dominant Token**: ' In'
+- **Patterns**:
+  - Found in formal or technical writing to introduce new concepts or elaborate on existing ideas (e.g., "In conclusion," "In light of").
+  - Frequently marks the beginning of explanatory or descriptive sentences.
+- **Summary**:
+  - Captures introductory or transitional phrases beginning with 'In,' often used in academic or technical contexts.
+
+---
+
+### Feature Index 10653
+- **Dominant Token**: ' do'
+- **Patterns**:
+  - Occurs in procedural or action-driven contexts, e.g., “how to do,” “steps to do.”
+  - Found in user guides, troubleshooting sections, and instructional content.
+- **Summary**:
+  - Captures imperatives or procedural language emphasizing actions or steps.
+
+---
+
+### Feature Index 10724
+- **Dominant Tokens**: 'not', 'to'
+- **Patterns**:
+  - Appears in conditional or restrictive contexts, e.g., “not supported,” “unable to.”
+  - Often found in technical documentation or arguments describing limitations or negations.
+- **Summary**:
+  - Captures negations or restrictive clauses, often indicating limitations or constraints.
+
+---
+
+### Feature Index 11235
+- **Dominant Tokens**: ' in', 'the'
+- **Patterns**:
+  - High activation in contexts describing spatial, temporal, or logical relationships.
+  - Found in academic or explanatory texts detailing specific relationships between entities.
+- **Summary**:
+  - Specializes in relational tokens ('in,' 'the') used in formal and descriptive contexts.
+
+---
+
+### Feature Index 11545
+- **Dominant Token**: `$`
+- **Patterns**:
+  - Frequently appears in financial contexts (currency mentions) and programming scripts (e.g., bash commands, variable notations).
+  - Sensitive to scripting or documentation involving system commands or monetary references.
+- **Summary**:
+  - Captures tokens indicating financial amounts, variable references, or scripting.
+
+---
+
+### Feature Index 11595
+- **Dominant Tokens**: 'this', 'This'
+- **Patterns**:
+  - Found in explanatory and demonstrative contexts, e.g., "This method," "This approach."
+  - Common in academic writing or manuals elaborating on specific points or references.
+- **Summary**:
+  - Identifies proximal demonstratives ('this,' 'This') in detailed explanations or elaborations.
+
+---
+
+### Feature Index 14855
+- **Dominant Tokens**: 'This', 'In', 'The'
+- **Patterns**:
+  - Frequently introduces structured or formal narratives in academic, technical, or legal writing.
+  - Often marks the beginning of paragraphs summarizing or elaborating on key concepts.
+- **Summary**:
+  - Highlights introductory tokens initiating structured, formal expositions.
+
+---
+
+### Feature Index 14957
+- **Dominant Tokens**: Newlines (`'\n'`, `'\r'`), parentheses
+- **Patterns**:
+  - High activation in contexts involving structural delimiters (e.g., paragraph breaks, formatting).
+  - Common in content with lists, references, or formatted sections.
+- **Summary**:
+  - Focuses on document delimiters and formatting tokens used to structure text.
+
+---
+
+### Feature Index 15016
+- **Dominant Tokens**: 'this', 'This'
+- **Patterns**:
+  - Found in technical and explanatory contexts emphasizing references to specific details.
+  - Common in academic texts and manuals where elaboration is required.
+- **Summary**:
+  - Highly attuned to demonstrative references ('this,' 'This') in technical or explanatory settings.
+
+---
+
+### Feature Index 15100
+- **Dominant Token**: 'at'
+- **Patterns**:
+  - Found in spatial or temporal references, e.g., "at the site," "at the time."
+  - High activation in contexts situating actions or events.
+- **Summary**:
+  - Captures prepositions ('at') denoting location, time, or specific situations.
+
+---
+
+### Feature Index 15130
+- **Dominant Token**: 'do'
+- **Patterns**:
+  - Frequent in action-oriented contexts, such as user manuals, troubleshooting sections, or procedural guides.
+  - Common in imperative sentences describing steps or instructions.
+- **Summary**:
+  - Identifies procedural or directive language emphasizing actions or steps.
+
+
+
+---
+
+#### **Feature Index [15147]:**
+- **Dominant Tokens:** `'t`, `not`, `doesn't`, `won't`, `can’t`
+- **Patterns:** Activates on negation, specifically contractions in casual or narrative text. Often highlights informal contexts or opinions.
+- **Summary:** Identifies linguistic patterns involving negation, particularly in contractions.
+
+---
+
+#### **Feature Index [16323]:**
+- **Dominant Tokens:** `of`, `OF`
+- **Patterns:** Frequently links nouns to express relationships or belonging in formal, technical, or descriptive text.
+- **Summary:** Captures the preposition "of," essential for forming prepositional phrases in detailed explanations.
+
+---
+
+#### **Feature Index [16785]:**
+- **Dominant Tokens:** `There`, `is`, `was`, `there`
+- **Patterns:** Activates in "There is/was" phrases, introducing the existence or presence of something. Common in explanations and descriptive passages.
+- **Summary:** Detects existential or introductory phrases indicating the presence or occurrence of something.
+
+---
+
+#### **Feature Index [17128]:**
+- **Dominant Tokens:** `had`, `have`, `has`, `tienes`
+- **Patterns:** Highlights auxiliary verbs used to describe possession, actions, or experiences in a range of contexts including narrative and technical writing.
+- **Summary:** Focuses on auxiliary verbs that express possession or past actions.
+
+---
+
+#### **Feature Index [18321]:**
+- **Dominant Tokens:** `create`, `created`, `creating`, `creates`
+- **Patterns:** Strongly tied to instructional or programming contexts, especially around building, generating, or initiating processes.
+- **Summary:** Identifies verbs related to creation, prevalent in technical or procedural content.
+
+---
+
+#### **Feature Index [20533]:**
+- **Dominant Tokens:** `its`
+- **Patterns:** Specifically identifies the possessive pronoun "its," used to indicate ownership or association, especially in descriptive or formal contexts.
+- **Summary:** Detects the possessive pronoun "its," distinguishing it from contractions or other possessive forms.
+
+---
+
+#### **Feature Index [21138]:**
+- **Dominant Tokens:** `at`, `At`
+- **Patterns:** Activates on prepositional phrases indicating spatial or temporal references, often in narrative or descriptive content.
+- **Summary:** Highlights the preposition "at" for indicating time, location, or proximity.
+
+---
+
+#### **Feature Index [21286]:**
+- **Dominant Tokens:** `.`, `
+`, `),`, `
+`
+- **Patterns:** Common in programming contexts, particularly at structural boundaries like line breaks, punctuation in code, or file syntax.
+- **Summary:** Detects structural elements in programming-related contexts, such as punctuation and line breaks in code or scripts.
+
+---
+
+#### **Feature Index [21411]:**
+- **Dominant Tokens:** `,`
+- **Patterns:** Activates on commas, particularly in technical or explanatory content, separating clauses, items, or phrases.
+- **Summary:** Captures commas as delimiters in lists or complex sentences.
+
+---
+
+#### **Feature Index [22014]:**
+- **Dominant Tokens:** `
+`, `:`, `?`
+- **Patterns:** Frequently appears in Q&A formats, instructional text, or structural elements of technical documentation.
+- **Summary:** Identifies structural markers like line breaks and punctuation in question-answer or formatted content.
+
+---
+
+#### **Feature Index [22501]:**
+- **Dominant Tokens:** `at`, `At`
+- **Patterns:** Similar to feature 21138, it focuses on the preposition "at," highlighting spatial or temporal references, often within descriptive or technical content.
+- **Summary:** Identifies the preposition "at" for indicating location, timing, or positioning.
+
+---
+
+#### **Feature Index [22729]:**
+- **Dominant Tokens:** `ref`, `(`
+- **Patterns:** Found in references or parenthetical citations, specifically in formal, academic, or programming content.
+- **Summary:** Detects references and parenthetical markers, commonly used in documentation or code comments.
+
+---
+
+#### **Feature Index [22889]:**
+- **Dominant Tokens:** `how`, `way`, `would`
+- **Patterns:** Frequently seen in instructional or explanatory text, focusing on methods, processes, or hypothetical scenarios.
+- **Summary:** Captures interrogatives and procedural phrases, often used in tutorials or problem-solving discussions.
+
+---
+
+#### **Feature Index [23627]:**
+- **Dominant Tokens:** `,`
+- **Patterns:** Similar to feature 21411 but more focused on enumerations or explanatory clauses in narrative or technical text.
+- **Summary:** Highlights commas as separators in explanatory or enumerative structures.
+
+---
+
+#### **Feature Index [23870]:**
+- **Dominant Tokens:** `to`, `To`
+- **Patterns:** Common in infinitive phrases or directional statements, often tied to instructions, goals, or actions.
+- **Summary:** Detects the preposition "to" in expressions of purpose, action, or direction.
+
+---
+
+#### **Feature Index [24567]:**
+- **Dominant Tokens:** `' ('`
+- **Patterns:** Strongly tied to the opening of parenthetical expressions, often used for abbreviations, definitions, or supplementary information in technical and formal texts.
+- **Summary:** Highlights contexts where parentheses are used to provide additional clarification, definitions, or details.
+
+---
+
+#### **Feature Index [25909]:**
+- **Dominant Tokens:** `' on'`
+- **Patterns:** Activates in contexts involving positional, topical, or temporal references, such as “on the website,” “on a trip,” or “on file.”
+- **Summary:** Captures prepositional phrases that reference location, timing, or subject focus.
+
+---
+
+#### **Feature Index [26577]:**
+- **Dominant Tokens:** `' the'`
+- **Patterns:** Frequently found in explanatory or descriptive texts, focusing on definite articles that introduce specific entities or concepts.
+- **Summary:** Detects definitive descriptions or references to particular objects or ideas.
+
+---
+
+#### **Feature Index [26725]:**
+- **Dominant Tokens:** `'M', 'S', 'T'`
+- **Patterns:** Identifies single-character initial letter.
+- **Summary:** Focuses on contexts where single-letter identifiers or initials appear.
+
+---
+
+#### **Feature Index [27565]:**
+- **Dominant Tokens:** `'   '`, `' '`, `'?'`, `'."'`
+- **Patterns:** Highlights whitespace and punctuation patterns, especially in formatted or structured text such as code snippets or Q&A formats.
+- **Summary:** Detects formatting elements like extra spaces or structural punctuation in technical or informal text.
+
+---
+
+#### **Feature Index [27765]:**
+- **Dominant Tokens:** `' as', 'As'`
+- **Patterns:** Often found in comparative or descriptive contexts, connecting clauses or emphasizing roles and functions.
+- **Summary:** Captures contexts where "as" is used to establish comparisons, roles, or equivalences.
+
+---
+
+#### **Feature Index [27982]:**
+- **Dominant Tokens:** `' my', 'your', 'his', 'her'`
+- **Patterns:** Strongly associated with possessive pronouns, emphasizing ownership or personal references in narrative or descriptive contexts.
+- **Summary:** Identifies personal or possessive pronouns that indicate relationships or ownership.
+
+---
+
+#### **Feature Index [28630]:**
+- **Dominant Tokens:** `' You', 'you'`
+- **Patterns:** Commonly activates in direct address or instructional content, particularly in questions or commands.
+- **Summary:** Captures contexts where "you" is used to directly address the reader or listener, often in instructional or conversational tones.
+
+---
+
+#### **Feature Index [28735]:**
+- **Dominant Tokens:** `'$'`, `'=$'`
+- **Patterns:** Frequently found in monetary or programming contexts, such as currency symbols or assignment operators in code.
+- **Summary:** Detects symbols and formatting associated with financial values or syntactic constructs in programming.
+
+---
+
+#### **Feature Index [29021]:**
+- **Dominant Tokens:** `'4', '3', 'Two', 'three'`
+- **Patterns:** Highlights numeric and ordinal references, often in lists, measurements, or structured data. Low numbers, cca bellow 20.
+- **Summary:** Identifies numbers and ordinal terms, frequently used in enumerations or technical data.
+
+---
+
+#### **Feature Index [29363]:**
+- **Dominant Tokens:** `' PH'`, `'oper'`, `'ulus'`
+- **Patterns:** Commonly activates in different contexts.
+- **Summary:** Captures elements in middle of words. ir in perirhinal
+
+---
+
+#### **Feature Index [29444]:**
+- **Dominant Tokens:** `'.', 'one', 'United'`
+- **Patterns:** Strongly associated with declarative sentences and references to singular entities or locations.
+- **Summary:** Detects sentence boundaries in specifically wikipedia articles.
+
+---
+
+#### **Feature Index [31728]:**
+- **Dominant Tokens:** `' multiple', '(max', '-M'`
+- **Patterns:** Found in mathematical, technical, or descriptive texts involving comparisons, lists, or constraints.
+- **Summary:** Highlights contexts where multiplicity, constraints, or programming concepts are referenced.
+
+---
+
+#### **Feature Index [31985]:**
+- **Dominant Tokens:** `' ('`
+- **Patterns:** Strongly tied to the use of parentheses for supplementary information, abbreviations, or numerical clarifications.
+- **Summary:** Captures contexts where parentheses are used for elaboration, enumeration, or technical details.
+
+
+---
+
+#### **Feature Index 32095:**
+- **Dominant Tokens:** `' A'`, `' a'`
+- **Patterns:** Activates at the beginning of sentences or phrases, often in contexts explaining concepts, describing examples, or providing detailed information. Common in scientific explanations, product descriptions, and historical contexts.
+- **Summary:** Detects instances where the article "A" is used at the start of an explanatory or descriptive statement.
+
+---
+
+#### **Feature Index 34286:**
+- **Dominant Tokens:** `' the'`
+- **Patterns:** Frequently occurs in the middle of sentences, indicating specificity (e.g., referring to particular objects, concepts, or entities). Found across diverse content types, including guides, tutorials, and narratives.
+- **Summary:** Identifies definite article usage for specificity or emphasis within detailed explanations or instructions.
+
+---
+
+#### **Feature Index 34403:**
+- **Dominant Tokens:** `' There'`, `' there'`
+- **Patterns:** Activates in sentences describing presence, existence, or conditions, often starting sentences or phrases that elaborate on broader contexts or exceptions.
+- **Summary:** Recognizes introductory phrases signaling existence or contextual conditions.
+
+---
+
+#### **Feature Index 34583:**
+- **Dominant Tokens:** `' it'`, `' It'`
+- **Patterns:** Found in explanatory contexts, technical descriptions, or instructions where "it" refers to a previously mentioned or implied subject.
+- **Summary:** Highlights pronoun usage that connects or elaborates on a prior subject.
+
+---
+
+#### **Feature Index 34755:**
+- **Dominant Tokens:** `' just'`, `' only'`
+- **Patterns:** Appears in contexts emphasizing precision, limitation, or immediacy, often modifying actions or descriptions.
+- **Summary:** Detects limiting or intensifying adverbs within explanations or narratives.
+
+---
+
+#### **Feature Index 35582:**
+- **Dominant Tokens:** `' and'`, `' And'`
+- **Patterns:** Found in conjunction-heavy sentences, typically connecting actions, descriptions, or elements in lists. Common in technical descriptions and storytelling.
+- **Summary:** Identifies conjunctions used to link or extend ideas.
+
+---
+
+#### **Feature Index 35898:**
+- **Dominant Tokens:** `','`
+- **Patterns:** Occurs in lists, technical contexts, and descriptive sentences where commas separate ideas or attributes.
+- **Summary:** Detects structural usage of commas in organizing sentence elements.
+
+---
+
+#### **Feature Index 36840:**
+- **Dominant Tokens:** `' have'`, `' has'`
+- **Patterns:** Used in possession or existence contexts, often in explanations, discussions, or instructions that detail attributes or requirements.
+- **Summary:** Identifies auxiliary or main verbs signaling possession or existence.
+
+---
+
+#### **Feature Index 37465:**
+- **Dominant Tokens:** `' I'`
+- **Patterns:** Found in first-person narratives, technical explanations, or personal anecdotes, often highlighting subjectivity or individual experiences.
+- **Summary:** Recognizes first-person references in narratives or descriptions.
+
+---
+
+#### **Feature Index 37524:**
+- **Dominant Tokens:** `' After'`, `' after'`
+- **Patterns:** Appears in sequences, timelines, or causal descriptions, often marking transitions or outcomes.
+- **Summary:** Detects sequential or causal transitions in explanatory or descriptive text.
+
+---
+
+#### **Feature Index 37740:**
+- **Dominant Tokens:** `' However'`, `' such'`
+- **Patterns:** Common in argumentative or analytical contexts to introduce exceptions, contrasts, or specific examples.
+- **Summary:** Highlights contrasting or example-introducing phrases within analytical discussions.
+
+---
+
+#### **Feature Index 37981:**
+- **Dominant Tokens:** `' There'`, `' there'`
+- **Patterns:** Activates in contexts denoting existence, often at the beginning of sentences to establish conditions or observations.
+- **Summary:** Detects existential phrases or introductory conditions.
+
+---
+
+#### **Feature Index 37993:**
+- **Dominant Tokens:** `':'`, `'Category'`
+- **Patterns:** Found in metadata, categorizations, or lists, especially in structured content like Wikipedia categories.
+- **Summary:** Identifies structured annotations or categorizations in text.
+
+---
+
+#### **Feature Index 39251:**
+- **Dominant Tokens:** `' In'`, `' in'`
+- **Patterns:** Appears in prepositional phrases introducing locations, timeframes, or contexts, often in explanatory or descriptive sentences.
+- **Summary:** Detects introductory prepositions in descriptive or contextual clauses.
+
+---
+
+#### **Feature Index 39577:**
+- **Dominant Tokens:** Words ending in `'ing'` (e.g., `'ending'`, `'Playing'`)
+- **Patterns:** Common in progressive tenses or gerunds, often marking ongoing actions or descriptions.
+- **Summary:** Recognizes continuous actions or descriptive phrases using gerunds or progressive verbs. 
+
+---
+
+Feature Index [39745]:  
+- **Dominant Tokens**: ['that', 'which']  
+- **Patterns**: Frequently activates in contexts where 'that' and 'which' introduce clauses, often providing explanations, descriptions, or specifications (e.g., scientific explanations, product descriptions, procedural details).  
+- **Summary**: Detects relative clauses or explanatory structures, focusing on tokens like 'that' or 'which' in formal or instructional text.  
+
+---
+
+Feature Index [40261]:  
+- **Dominant Tokens**: [':', ':', '?']  
+- **Patterns**: Often activates in question-and-answer formats or code-related texts (e.g., programming syntax, technical troubleshooting, or structured explanations).  
+- **Summary**: Identifies structured dialogue or technical instruction formats, especially Q&A or code syntax structures.  
+
+---
+
+Feature Index [40496]:  
+- **Dominant Tokens**: ['not', 'n’t']  
+- **Patterns**: Activates in contexts involving negation or contrast, including technical descriptions, personal reflections, or evaluations.  
+- **Summary**: Focuses on negations to highlight contrasting ideas, limitations, or evaluations in various text genres.  
+
+---
+
+Feature Index [41086]:  
+- **Dominant Tokens**: ['was', 'were']  
+- **Patterns**: Appears in past-tense narrative descriptions, historical recounting, or explanatory contexts.  
+- **Summary**: Detects past-tense verbs used in recounting or explaining events and processes.  
+
+---
+
+Feature Index [41184]:  
+- **Dominant Tokens**: [tabs, spaces ('\t', ' ')]  
+- **Patterns**: Primarily activates in formatted text, such as programming, tabulated data, or spaced-aligned content (e.g., source code, database scripts).  
+- **Summary**: Identifies formatting structures involving whitespace or tabs, typically in technical documents or code.  
+
+---
+
+### Feature Index [43586]:
+- **Dominant Tokens**: ['\t', '   ', '\\']  
+- **Patterns**: Strongly associated with formatting structures like tabs, spaces, and backslashes, especially in programming files, source code paths, or technical scripts.  
+- **Summary**: Identifies whitespace patterns and structural elements in technical or programmatic contexts.  
+
+---
+
+Feature Index [44058]:  
+- **Dominant Tokens**: ['However', 'in', 'ie']  
+- **Patterns**: Activates in sentences where contrasting or explanatory phrases are introduced, particularly in academic or formal writing.  
+- **Summary**: Highlights transitions or contrasts in argumentative or explanatory text.  
+
+---
+
+### Feature Index [44426]:
+- **Dominant Tokens**: [' '] (single space)  
+- **Patterns**: Frequently activates in contexts involving year numbers (e.g., "In 1980", "from 1936 to 1939"), especially when years are part of historical events, official records, or chronological descriptions. Appears in highly structured texts like historical summaries, formal documents, or scientific articles.  
+- **Summary**: Detects space-separated formatting, often in conjunction with numeric year references in formal or chronological content.
+
+---
+
+Feature Index [44844]:  
+- **Dominant Tokens**: ['that', 'which']  
+- **Patterns**: Similar to 39745, but more general—activates across explanatory and narrative texts, not limited to formal or instructional contexts.  
+- **Summary**: General detection of clauses introduced by 'that' or 'which' in diverse textual contexts.  
+
+---
+
+Feature Index [45551]:  
+- **Dominant Tokens**: ["I'm", 'am', 'are']  
+- **Patterns**: Activates around first-person and present-tense forms, especially in conversational or explanatory settings.  
+- **Summary**: Detects first-person present-tense expressions in informal or interactive text.  
+
+---
+
+Feature Index [46054]:  
+- **Dominant Tokens**: ['A', 'This', 'The', 'S', 'B']  
+- **Patterns**: Frequently found at the beginning of declarative sentences in formal or structured writing.  
+- **Summary**: Highlights sentence starters in structured or explanatory content.  
+
+---
+
+
+### Feature Index [46155]:
+- **Dominant Tokens**: ['I', "I'm", "I've"]  
+- **Patterns**: Activates around first-person pronouns in conversational or narrative text, often linked with personal accounts, opinions, or informal discourse.  
+- **Summary**: Highlights first-person narrative structures, common in personal or conversational contexts.  
+
+---
+
+Feature Index [46367]:  
+- **Dominant Tokens**: ['This', 'this']  
+- **Patterns**: Focuses on demonstrative pronouns introducing explanations or specifics, often in academic or detailed contexts.  
+- **Summary**: Identifies demonstrative pronouns marking emphasis or explanation.  
+
+---
+
+Feature Index [47610]:  
+- **Dominant Tokens**: ['more']  
+- **Patterns**: Activates in comparative or intensifying phrases, especially in descriptive or promotional contexts.  
+- **Summary**: Highlights comparative structures or intensifiers in evaluative or descriptive text.  
+
+---
+
+Feature Index [48428]:  
+- **Dominant Tokens**: ['.', '. ']  
+- **Patterns**: Activates at sentence boundaries, emphasizing structured narrative or formal writing.  
+- **Summary**: Identifies sentence-final punctuation in structured or formal contexts.  
+
+
+---
+
+### Feature Index [49060]:
+- **Dominant Tokens**: ['.', '].
+', 'het', '(', ' according']
+- **Patterns**: Activates heavily in structured academic or clinical contexts involving results, conclusions, and statistical outcomes. Commonly associated with parentheses, numerical expressions, and explanatory phrases.
+- **Summary**: Detects contexts of statistical reporting and clinical study descriptions, often in scientific texts.
+
+---
+
+### Feature Index [51014]:
+- **Dominant Tokens**: ['The']
+- **Patterns**: Activates consistently at the beginning of sentences or clauses in structured expository texts, such as product descriptions, research summaries, or formal writing.
+- **Summary**: Identifies sentence or clause beginnings that introduce definitions, findings, or descriptive content.
+
+---
+
+### Feature Index [51982]:
+- **Dominant Tokens**: ['In', 'A', 'The', 'B', 'I']
+- **Patterns**: Prefers structured introductory statements in diverse content such as articles, patent descriptions, or formal documentation. Often activates on capitalized initial words.
+- **Summary**: Identifies leading tokens in structured introductory statements across diverse formal texts.
+
+---
+
+### Feature Index [52337]:
+- **Dominant Tokens**: ['After', ' after']
+- **Patterns**: Activates in chronological or sequential explanations, particularly in contexts discussing actions or results that follow prior events or conditions.
+- **Summary**: Detects transitions or discussions of subsequent actions or outcomes.
+
+---
+
+### Feature Index [53243]:
+- **Dominant Tokens**: ['the']
+- **Patterns**: Appears heavily in mid-sentence contexts within explanatory, descriptive, or procedural texts. Common in formal writing or instructional content.
+- **Summary**: Identifies mid-sentence occurrences of the definite article in formal or instructional content.
+
+---
+
+### Feature Index [53907]:
+- **Dominant Tokens**: ['is', 'was', 'are']
+- **Patterns**: Activates in sentences discussing definitions, states, or ongoing actions, often within scientific or formal explanatory texts.
+- **Summary**: Detects states of being or descriptions of existence in scientific or formal contexts.
+
+---
+
+### Feature Index [53976]:
+- **Dominant Tokens**: ['.']
+- **Patterns**: Activates at sentence-ending punctuation, particularly in formal writing, including academic, technical, and professional contexts.
+- **Summary**: Identifies sentence boundaries in formal and structured texts.
+
+---
+
+### Feature Index [55274]:
+- **Dominant Tokens**: ['is', 'are']
+- **Patterns**: Common in present-tense explanatory or descriptive contexts, particularly in texts introducing definitions or attributes.
+- **Summary**: Identifies present-tense linking verbs in descriptive or definitional statements.
+
+---
+
+### Feature Index [55358]:
+- **Dominant Tokens**: ['.']
+- **Patterns**: Similar to Feature Index [53976], focusing on sentence-ending punctuation, but with broader thematic diversity, including creative and narrative content.
+- **Summary**: Detects sentence conclusions across diverse textual themes.
+
+---
+
+### Feature Index [55840]:
+- **Dominant Tokens**: ['do', 'does', 'did', 'any']
+- **Patterns**: Activates in contexts involving actions or questions, especially in sentences discussing possibilities, instructions, or operations. Common in technical and instructional texts.
+- **Summary**: Detects auxiliary verbs in contexts emphasizing actions, operations, or procedural instructions, often in technical or instructional content.
+
+---
+
+### Feature Index [56527]:
+- **Dominant Tokens**: ['.', '>', '?', '">', '">/']
+- **Patterns**: Activates around sentence-ending punctuation, especially in contexts involving structured or technical writing, such as code snippets, XML tags, or user inquiries.
+- **Summary**: Detects sentence conclusions or structural terminations, particularly in technical, structured, or markup languages.
+
+---
+
+### Feature Index [56532]:
+- **Dominant Tokens**: [' (']
+- **Patterns**: Activates around parenthetical content or explanatory remarks, particularly in scientific, academic, or technical texts.
+- **Summary**: Highlights explanatory or contextual parenthetical expressions in formal texts.
+
+---
+
+### Feature Index [56811]:
+- **Dominant Tokens**: ['$', 'are', 'surf', 'absorb', 'PH']
+- **Patterns**: Activates in financial, technical, and scientific contexts, often referencing variables, units, or specific terms in discussions involving calculations, annotations, or technical descriptions.
+- **Summary**: Detects references to monetary symbols, technical measurements, or annotations in financial, scientific, or technical contexts.
+
+---
+
+### Feature Index [57530]:
+- **Dominant Tokens**: [' my', ' our', ' their']
+- **Patterns**: Activates in personal or collective ownership contexts, including opinions, reports, and user-oriented texts.
+- **Summary**: Identifies personal or collective possession in subjective or descriptive statements.
+
+---
+
+### Feature Index [58678]:
+- **Dominant Tokens**: ['13', '15', '39', '5', '55']
+- **Patterns**: Activates in numerical contexts, particularly percentages, measurements, or data points in structured or scientific documents.
+- **Summary**: Detects numeric values frequently used in measurements, rates, or percentages, often in scientific or statistical contexts.
+
+---
+
+### Feature Index [58754]:
+- **Dominant Tokens**: ['may', 'could', 'can']
+- **Patterns**: Activates in speculative or hypothetical contexts, such as scientific discussions, conditional statements, or technical explanations.
+- **Summary**: Highlights modal verbs indicating possibility, permission, or capability, often in formal or technical writing.
+
+---
+
+### Feature Index [59460]:
+- **Dominant Tokens**: ['tasks', 'products', 'regions', 'tools']
+- **Patterns**: Appears in contexts discussing functional or operational aspects, such as product descriptions, regional studies, or technical solutions.
+- **Summary**: Identifies terms related to functions, operations, or categorizations, commonly in professional or technical documentation.
+
+---
+
+### Feature Index [59697]:
+- **Dominant Tokens**: ['</', 'import']
+- **Patterns**: Common in markup or programming contexts, such as HTML/XML tags or code import statements.
+- **Summary**: Detects structural elements or imports in programming and markup languages.
+
+---
+
+### Feature Index [60458]:
+- **Dominant Tokens**: ['there', 'There']
+- **Patterns**: Found in declarative sentences, often introducing information or pointing out specific elements in descriptive or explanatory texts.
+- **Summary**: Highlights the presence of existential phrases or introductions to key details in explanatory or narrative contexts.
+
+---
+
+### Feature Index [60988]:
+- **Dominant Tokens**: ['.']
+- **Patterns**: Activates at the end of sentences, particularly in formal or academic writing.
+- **Summary**: Detects sentence terminations, emphasizing completeness and structure in text.
+
+---
+
+### Feature Index [61410]:
+- **Dominant Tokens**: ['at', 'At']
+- **Patterns**: Often in prepositional contexts or indicating location, time, or comparison in descriptive or explanatory sentences.
+- **Summary**: Identifies locational or temporal references, aiding in spatial or contextual understanding.
+
+---
+
+### Feature Index [61451]:
+- **Dominant Tokens**: ['But', 'And', 'but']
+- **Patterns**: Appears at sentence beginnings or transitions, indicating contrasts or continuations in narrative or expository texts.
+- **Summary**: Highlights conjunctions used for transitions or contrasts, important for understanding textual flow.
+
+---
+
+### Feature Index [62032]:
+- **Dominant Tokens**: ['a']
+- **Patterns**: Activates in articles, introducing nouns in various contexts, from casual to formal writing.
+- **Summary**: Detects the indefinite article "a," foundational in identifying objects or concepts in text.
+
+---
+
+### Feature Index [62862]:
+- **Dominant Tokens**: ['sung', 'checked', 'described']
+- **Patterns**: Common in past-tense verbs, particularly in descriptions, actions, or events in narrative or procedural contexts.
+- **Summary**: Highlights past-tense verbs, often signifying completed actions or described attributes.
+
+---
+
+### Feature Index [63282]:
+- **Dominant Tokens**: ['were', 'was', '’m']
+- **Patterns**: Appears with past-tense verbs or contractions, indicating states, actions, or ongoing conditions in narrative or explanatory contexts.
+- **Summary**: Detects past-tense or state-indicating forms, crucial for understanding temporal aspects of text.
+
+---
+
+### Feature Index [63524]:
+- **Dominant Tokens**: ['user', '/dist', 'amp']
+- **Patterns**: Activates in technical contexts, such as file paths, user identifiers, or technical references in code or documentation.
+- **Summary**: Identifies terms and elements common in technical or programming environments.
+
+---
+
+### Feature Index [64913]:
+- **Dominant Tokens**: ['by']
+- **Patterns**: Common in passive constructions or indicating methods and agents in explanatory or procedural contexts.
+- **Summary**: Detects the preposition "by," crucial for indicating agency or method in structured or narrative texts.
+
+---
+
+### Feature Index [65117]:
+- **Dominant Tokens**: ['I', ''ve']
+- **Patterns**: Found in first-person narratives or personal accounts, particularly in question-and-answer formats or informal writing.
+- **Summary**: Highlights first-person pronouns or related contractions, indicative of personal engagement or authorship.
+
+---
+

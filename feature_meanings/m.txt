@@ -1,0 +1,230 @@
+
+ing -vebs  :39577
+not
+newline before response/reply
+past to be
+tab
+numb
+are am
+I
+this
+more
+dot
+the
+start of sentence
+after 
+the
+to be (is was become)
+dot
+is
+dot
+do
+newline in coding
+bracket start of abreviation
+middle of word
+its
+2 digit number
+may could can
+process system framework env
+
+there
+dot
+at
+but and
+a
+displayed served utilized discussed - verbs
+was are were is
+begining of word 
+by
+I
+
+
+past verbs
+What
+month
+first 3 digits of year
+places (florida, bronsville...)
+connecting sentences (, and)
+she, they, we
+contradiction (or)
+connecting sentences (so but and)
+nouns : in ___ to (in order to) : 4116
+thanks : 4185
+uniqueness adjectives (distinct, unique, specific) : 4279
+in of on between : 4298
+three dots : 4465
+do verbs
+numbers as words (two twenty) : 4977
+comparison (than vs versus with) : 5045
+question (Q) : 5144
+org : 5354
+part of names/abbreviations : 5679
+dates : 5775
+day of month : 6864, 9559
+ing verbs : 6878
+Why : 7752
+group of people : 7769
+When, If : 8309
+start, begin, import : 9166
+first 3 digits of year 20th cent : 10838
+abbr : 11222
+adjectives : 11311
+letter R : 11319
+letter G : 11392
+part of larger numbers : 11726
+how : 11923
+subject of sentence : 12259
+numbers below 10, as words: 13195
+= (equal in prog) : 13363
+last digit of year : 13396
+If : 13990
+trying : 14377
+in news style reporting : 14566
+quantifiers (most some much lots) : 14807
+terms in academics : 15094
+"years, months, days" : 15233
+oposition (while, although, despite) : 15263
+(provide, give, granted) : 15511
+(think sure suggests seemed believed) : 15561
+.css : 15564
+comment in code : 15988
+two (and one) : 16132
+ability (accountability action stability usability) : 16503
+I _verb_ (have am show want) : 16515
+
+
+-----29950
+plural nouns-
+any,all
+any,most,some
+how,way
+code-
+from
+by
+word endings-
+what
+in
+and
+to
+by
+past verb-
+last digit in year-
+=
+K in name-
+number in word-
+do
+:// (links-)
+start of sentence-
+have
+its
+numbers-
+the
+time- (during saturday friday monday)
+of
+at
+it
+quant- (most some many)
+the
+surnames-
+not
+those this that such
+one
+two three
+after before
+adjective-
+the
+a
+have
+start of sentence-
+this that
+there is
+and
+be
+newline-
+newline-
+javascript code-
+there
+comma-
+do
+when
+comma-
+numbers-
+verbs-
+comma-
+start of sentence-
+verbs-
+I
+code- (public private)
+which
+the
+there
+to for para
+it
+start of sentence-
+verbs- (possible potential could)
+leading largest interesting large
+for
+what
+quation mark-
+for
+code-
+have
+month- (february april may)
+on
+html-
+would
+space-
+and or
+do
+at
+dot-
+end of sentence-
+paranthesis-
+before after since
+comma-
+the
+if
+a an
+do
+numbers in words-
+if
+do
+and
+day of month-
+to be (am are is)
+paranthesis-
+if when
+newline-
+up out over
+numbers-
+curly bracket in css-
+these
+month- (june jan march)
+next first recently past
+that
+
+
+plural inanimate objects- : 50132
+high long large severe : 51173
+prog. function- : 52150
+abbreviations- : 52389
+often usually always typically frequently : 53358
+percent or part of large number- : 53541
+words starting with IN- : 54231
+health study participants- : 54818
+dental and medical- : 57957
+surnames- : 58517
+thank you : 58608
+time interval, duration- : 58895
+timeline transitions- : 59032
+.css properties- : 59977
+business entity mentions- : 60113
+scientific study- : 61022
+web dev code (html, js, css, django, bootstrap, jquery)- : 61277
+formal citations and dates- : 61818
+action or purpose- : 61948
+nationality (place of origin)- : 62358
+technical term prefixes- : 62755
+wikipedia categories- : 63044
+
+

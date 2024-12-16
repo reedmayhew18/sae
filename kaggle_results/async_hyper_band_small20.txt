@@ -1,0 +1,40 @@
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00000_0_HB=hidden_dim_32768_batch_size_1024,l1_lambda=0.0340,lr=0.0159_2024-12-04_10-51-35
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00001_1_HB=hidden_dim_8192_batch_size_8192,l1_lambda=0.3034,lr=0.0002_2024-12-04_10-51-35
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00002_2_HB=hidden_dim_32768_batch_size_1024,l1_lambda=0.0088,lr=0.0012_2024-12-04_10-51-35
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00003_3_HB=hidden_dim_16384_batch_size_2048,l1_lambda=1.9968,lr=0.0063_2024-12-04_10-53-47
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00004_4_HB=hidden_dim_8192_batch_size_2048,l1_lambda=3.9886,lr=0.0005_2024-12-04_10-55-20
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00005_5_HB=hidden_dim_20000_batch_size_8192,l1_lambda=0.0017,lr=0.0100_2024-12-04_10-57-29
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00006_6_HB=hidden_dim_16384_batch_size_512,l1_lambda=1.3116,lr=0.0001_2024-12-04_10-59-42
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00007_7_HB=hidden_dim_8192_batch_size_2048,l1_lambda=0.0091,lr=0.0001_2024-12-04_11-01-15
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00008_8_HB=hidden_dim_20000_batch_size_8192,l1_lambda=0.0540,lr=0.0000_2024-12-04_11-03-30
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00009_9_HB=hidden_dim_8192_batch_size_2048,l1_lambda=0.4746,lr=0.0011_2024-12-04_11-04-59
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00010_10_HB=hidden_dim_16384_batch_size_2048,l1_lambda=0.0072,lr=0.0001_2024-12-04_11-06-27
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00011_11_HB=hidden_dim_20000_batch_size_8192,l1_lambda=0.0043,lr=0.0000_2024-12-04_11-08-04
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00012_12_HB=hidden_dim_8192_batch_size_512,l1_lambda=0.2378,lr=0.0000_2024-12-04_11-10-17
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00013_13_HB=hidden_dim_20000_batch_size_1024,l1_lambda=1.1140,lr=0.0005_2024-12-04_11-12-26
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00015_15_HB=hidden_dim_32768_batch_size_512,l1_lambda=0.0058,lr=0.0001_2024-12-04_11-15-32
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00017_17_HB=hidden_dim_32768_batch_size_512,l1_lambda=0.1909,lr=0.0003_2024-12-04_11-19-05
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00018_18_HB=hidden_dim_32768_batch_size_512,l1_lambda=1.0369,lr=0.0001_2024-12-04_11-21-10
+/kaggle/working/results/hyperparameter_search/train_model_bb071_00019_19_HB=hidden_dim_20000_batch_size_1024,l1_lambda=0.0171,lr=0.0000_2024-12-04_11-23-23
+
+Trial name 	status 	loc 	HB 	l1_lambda	lr	iter	total time (s)	train_loss	train_mse_loss	train_l1_loss
+train_model_bb071_00000	TERMINATED	172.19.2.2:6001	{'hidden_dim': _49c0	0.0339821 	0.0159257 	40	125.638 	0.845591	0.826098	0.573632
+train_model_bb071_00001	TERMINATED	172.19.2.2:6121	{'hidden_dim': _3480	0.303414 	0.000171362	25	86.2465	2.74635 	1.00711 	5.73223
+train_model_bb071_00002	TERMINATED	172.19.2.2:6237	{'hidden_dim': _55c0	0.00883251	0.00121107 	40	122.19 	0.98629 	0.986288	0.000265033
+train_model_bb071_00003	TERMINATED	172.19.2.2:6357	{'hidden_dim': _e500	1.99677 	0.00632645 	40	125.846 	0.955099	0.955099	0
+train_model_bb071_00004	TERMINATED	172.19.2.2:6477	{'hidden_dim': _e440	3.98861 	0.000497559	25	85.8686	1.00348 	0.992412	0.00277591
+train_model_bb071_00005	TERMINATED	172.19.2.2:6593	{'hidden_dim': _9280	0.00172138	0.010013 	40	127.888 	0.828145	0.808995	11.1246
+train_model_bb071_00006	TERMINATED	172.19.2.2:6714	{'hidden_dim': _c440	1.31165 	0.000106552	25	82.0844	3.06577 	0.975608	1.59354
+train_model_bb071_00007	TERMINATED	172.19.2.2:6830	{'hidden_dim': _cf80	0.00913741	9.8908e-05 	25	80.7041	1.07204 	0.956401	12.6552
+train_model_bb071_00008	TERMINATED	172.19.2.2:6945	{'hidden_dim': _2f00	0.0539613 	1.45233e-05	25	89.8834	16.3976 	0.948363	286.302
+train_model_bb071_00009	TERMINATED	172.19.2.2:7062	{'hidden_dim': _e9c0	0.474612 	0.00106245 	40	125.535 	0.980298	0.980297	3.4256e-06
+train_model_bb071_00010	TERMINATED	172.19.2.2:7182	{'hidden_dim': _e340	0.00722103	0.000115806	40	122.997 	0.943474	0.889949	7.41242
+train_model_bb071_00011	TERMINATED	172.19.2.2:7302	{'hidden_dim': _4a40	0.00431567	1.50967e-05	25	88.8897	2.18598 	0.921799	292.928
+train_model_bb071_00012	TERMINATED	172.19.2.2:7419	{'hidden_dim': _80c0	0.237846 	1.15783e-05	25	82.7942	8.45302 	0.997062	31.3478
+train_model_bb071_00013	TERMINATED	172.19.2.2:7535	{'hidden_dim': _e800	1.11401 	0.000546083	40	117.87 	0.98543 	0.985046	0.000344165
+train_model_bb071_00014	TERMINATED	172.19.2.2:7654	{'hidden_dim': _db00	0.00363473	0.000253976	25	80.3968	1.01022 	1.00561 	1.26691
+train_model_bb071_00015	TERMINATED	172.19.2.2:7770	{'hidden_dim': _7180	0.00581511	7.62069e-05	40	118.656 	0.672967	0.597379	12.9986
+train_model_bb071_00016	TERMINATED	172.19.2.2:7889	{'hidden_dim': _0280	0.958709 	0.00940182 	40	125.721 	0.945982	0.945982	0
+train_model_bb071_00017	TERMINATED	172.19.2.2:8009	{'hidden_dim': _2540	0.190937 	0.000272231	25	83.2518	1.01369 	1.00351 	0.0532996
+train_model_bb071_00018	TERMINATED	172.19.2.2:8125	{'hidden_dim': _ac40	1.03687 	7.56654e-05	25	84.0674	3.33317 	0.909959	2.33705
+train_model_bb071_00019	TERMINATED	172.19.2.2:8241	{'hidden_dim': _2b80	0.0171475 	1.23581e-05	25	86.7715	1.60933 	0.918951	40.2615 

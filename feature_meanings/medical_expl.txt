@@ -1,0 +1,662 @@
+### Feature Index [58517]:
+- **Dominant Tokens**: `'ech'`, `' Mari'`, `'uit'`, `' Raj'`, `'iyon'`, `'rie'`, `'yn'`, `'is'`, `'ogan'`, `' Shar'`, `' O'`, `' Carr'`, `' Al'`, `'wen'`, `' Ger'`, `' Engel'`, `'agn'`, `'IE'`
+- **Patterns**:
+  - Activates for tokens embedded within names, proper nouns, or titles.
+  - Frequently found in contexts involving people's names, places, or specific references.
+  - Common in biographical text, citations, or formal documents listing people or references.
+- **Summary**: Detects specific names, titles, and proper nouns within formal or reference-heavy contexts.
+- **Context**: Indicates mentions of individuals, often within lists, biographies, or scholarly citations.
+- **Title**: **Proper Noun Highlights**
+
+---
+
+### Feature Index [8306]:
+- **Dominant Tokens**: `('"', "'", '(', ',"', ' ?')`
+- **Patterns**:
+  - Consistently activates on punctuation associated with coding or structured text (e.g., quotation marks, parentheses).
+  - Appears in contexts involving code snippets, programming examples, or mathematical notations.
+  - Tied to syntactic constructs in software or structured data.
+- **Summary**: Detects punctuation and structural delimiters in code or technical documents.
+- **Context**: Context suggests programming or structured logic, including function declarations and parameters.
+- **Title**: **Programming Syntax Markers**
+
+---
+
+### Feature Index [63789]:
+- **Dominant Tokens**: `' In'`, `' in'`, `' some'`, `' Of'`, `' the'`, `' female'`, `' all'`, `' Twenty'`, `' adults'`, `'1'`
+- **Patterns**:
+  - Activates in formal writing, especially in contexts involving scientific studies or medical research.
+  - Frequently highlights sentences starting with “In” or referencing quantified groupings and experimental setups.
+- **Summary**: Detects scientific or formal study-related contexts with quantified data.
+- **Context**: Context describes experimental observations or results.
+- **Title**: **Scientific Observations**
+
+---
+
+### Feature Index [50988]:
+- **Dominant Tokens**: `'The'`
+- **Patterns**:
+  - Consistently activates for sentences or titles beginning with “The.”
+  - Common in contexts involving structured writing such as academic articles, summaries, or reports.
+- **Summary**: Identifies leading articles in formal or academic prose.
+- **Context**: Introduces structured sentences or titles in explanatory or declarative formats.
+- **Title**: **Formal Sentence Starters**
+
+---
+
+### Feature Index [56881]:
+- **Dominant Tokens**: `'#'`, `'.\n'`, `'   '`, `' \n'`
+- **Patterns**:
+  - Activates on paragraph breaks, list markers, or formatting markers like hashtags in markdown/code.
+  - Common in technical documentation, lists, or social media-like formats.
+- **Summary**: Detects structural breaks, headings, and formatting in text.
+- **Context**: Found in highly structured or formatted text like markdown files or documentation.
+- **Title**: **Formatting Indicators**
+
+---
+
+### Feature Index [17187]:
+- **Dominant Tokens**: `'-'`, `'(,'`
+- **Patterns**:
+  - Activates on mathematical ranges, lists, or precise measurements.
+  - Often in contexts involving scientific or numerical data presentation.
+- **Summary**: Detects hyphenated ranges, precise data, or measurements.
+- **Context**: Found in technical, numerical, or data-heavy contexts.
+- **Title**: **Numerical Data Patterns**
+
+---
+
+### Feature Index [4766]:
+- **Dominant Tokens**: `'10'`, `'17'`, `'0'`, `'11'`
+- **Patterns**:
+  - Activates for numerical identifiers, dates, or references within structured text.
+  - Common in citations, references, or tabulated information.
+- **Summary**: Highlights structured numerical references or identifiers.
+- **Context**: Found in citations, bibliographies, or numerical lists.
+- **Title**: **Structured References**
+
+---
+
+### Feature Index [52875]:
+- **Dominant Tokens**: `'A'`, `'The'`
+- **Patterns**:
+  - Consistently activates on titles or sentence starters involving “A” or “The.”
+  - Common in formal, structured texts or descriptive documents.
+- **Summary**: Identifies leading words in titles or structured paragraphs.
+- **Context**: Suggests structured document titles or openings.
+- **Title**: **Title Sentence Starters**
+
+---
+
+### Feature Index [21476]:
+- **Dominant Tokens**: `'package'`, `'played'`, `'living'`, `'of'`, `'icking'`
+- **Patterns**:
+  - Activates in contexts involving keywords or thematic words in structured technical or descriptive text.
+  - Found in programming terms, descriptive writing, or narrative elements.
+- **Summary**: Detects thematic or technical keywords in structured contexts.
+- **Context**: Indicates technical or thematic discussions.
+- **Title**: **Keyword Detectors**
+
+---
+
+### Feature Index [29815]:
+- **Dominant Tokens**: `'P'`, `'K'`, `'C'`, `'M'`, `'R'`
+- **Patterns**:
+  - Activates on uppercase initials, often part of names or titles in formal documents.
+  - Found in headings, initials, or specific references.
+- **Summary**: Highlights uppercase initials in names, titles, or references.
+- **Context**: Found in formal documents or references.
+- **Title**: **Uppercase Initials**
+
+### Feature Index [26908]:
+- **Dominant Tokens**: `'help'`, `'healthcare'`, `'alert'`, `'calculate'`, `'program'`
+- **Patterns**:
+  - Activates for action-oriented or service-related words.
+  - Found in text discussing support systems, healthcare, technical descriptions, or service-oriented documents.
+- **Summary**: Detects terms related to support, calculations, or service provision.
+- **Context**: Indicates scenarios involving assistance, calculations, or structured programs.
+- **Title**: **Support and Services**
+
+---
+
+### Feature Index [15287]:
+- **Dominant Tokens**: `' ' (space)`
+- **Patterns**:
+  - Consistently activates for spacing in structured or numerical data.
+  - Often found in contexts with measurements, statistical results, or formatted numerical expressions.
+- **Summary**: Highlights structured spacing, particularly in data or measurements.
+- **Context**: Indicates technical formatting or data presentation.
+- **Title**: **Data Spacing**
+
+---
+
+### Feature Index [31416]:
+- **Dominant Tokens**: `'is'`, `'represents'`, `'was'`, `'an'`
+- **Patterns**:
+  - Activates in descriptive or explanatory contexts, often part of declarative sentences.
+  - Common in definitions, explanations, or narrative descriptions.
+- **Summary**: Detects descriptors or relational terms in declarative contexts.
+- **Context**: Descriptive or explanatory writing defining relationships or states.
+- **Title**: **Descriptive Relations**
+
+---
+
+### Feature Index [23912]:
+- **Dominant Tokens**: `'.'`, `'   '`, `'	'`, `' );'`, `' same'`
+- **Patterns**:
+  - Activates for sentence or section delimiters, such as periods, or white-space markers in structured text.
+  - Found in narrative prose, technical documentation, or programming output.
+- **Summary**: Highlights sentence delimiters or structural separators in text.
+- **Context**: Indicates transitions or breaks in structured or narrative text.
+- **Title**: **Sentence Breaks**
+
+---
+
+### Feature Index [4581]:
+- **Dominant Tokens**: `'A'`, `'In'`, `'The'`
+- **Patterns**:
+  - Consistently activates for sentence starters or document titles.
+  - Found in introductory sentences or prominent headings.
+- **Summary**: Identifies prominent sentence or title starters in formal or structured text.
+- **Context**: Suggests document beginnings or structured paragraph introductions.
+- **Title**: **Introductory Starters**
+
+
+---
+
+
+### Feature Index [32026]:
+- **Dominant Tokens**: `'was'`, `':'`, `'to'`, `'study'`, `'We'`
+- **Patterns**: Appears in contexts related to medical studies, clinical cases, or scientific observations, often describing purpose, findings, or methodology.
+- **Summary**: Captures explanatory or purpose-driven language in medical and scientific studies.
+- **Context**: Common in abstracts or introductions of research papers, describing methods, objectives, or results.
+- **Title**: **Scientific Study Purpose**
+
+---
+
+### Feature Index [57660]:
+- **Dominant Tokens**: `'otomy'`, `'bib'`, `'youth'`, `'and'`, `'of'`
+- **Patterns**: Found in scientific or technical articles referencing bibliographies, medical terms, or demographic information.
+- **Summary**: Detects structured references or medical contexts in academic writing.
+- **Context**: Related to discussions of research methods, bibliographies, or participant demographics in academic texts.
+- **Title**: **Academic References**
+
+---
+
+### Feature Index [45783]:
+- **Dominant Tokens**: `'patients'`, `'('`, `'Fifty'`, `';'`, `'into'`
+- **Patterns**: Activates in medical or clinical study contexts, often quantifying patients or describing study methodologies.
+- **Summary**: Highlights patient-focused data or study details in medical literature.
+- **Context**: Found in detailed descriptions of clinical trials or patient demographics.
+- **Title**: **Clinical Study Patients**
+
+---
+
+### Feature Index [41517]:
+- **Dominant Tokens**: `'of'`, `'exercise'`, `'validation'`, `'film'`, `'seriously'`
+- **Patterns**: Found in research contexts discussing validation, physical tests, or experimental observations.
+- **Summary**: Captures descriptions of studies, their design, or key terms in experimental contexts.
+- **Context**: Indicates structured experimental or validation-based discussions in technical papers.
+- **Title**: **Experiment Validation**
+
+---
+
+### Feature Index [64668]:
+- **Dominant Tokens**: `'take'`, `'took'`, `'on'`, `'more'`, `'under'`
+- **Patterns**: Common in narrative descriptions, often highlighting actions or transitions, e.g., taking a role, opportunity, or position.
+- **Summary**: Identifies actions or roles in descriptive, often historical or narrative texts.
+- **Context**: Appears in recounting achievements, roles, or changes in historical or biographical narratives.
+- **Title**: **Action and Roles**
+
+---
+
+### Feature Index [29073]:
+- **Dominant Tokens**: `'bit'`, `'can'`, `'feel'`, `'best'`, `'metre'`
+- **Patterns**: Found in informal or conversational contexts, often reflecting personal feelings, physical measures, or minor hesitations.
+- **Summary**: Captures conversational or casual expressions of emotion, ability, or measurements.
+- **Context**: Reflects informal discussions or problem-solving narratives, often personal or technical.
+- **Title**: **Conversational Context**
+
+---
+
+### Feature Index [14701]:
+- **Dominant Tokens**: `','`, `'1'`, `'mean'`, `'but'`, `'age'`
+- **Patterns**: Activates in detailed, quantified descriptions, often with statistical or demographic data in structured text.
+- **Summary**: Highlights quantified comparisons or demographic summaries.
+- **Context**: Found in technical or research documents, especially those with statistical or demographic focus.
+- **Title**: **Quantitative Demographics**
+
+---
+
+### Feature Index [6527]:
+- **Dominant Tokens**: `'of'`, `'among'`, `'in'`, `'from'`, `'reviewed'`
+- **Patterns**: Common in research literature, especially those discussing population studies, geographical focus, or data review.
+- **Summary**: Captures population studies or geographic focus in structured research.
+- **Context**: Indicates academic or epidemiological discussions with regional or statistical data emphasis.
+- **Title**: **Population Studies**
+
+---
+
+### Feature Index [49447]:
+- **Dominant Tokens**: `'pod'`, `'activity'`, `'a'`, `'three'`, `'report'`
+- **Patterns**: Found in structured problem-solving or descriptive scenarios, often in technical documentation or error reports.
+- **Summary**: Highlights discussions of activities, items, or technical details in troubleshooting contexts.
+- **Context**: Appears in technical instructions, debugging guides, or case summaries.
+- **Title**: **Technical Problem-Solving**
+
+---
+
+### Feature Index [52757]:
+- **Dominant Tokens**: `'itis'`, `'muscle'`, `'patients'`, `'exercise'`, `'population'`
+- **Patterns**: Found in medical research contexts focusing on physical or biological characteristics, patient demographics, or health studies.
+- **Summary**: Identifies medical or biological terminology and patient-related studies.
+- **Context**: Frequently appears in clinical or physiological research, emphasizing health conditions or demographics.
+- **Title**: **Medical Study Terms**
+
+
+
+---
+
+### Feature Index [32026]:
+- **Dominant Tokens**: ['was', 'to', ':', 'To', 'study', 'cases', 'series', 'aim', 'results']
+- **Patterns**: Activations occur in scientific or medical study abstracts, particularly when introducing goals, methods, or findings. Common phrases like "the purpose of this study was" or "to evaluate" frequently appear.
+- **Summary**: Captures context-setting in formal research studies, focusing on goals or results.
+- **Context**: Describes structured, goal-oriented text typical of research abstracts.
+- **Title**: "Research study goals"
+
+---
+
+### Feature Index [45783]:
+- **Dominant Tokens**: [' ', '(', 'were', 'of', 'patients', 'Fifty', 'into', ';', 'Twenty']
+- **Patterns**: Found in sentences with statistical summaries or numerical data about study participants, often specifying group divisions or results.
+- **Summary**: Highlights demographic or statistical breakdowns in research contexts.
+- **Context**: Numerical or demographic statistics in research-related content.
+- **Title**: "Participant data breakdown"
+
+---
+
+### Feature Index [57660]:
+- **Dominant Tokens**: [' ', 'otomy', 'bib', 'and', 'youth', ',', '.File']
+- **Patterns**: Mix of bibliographic citations, file imports in programming, and descriptors in academic or technical texts.
+- **Summary**: Triggers for bibliographic or technical references, often linked to supporting content in studies or documentation.
+- **Context**: Academic or technical citation-heavy sections.
+- **Title**: "Bibliographic references"
+
+---
+
+### Feature Index [41517]:
+- **Dominant Tokens**: ['of', 'exercise', 'validation', 'problems', 'on', 'in', 'film']
+- **Patterns**: Focuses on structured noun phrases and topic headers in academic or technical descriptions.
+- **Summary**: Captures main topics or themes in technical or research documents.
+- **Context**: Summary headers or descriptive noun phrases in research documents.
+- **Title**: "Research topic themes"
+
+---
+
+### Feature Index [29073]:
+- **Dominant Tokens**: ['bit', 'can', 'feel', 'the', 'is', 'best', 'View']
+- **Patterns**: Found in conversational or informal contexts, often with personal reflection or casual tones.
+- **Summary**: Captures informal expressions or reflective commentary in diverse contexts.
+- **Context**: Casual, personal reflections or informal discussions.
+- **Title**: "Casual reflections"
+
+---
+
+### Feature Index [64668]:
+- **Dominant Tokens**: ['on', 'took', 'take', 'more', 'Take', 'under']
+- **Patterns**: Related to actions or events in descriptive or narrative contexts, often in storytelling or explanations.
+- **Summary**: Captures action-oriented language in descriptive narratives.
+- **Context**: Action-driven descriptions in narrative or procedural contexts.
+- **Title**: "Action descriptions"
+
+---
+
+### Feature Index [17260]:
+- **Dominant Tokens**: ['.', 'were', 'and', 'A', 'of', 'men', 'separated']
+- **Patterns**: Common in structured descriptions of participants, often in formal research or survey results.
+- **Summary**: Highlights demographic results or structured summaries in formal documents.
+- **Context**: Structured participant summaries in scientific or survey data.
+- **Title**: "Demographic summaries"
+
+---
+
+### Feature Index [14701]:
+- **Dominant Tokens**: [',', 'mean', 'young', 'and', 'second', 'Find', 'age']
+- **Patterns**: Found in precise measurements, comparisons, or detailed participant descriptions in technical or academic texts.
+- **Summary**: Focuses on descriptive attributes in measurements or participant data.
+- **Context**: Attribute-based descriptions in technical or research texts.
+- **Title**: "Precise descriptions"
+
+---
+
+### Feature Index [49447]:
+- **Dominant Tokens**: ['pod', 'activity', 'a', 'of', 'three', 'case', 'class']
+- **Patterns**: Related to technical examples or structured descriptions, often in programming or academic contexts.
+- **Summary**: Captures structured technical examples or illustrative cases.
+- **Context**: Technical or case-specific descriptions in documentation or code.
+- **Title**: "Technical examples"
+
+---
+
+### Feature Index [9720]:
+- **Dominant Tokens**: ['os', 'It', 'plays', 'flaming', 'inos', 'ua', ')']
+- **Patterns**: Appears in multicultural or multilingual contexts, including proper nouns and diverse names.
+- **Summary**: Captures multilingual or culturally specific entities in text.
+- **Context**: Multilingual names or culturally specific references.
+- **Title**: "Multilingual entities"
+
+
+
+
+
+---
+
+#### Feature Index [46641]:
+- **Dominant Tokens**: `'ably'`, `'ote'`, `'add'`, `'tag'`, `'list'`, `'comparison'`, `'CMS'`, `'guides'`, `'cooler'`, `'Profiler'`
+- **Patterns**: Activates around technical terms, programming concepts (XML, PHP, CMS), and nouns used in guides or product descriptions.
+- **Summary**: Detects technical or instructional language, often related to coding or product specifications.
+- **Context**: Primarily appears in contexts involving descriptions of tools, technical guides, and tutorials.
+- **Title**: *Technical terminology*
+
+---
+
+#### Feature Index [32235]:
+- **Dominant Tokens**: `'ind'`, `'Ar'`, `'Loading'`, `'ot'`, `'/t'`, `'Web'`, `'Report'`, `'Photos'`, `'genre'`
+- **Patterns**: Found in contexts involving websites, file directories, or multimedia descriptions.
+- **Summary**: Identifies file references, metadata, or web content terminology.
+- **Context**: Structured data or content relating to digital resources (e.g., web directories, multimedia).
+- **Title**: *Web content labels*
+
+---
+
+#### Feature Index [30226]:
+- **Dominant Tokens**: `'’s'`, `'is'`, `','`, `'that'`, `'worse'`
+- **Patterns**: Frequent in possessive forms, sentence connectors, and emphasis words in descriptive writing.
+- **Summary**: Captures narrative or explanatory text flow.
+- **Context**: Storytelling or argumentation with causal or descriptive transitions.
+- **Title**: *Descriptive connectors*
+
+---
+
+#### Feature Index [54995]:
+- **Dominant Tokens**: `'="'`, `'properly'`, `'right'`, `'fired'`, `'moments'`
+- **Patterns**: Strong activation in contexts of instructions, settings, or error explanations.
+- **Summary**: Highlights precise expressions in structured data or clarifications.
+- **Context**: Instructional or problem-solving discourse, e.g., debugging, technical setups.
+- **Title**: *Precise clarifications*
+
+---
+
+#### Feature Index [11385]:
+- **Dominant Tokens**: `'’s'`, `'undergone'`, `'in'`, `'undergo'`, `'for'`, `'his'`
+- **Patterns**: Found in detailed recounting of events or formal reporting, often in technical or historical contexts.
+- **Summary**: Indicates reporting or reflective narratives, typically formal or historical.
+- **Context**: Contexts describing changes or attributes within structured narratives.
+- **Title**: *Event reporting*
+
+---
+
+#### Feature Index [17324]:
+- **Dominant Tokens**: `'example'`, `'hope'`, `'.....'`, `'task'`, `'needed'`, `'perfect'`
+- **Patterns**: Focuses on instructional or exemplary contexts and evaluative statements.
+- **Summary**: Targets contexts illustrating examples, guidance, or evaluations.
+- **Context**: Explanations or use-case discussions with illustrative emphasis.
+- **Title**: *Examples and evaluations*
+
+---
+
+#### Feature Index [53864]:
+- **Dominant Tokens**: `'#'`, `'free'`, `'scientists'`, `'float'`, `'global'`, `'food'`
+- **Patterns**: Appears in headings, formal enumerations, and specialized technical descriptions.
+- **Summary**: Highlights structured sections, technical topics, or specific global themes.
+- **Context**: Formal contexts such as scientific discussions or structured introductions.
+- **Title**: *Structured headings*
+
+---
+
+#### Feature Index [5945]:
+- **Dominant Tokens**: `','`, `'of'`, `'guard'`, `'ster'`, `'and'`
+- **Patterns**: Commonly present in conjunctions and connectors within narrative or list formats.
+- **Summary**: Captures continuity or enumeration in text.
+- **Context**: Contexts listing elements or maintaining textual flow.
+- **Title**: *List connectors*
+
+---
+
+#### Feature Index [46573]:
+- **Dominant Tokens**: `'is'`, `'depending'`, `'sometimes'`, `'often'`, `'may'`
+- **Patterns**: Associated with conditional or frequency-based statements.
+- **Summary**: Highlights variability and conditions in narrative explanations.
+- **Context**: Scenarios with contingent actions or generalized statements.
+- **Title**: *Conditional statements*
+
+---
+
+#### Feature Index [37435]:
+- **Dominant Tokens**: `"'t"`, `'not'`, `'miss'`, `'get'`, `'work'`
+- **Patterns**: Detects negations or hypothetical constructs.
+- **Summary**: Focuses on absence, negatives, or unrealized scenarios.
+- **Context**: Expressions of limitation or absence within a statement.
+- **Title**: *Negation constructs*
+
+--- 
+
+
+
+
+#### Feature Analysis for Index 24159:
+ **Dominant Tokens:** ['on', 'be', 'skipping', ':', 'disk', 'ens', ')', 'off', 'through', 'Sox', 'coal', 'call', '**', 'pass', '.']
+ **Patterns:** 
+- Frequently activates for tokens related to prepositions ("on," "off," "through") or verbs in auxiliary contexts ("be," "pass").
+- Common in contexts involving technical descriptions, step-by-step instructions, and structural elements like colons and parentheses.
+- Some activations appear in specific domains like scientific descriptions or software documentation.
+  
+ **Summary:** Detects structural or transitional linguistic elements in a wide range of contexts, focusing on function words or connectors.
+ **Context:** Often associated with explanatory or descriptive sections, where detailed procedural or scientific language is used.
+ **Title:** **Linguistic Connectors**
+
+---
+
+#### Feature Analysis for Index 42427:
+ **Dominant Tokens:** ['/', ':\\', 'exact', 'same', 'content', 'proportional', 'c']
+ **Patterns:**
+- Strong activations for file paths (e.g., "/Users/..." or "c:\\...") and mathematical expressions or proportional relations.
+- Often present in programming, technical documentation, or configuration settings.
+- Activations suggest focus on distinguishing elements in structured data formats.
+
+ **Summary:** Detects elements of file paths, technical formulas, or structured content.
+ **Context:** Frequently found in technical descriptions or code-related text with specific format requirements.
+ **Title:** **Path and Code**
+
+---
+
+#### Feature Analysis for Index 16171:
+ **Dominant Tokens:** ['#', '---', '@', '201']
+ **Patterns:**
+- Activates for structural markers like headers ('---'), comments ('#'), and citations ('@').
+- Common in programming languages, markdown documents, and structured research articles.
+  
+ **Summary:** Identifies structural or metadata markers within text.
+ **Context:** Appears in structured text such as markdown, programming scripts, or academic papers.
+ **Title:** **Document Headers**
+
+---
+
+#### Feature Analysis for Index 43482:
+ **Dominant Tokens:** ['the', 'which', 'hammer', '-cut', 'cut']
+ **Patterns:**
+- Common activations for determiner "the" and contextual terms like "cut" in instructional or descriptive contexts.
+- Often linked to tools, actions, or material descriptions in technical or patent-like language.
+
+ **Summary:** Focuses on actions, tools, or defining statements in technical or descriptive contexts.
+ **Context:** Likely used in technical documents describing procedures or equipment.
+ **Title:** **Tool Descriptions**
+
+---
+
+#### Feature Analysis for Index 35973:
+ **Dominant Tokens:** ['196', 'August', '200', 'expected', 'association']
+ **Patterns:**
+- Frequently activates for numerical references (e.g., years, measurements) and contextual indicators of timing or connections.
+- Found in historical descriptions, scientific timelines, or legal references.
+
+ **Summary:** Detects chronological markers or numerical details in descriptive or narrative contexts.
+ **Context:** Often used in timelines, legal contexts, or structured event descriptions.
+ **Title:** **Chronological Markers**
+
+---
+
+#### Feature Analysis for Index 12780:
+ **Dominant Tokens:** ['record', 'world', 'Star', 'background', 'War', 'landed']
+ **Patterns:**
+- Activations highlight achievements, historical records, or notable events (e.g., "world record").
+- Found in historical accounts, technical descriptions, and awards or accolades.
+
+ **Summary:** Identifies mentions of records, achievements, or notable descriptions.
+ **Context:** Common in descriptions of events, accolades, or historical achievements.
+ **Title:** **Records and Achievements**
+
+---
+
+#### Feature Analysis for Index 52700:
+ **Dominant Tokens:** ['Con', 'airing', 'held', 'group', 'in']
+ **Patterns:**
+- Activates for contextual mentions of groups, scheduled events, or conditions (e.g., "held," "airing").
+- Appears in structured narratives or descriptions of organizational activities.
+
+ **Summary:** Focuses on organizational or group activities and their descriptions.
+ **Context:** Found in event announcements, organizational discussions, or community contexts.
+ **Title:** **Event Descriptions**
+
+---
+
+#### Feature Analysis for Index 45417:
+ **Dominant Tokens:** ['do', 'Are', 'Did', 'effect', 'role']
+ **Patterns:**
+- Activates for interrogatives and verbs initiating actions or highlighting effects.
+- Common in instructional content, scientific discussions, or FAQ-style narratives.
+
+ **Summary:** Detects actionable queries or discussions of impacts and roles.
+ **Context:** Frequently used in interactive or explanatory content such as Q&A, experiments, or procedural guides.
+ **Title:** **Interactive Queries**
+
+---
+
+#### Feature Analysis for Index 35436:
+ **Dominant Tokens:** ['bib', 'EM', 'TL', '.cos', 'ref', 'UL']
+ **Patterns:**
+- High activations for bibliographic or mathematical notations, often in formal or academic documents.
+- Found in citations, scientific formulas, and structured references.
+
+ **Summary:** Captures bibliographic references, mathematical expressions, or structured identifiers.
+ **Context:** Common in academic or technical publications with references or formulas.
+ **Title:** **References and Notations**
+
+---
+
+#### Feature Analysis for Index 11354:
+ **Dominant Tokens:** ['when', 'looking', 'visit', 'site', '.com']
+ **Patterns:**
+- Focus on action-driven tokens ("visit," "looking") and web-related content ("site," ".com").
+- Found in web-related instructions or advertisements.
+
+ **Summary:** Identifies web navigation instructions or action prompts.
+ **Context:** Found in contexts like website promotions, navigation guides, or calls to action.
+ **Title:** **Web Navigation**
+
+
+
+
+---
+
+### **Feature Index 9660:**
+- **Dominant Tokens:** ['The']
+- **Patterns:** Frequently activates at the beginning of sentences or document titles, often followed by a noun phrase. Common contexts include research titles, technical descriptions, and article headlines.
+- **Summary:** Identifies sentence beginnings or titles, especially with the definite article 'The'.
+- **Context:** Appears in structured or formal text introducing a subject, such as research papers or technical content.
+- **Title:** "Sentence starters"
+
+---
+
+### **Feature Index 52875:**
+- **Dominant Tokens:** ['A', 'The']
+- **Patterns:** Activates for indefinite or definite articles in formal and narrative text, typically at sentence beginnings or subject introductions.
+- **Summary:** Recognizes sentence initiators or article usage in descriptive or technical content.
+- **Context:** Observed in titles and sentences from structured text, like academic papers and descriptive statements.
+- **Title:** "Article usage"
+
+---
+
+### **Feature Index 10562:**
+- **Dominant Tokens:** ['on', '.com', 'website']
+- **Patterns:** Activates in contexts involving web addresses, specific dates, or references to online platforms or content.
+- **Summary:** Detects mentions of online resources or temporal markers in text.
+- **Context:** Found in web references, historical recounts, or online contexts.
+- **Title:** "Online references"
+
+---
+
+### **Feature Index 62168:**
+- **Dominant Tokens:** ['part', 'games', ',', 'complete']
+- **Patterns:** Activates around descriptions of participation, enumerations, or completions in formal descriptions, such as academic or historical contexts.
+- **Summary:** Identifies components of enumerative or descriptive structures.
+- **Context:** Often found in historical records, academic descriptions, or sports narratives.
+- **Title:** "Descriptive enumeration"
+
+---
+
+### **Feature Index 6527:**
+- **Dominant Tokens:** ['of', 'in', 'among', 'reviewed']
+- **Patterns:** Activates for prepositions and conjunctions, often found in academic studies, surveys, or in-depth analyses.
+- **Summary:** Highlights relationships and connections between elements in formal or academic texts.
+- **Context:** Prevalent in scholarly or analytical documents.
+- **Title:** "Academic connectors"
+
+---
+
+### **Feature Index 14742:**
+- **Dominant Tokens:** ['$', ' ', '$\\', '$100']
+- **Patterns:** Recognizes monetary values, mathematical notation, or symbols in financial, mathematical, or scientific contexts.
+- **Summary:** Tracks numerical and symbolic data in technical or financial text.
+- **Context:** Common in technical papers, finance-related text, or mathematical expressions.
+- **Title:** "Symbols and numbers"
+
+---
+
+### **Feature Index 19304:**
+- **Dominant Tokens:** ['sql', '.net', 'dataset', 'Forms']
+- **Patterns:** Activates in technical programming contexts, especially those related to SQL databases, .NET, or code snippets.
+- **Summary:** Identifies programming-related terms and frameworks.
+- **Context:** Found in coding tutorials, technical discussions, or software documentation.
+- **Title:** "Programming keywords"
+
+---
+
+### **Feature Index 4441:**
+- **Dominant Tokens:** ['imaging', 'study', 'disease']
+- **Patterns:** Found in contexts discussing medical imaging, clinical studies, or disease analyses.
+- **Summary:** Detects topics related to medical and clinical research.
+- **Context:** Prevalent in medical or health-related research.
+- **Title:** "Medical studies"
+
+---
+
+### **Feature Index 63789:**
+- **Dominant Tokens:** ['with', 'In', 'of', 'control']
+- **Patterns:** Recognizes conjunctions, prepositions, or initial words in formal contexts, like experimental setups or structured descriptions.
+- **Summary:** Highlights key relational terms in structured or scientific documents.
+- **Context:** Observed in research findings or procedural descriptions.
+- **Title:** "Scientific structure"
+
+---
+
+### **Feature Index 47097:**
+- **Dominant Tokens:** [':', 'Management', 'training', 'cases']
+- **Patterns:** Activates in titles, headings, or structured documents, often indicating subsections or examples.
+- **Summary:** Identifies separators or organizational markers in technical and academic contexts.
+- **Context:** Found in headings or detailed descriptions in scientific or instructional text.
+- **Title:** "Section headers"
+
+---
+
+
