@@ -45,7 +45,7 @@ Printing 5 examples from the dataset with the highest activation values:
 
 ### Automatic Feature Explanation
 
-We put the examples from above into ChatGPT4 to generate a description for the feature, and it gives us 5 pieces of information.
+We put the examples from above into ChatGPT4o to generate a description for the feature, and it gives us 5 pieces of information.
 <img src="pictures/feat_desc.png" alt="Feature Explanation Diagram" width="75%" />
 
 **Example: Feature Index [45783]**
