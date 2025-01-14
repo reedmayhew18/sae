@@ -1,0 +1,1423 @@
+Top 20 activations for feature index 61163 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.4577428102493286
+Target token: 'ah'
+Context:  (talk informally), but who may also be a gossip.  A workaholic is someone who works too much, and is always thinking about work,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.4038746356964111
+Target token: '{-#'
+Context:  that you want is this, which is similar to the netwire Wire: {-# LANGUAGE DeriveFunctor #-}  import Control.Monad.Trans.Free  -- from the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.382563591003418
+Target token: 'ah'
+Context:  who is passive-aggressive. Even worse, this person could be a workaholic who is a passive-aggressive malcontent!  A narcissist is someone
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.354697823524475
+Target token: '51'
+Context:  0.05. The participants' ages ranged between 16 and 51 years, mean age was 33.8 ± 10.01 years
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_5.pt
+Activation value: 1.3414641618728638
+Target token: ' ultimate'
+Context:  concerns increased, the muscle car era began to decline rapidly.  Many of these ultimate high-performance muscle cars were built to satisfy homologation requirements. Others were
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.2474932670593262
+Target token: ' unbiased'
+Context:  a latent stochastic process given noisy measurements related to the process. We propose an unbiased estimator of smoothing expectations. The lack-of-bias property has methodological benefits
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_5.pt
+Activation value: 1.1614108085632324
+Target token: ' and'
+Context: Q:  How to Compile and Debug C++ in Notepad++ using Turbo C++ Compiler  I have
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_8.pt
+Activation value: 1.1184329986572266
+Target token: ' B'
+Context:  Rv play in this AB class amplifier?  A:  This is a class B amplifier: -  Your circuit is a class AB amplifier: -  Rv adjusts
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.1062207221984863
+Target token: '8'
+Context: -middle-risk pregnant woman at rest. Mean gestational age was 34.8 ± 3.7 weeks. Ultrasound images were simultaneously acquired determining if
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_2.pt
+Activation value: 1.0887356996536255
+Target token: '21'
+Context:  than did the SAL-SHAM rats. Thereafter, over the next 21 h, the intake of the SAL-DMNL group returned to control levels
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.0822659730911255
+Target token: ' and'
+Context:  4,224,978 to Klein discloses a twin roll casting method and apparatus for forming a composite material. In this method, a material having a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.0740127563476562
+Target token: ' some'
+Context:  programs offered through universities, colleges or a combination of both?Those are just some of the questions faced by today’s high school graduates.In...  College or work
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.0469996929168701
+Target token: '21'
+Context:  was less frequent with the upper body warming than with the lower body warming {21/62 vs 35/61, risk ratio [95% confidence interval
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.0286366939544678
+Target token: ' define'
+Context:  x) {   return (int)x; } // CHECK-LABEL: define i32 @test // CHECK: alloca i64, align 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.0256717205047607
+Target token: '8'
+Context:  ranged between 16 and 51 years, mean age was 33.8 ± 10.01 years. Male: female ratio was 1:
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.0234994888305664
+Target token: ' one'
+Context: mi claims this inspired her to write Connect The Dots, story of twenty one entrepreneurs but who dont have an MBA degree. The format of the book is
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_16.pt
+Activation value: 1.0233482122421265
+Target token: ' and'
+Context:  unanesthetized tooth. All three cements were easy to mix and place. Most of the teeth had no response to pulpal stimulation pre-oper
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.02312433719635
+Target token: ' ob'
+Context:  button     $script_start = $pb->microtime_float();      ob_flush();     flush();      $proxylisttype = $pb->return
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_5.pt
+Activation value: 1.016589879989624
+Target token: ' ultimate'
+Context: . Matted to a four-speed manual 833 transmission, this was the ultimate muscle car of its day.  This 1971 Plymouth Hemi 'C
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 0.9781746864318848
+Target token: ' and'
+Context:  No. 2,931,082 to Brennan discloses a casting method and apparatus wherein a composite metal article is formed by continuously casting molten metal against
+
+Top 20 activations for feature index 27515 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 1.7912297248840332
+Target token: ' in'
+Context:  suburb of Rockford. The trail begins at the Harlem Community Center and travels in...  The Busse Woods Trail system is located within Ned Brown Forest Preserve,
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_4.pt
+Activation value: 1.6988298892974854
+Target token: '193'
+Context:  was an Italian professional road bicycle racer, who won one stage in the 1932 Tour de France. He also competed in the individual and team road race
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 1.653072476387024
+Target token: '193'
+Context:  acquired by the federal government from private landowners between 1936 and 1939 under the provisions of the U.S. Land Resettlement Administration.
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 1.6040993928909302
+Target token: ' destroyed'
+Context: 6F Hellcat fighters.  Between November and December 1944, Jones destroyed two Japanese A6M Zero and damaged one of them. On February 
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 1.5316274166107178
+Target token: 'If'
+Context:  weeks post-purchase to explain how you claim your free Amazon Echo Dot.  If you return your item due to a fault, where possible, a replacement item
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.4921597242355347
+Target token: ' three'
+Context:  earthen lamps, on the bank of River Sarayu. More than three lakh ‘diyas' or ‘earthen lamps' were lit on both
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_4.pt
+Activation value: 1.4672818183898926
+Target token: '   '
+Context:  entities. /**  * @ORM\Entity()  */ class Order extends AbstractEntity {     //...     /**      * @ORM\ManyToOne(targetEntity="Status")     
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.4642163515090942
+Target token: '   '
+Context: Hydrator extends AbstractHydrator {     /** @override */     protected function _hydrateAll()     {         $result = array();        
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.4573842287063599
+Target token: '   '
+Context: );         }         return $result;     }      /** @override */     protected function _hydrateRow(array $data, array &$cache, array &$
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.455761432647705
+Target token: ' two'
+Context:  also new to I2C in general; the sensors I need come on two separate boards. Do I just stack the boards, directly connecting the I2
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.4340983629226685
+Target token: ' from'
+Context: Raise and issue sales invoices to your customers  Collect, allocate and bank money from your customers  Maintain your purchases ledger  Issue payments to your suppliers when
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 1.4096654653549194
+Target token: ' down'
+Context:  one of them. On February 1, 1945, he shot down another three Zeroes while serving on a mission at northeast of Tokyo, to
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.401163935661316
+Target token: '297'
+Context: . -10 Solve 5*l - 10*f - 2976 + 3071 = 0, -2*l - 3
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.391481637954712
+Target token: ' the'
+Context:  the WSOF-GC bantamweight title in December. However, the Brazilian was over the weight at the first weigh-in and never showed up at
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_3.pt
+Activation value: 1.386332631111145
+Target token: ' public'
+Context:  uma variável e utilizar-lá em outro controller. Model.php:    public function login($email, $password) {     session_start();      $
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.3826292753219604
+Target token: ' Three'
+Context:  regulation of protein activation and dictate relative efficiency of PARP-1 inhibitors. Three specific aims are pursued in this project: 1. To define how PAR
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 1.352148413658142
+Target token: ' two'
+Context: F Hellcat fighters.  Between November and December 1944, Jones destroyed two Japanese A6M Zero and damaged one of them. On February 1
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.3480538129806519
+Target token: '",
+'
+Context:  "services/yama.h",        "syscall_broker/broker_channel.cc", @@ -405,6 +407,10 @@ component("sandbox_services")
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_4.pt
+Activation value: 1.3375085592269897
+Target token: '   '
+Context:  * @ORM\Entity()  */ class Order extends AbstractEntity {     //...     /**      * @ORM\ManyToOne(targetEntity="Status")      * @ORM
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_16.pt
+Activation value: 1.3207422494888306
+Target token: ' I'
+Context:  motivation and capacity while playing a video game. Although I mentioned these terms, I never adequately defined them, so I’ll do so now. A player’s
+
+Top 20 activations for feature index 15007 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_5.pt
+Activation value: 1.5409777164459229
+Target token: '…
+'
+Context: . “Harsh recordings are one of the most common problems mixing and mastering… View this post  Located outside Dallas, Cool Pony Media is a record label
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_5.pt
+Activation value: 1.4356597661972046
+Target token: '…
+'
+Context:  are convinced that it is the correct, progressive solution for adding networking technology to… View this post  Software company Plugin Alliance has announced the availability of bx_ref
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.3798779249191284
+Target token: '/stdc'
+Context: #include <bits/stdc++.h>  #define sd(x) scanf("%d",&x) #define sd
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.3635032176971436
+Target token: ' a'
+Context:  in the radioactive store located on the Queen Elizabeth II Medical Centre Campus. After a collection period of more than 20 years the storage facilities of the Radiation Health
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.3394595384597778
+Target token: '…'
+Context:  here because she realized it was all a ploy."  "By the Gods… what shall we do
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.3221337795257568
+Target token: '1'
+Context: Notice # 01-184 May 31, 2001  TO: All NYMEX Division Members and Member Firms  FROM
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 1.237409234046936
+Target token: ' such'
+Context:  communication aspect of the phone. One thing that would be a leap forward in such communications would be the ability to quickly and easily assemble a multi-user communication session
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.2300279140472412
+Target token: ' long'
+Context:  day for Susy and Geno and for their solid fans club. After long years of waiting, the two best friends shared a long and warm embrace.  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.2155101299285889
+Target token: ' and'
+Context: 18, 1958, at Sala Chalermkrung Royal Theatre and Sala Chalermbure Royal Theatre. The film was directed by Prate
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_5.pt
+Activation value: 1.2080399990081787
+Target token: ' an'
+Context:  Brothers and co-founders, Mark and Mike Stitts, recently did an upgrade in part of their studio with help from API
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 1.2049063444137573
+Target token: ','
+Context: 50  PaperThin, a mid-market Web Content Management (CMS) vendor, recently announced that they have been named to Deloitte's prestigious Technology Fast
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.2017443180084229
+Target token: '"'
+Context:  this silly girl over here because she realized it was all a ploy."  "By the Gods… what shall we do
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.1981184482574463
+Target token: '9'
+Context: 9 Great Romantics national tour  Sydney, 11 June 2009: The Commonwealth Bank today congratulated the Australian Chamber Orchestra (ACO)
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.1921340227127075
+Target token: '2'
+Context: ordhan asks for fresh thinking  Business News / 9 July 2012, 4:48pm  SAPA  Cape Town 141
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.1778227090835571
+Target token: ' an'
+Context: LES  Seven Sumatran rhinos have been captured on hidden cameras in an Indonesian national park where the critically endangered species was feared extinct, a conservationist
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.1740165948867798
+Target token: ' such'
+Context:  are suck-ups.  A suck-up is willing to say or do things — such as compliment someone a lot or say how great he is —
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.1726137399673462
+Target token: '2'
+Context: Seven rare rhinos spotted in Indonesian jungle  August 9, 2012 in Biology / Ecology  In this undated photo released by Leuser International
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 1.1543612480163574
+Target token: '9'
+Context: Pages  Wednesday, September 9, 2009  The Evolution of Home Sewing: 1958 and Today  Did
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 1.1448181867599487
+Target token: ' in'
+Context:  per cent) of Canadians with debt did not make progress towards paying it down in the past year  The top reason cited for not making progress on debt
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.144066333770752
+Target token: '3'
+Context:  alcopops  9:55 AM, May 8, 2013  Written by  Dylan Goodman OPINION  Attending any
+
+Top 20 activations for feature index 27710 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.8491815328598022
+Target token: ' missing'
+Context:  profile simply click on your name in the top right corner.  Fill in any missing fields and make sure to click ‘Save Changes’ when you are finished.
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_4.pt
+Activation value: 1.7674111127853394
+Target token: ' and'
+Context:  achieve the required high sensitivity (1:10(5)), specifity and robustness we created an approach applicable on bone marrow biopsies where we
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.679428219795227
+Target token: 'Save'
+Context:  top right corner.  Fill in any missing fields and make sure to click ‘Save Changes’ when you are finished.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.6268863677978516
+Target token: ' new'
+Context: of  i.e. a site that actually shows what&#x27;s new, not just what ProductHunt thinks we should see is new? ====== 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.6081161499023438
+Target token: 'Fill'
+Context: To edit your profile simply click on your name in the top right corner.  Fill in any missing fields and make sure to click ‘Save Changes’ when you
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.5869313478469849
+Target token: ' *'
+Context:  *Indiana University* - |     Hidehiko Ichimura\     *University of Tokyo* - |     Whitney K. Newey\     *
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.5408422946929932
+Target token: ' *'
+Context:  *University of Tokyo* - |     Whitney K. Newey\     *MIT* - |     James M. Robins\     *Harvard
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.4996817111968994
+Target token: '1'
+Context:  your classic Analytics accounts to Universal Analytics.  From their upgrade instructions:  Step 1: Transfer your property from Classic to Universal Analytics.   We’ve developed a
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 1.4961882829666138
+Target token: 'inary'
+Context: 1 through respective gate valves 2, a load lock chamber (preliminary evacuation chamber) 5 connected with the transfer chamber 1 through a gate
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.4739335775375366
+Target token: ' Single'
+Context:  photonic quantum information processing and quantum networking [@Kimble2008a]. Single-photon sources based on cavity quantum electrodynamics (QED) [@
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_17.pt
+Activation value: 1.455065131187439
+Target token: '.'
+Context: Divesting Of Kruger’s Cash (Updated)  Freshman Sen. David Carlucci, one of 17 Senate Democrats who received campaign contributions
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.4538495540618896
+Target token: ' co'
+Context:  or both. A recent paper by Copéret, Mashima, and co-workers^[@ref2]^ tackles head-on the question concerning how in W
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.450993537902832
+Target token: 'Membership'
+Context: Code.Text;     txtCode.Text = string.Empty;     Response.Redirect("~/Membership/UserRegistration.aspx"); } catch(Exception ex) {    string s = ex
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_18.pt
+Activation value: 1.4451961517333984
+Target token: ' and'
+Context:  and boozy good cheer. But with the industrialization, commercialization, and urbanization of day-to-day life that the Victorian years brought, the conv
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 1.4302408695220947
+Target token: ' and'
+Context:  eat meals in his cell. All other services, including religion, medications, and treatment programming will be conducted in his cell.  All visits will be non-contact
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.4289414882659912
+Target token: ' be'
+Context:  algebraically related to yours. Since correct signing requires some sort of hashing to be used, the signature obviously can't be reversed to the original message, so
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.4196593761444092
+Target token: '8'
+Context: wali celebrations in the city.  Ayodhya Deepotsav 2018  The Deepotsav is an initiative by the Tourism and Cultural Department of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.4064749479293823
+Target token: ' and'
+Context: ukami,$^2$ Yuuki Tokunaga,$^3$ and Takao Aoki$^2$' title: 'Fundamental Limit
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 1.405851125717163
+Target token: 'all'
+Context:  $pb->returnFinalList($sitestoscour);     $finallist     = $pb->arrayUnique($finallist);                 //
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.3924002647399902
+Target token: '-middle'
+Context: HR) fractal dynamics.Abdominal ECG recordings were collected from low-middle-risk pregnant woman at rest. Mean gestational age was 34.8
+
+Top 20 activations for feature index 21476 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_18.pt
+Activation value: 2.3953394889831543
+Target token: 'package'
+Context: package x509util  import ( 	"crypto/rand" 	"crypto/rsa" 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 2.3953394889831543
+Target token: 'package'
+Context: package org.basex.query.func.validate;  import org.basex.query.*; 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.3953394889831543
+Target token: 'package'
+Context: package tk.woppo.sunday.model;  import android.database.Cursor;  import com
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 2.3953394889831543
+Target token: 'package'
+Context: package network  // Copyright (c) Microsoft and contributors.  All rights reserved
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 2.3953394889831543
+Target token: 'package'
+Context: package com.android.inputmethodcommon; class InputMethodSettingsInterface { } class Input
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.3257360458374023
+Target token: 'and'
+Context:  [100, 60, 30, 22, 1] and it's based off a 1 - 100 range. And I want
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.2740354537963867
+Target token: '.'
+Context:  1] and it's based off a 1 - 100 range. And I want it based of a 1 - 5 range. I
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_8.pt
+Activation value: 2.2454965114593506
+Target token: ' task'
+Context:  event rate significantly affected performance, such that participants who completed the low event rate task achieved significantly better performance in terms of correction detections and false alarms. Furthermore,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 2.229499101638794
+Target token: ' of'
+Context:  by the pval dataframe. Means than (row1, col1) of gen color depends upon pvale (row1, col1). The following
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_16.pt
+Activation value: 2.1315717697143555
+Target token: ' played'
+Context:  capacity exist in the case of Luis’s death. For those who haven’t played the game, you can watch a video of the moment below.  [youtube
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 2.1004486083984375
+Target token: ' Putting'
+Context:  our render() has to be the absolute last command in a routing chain. Putting res.write('Hello'); and res.end(); after it was exactly what broke
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 2.0817854404449463
+Target token: ' of'
+Context: ? i.e. the attribute <customErrors> can be within any part of the XML document and the schema will still work.  A:  Possible: Yes
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 2.0708119869232178
+Target token: '(g'
+Context:  in a mutex. {     std::lock_guard<std::mutex> locked(gCoutMutex);     std::cout << "This is a message"
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 2.058537721633911
+Target token: '.
+'
+Context: .write('Hello'); and res.end(); after it was exactly what broke it. I deleted everything and wrote simply res.render('index') and it worked like
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 2.033328056335449
+Target token: ' of'
+Context:  with getting their courses published, especially at the graduate school level. Not all of them are in it for the textbook money, to say the least.  State
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 2.0179500579833984
+Target token: ' strains'
+Context:  required amino acids per se or with peptone, cultures of both CM strains grew more slowly than strain K-12 and produced smaller cell-yields than
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.008657932281494
+Target token: ','
+Context:  site discovered near Niagara Falls  Archaeologists have found arrowheads and drills, indicating that the camps were occupied for extended periods of time.  DIGGING FOR
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.9918162822723389
+Target token: ' living'
+Context:  living in households: 84.7% versus 14.4% living in a flat (0.9% of those interviewed answered with another category
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 1.9599850177764893
+Target token: 'icking'
+Context:  bass then check out our subwoofers for an immersive experience.  Picking the Right Sat Nav  If international travel is on your agenda, pick one
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 1.926863431930542
+Target token: ' of'
+Context:  XML file," as you anticipate in your question.  You can skip much of that via xsd:any and then use assertions to express the sort of spot
+
+Top 20 activations for feature index 50122 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 2.1799025535583496
+Target token: ' spacing'
+Context:  of cuttings and seedlings were planted in 3 x 3 m spacing. The experiment was conducted in a completely randomized design of one tree plot with
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_0.pt
+Activation value: 1.9584383964538574
+Target token: ' input'
+Context:  example provided is all under the same controller.    and Binding value to input in Angular JS What is the angularJS way to get the value of
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_2.pt
+Activation value: 1.92984139919281
+Target token: ' be'
+Context:  teaching thus providing transferable skills and benefits for teachers as well as learners, be they students or patients. To support such multiple uses of CAL selected examples will
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 1.891599178314209
+Target token: ' inexpensive'
+Context:  such as infrared and Bluetooth have become de facto requirements for all but the most inexpensive phones. In addition advances have been made in connectivity to the Internet (for
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_16.pt
+Activation value: 1.8791139125823975
+Target token: ','
+Context:  be truly impactful, both of these elements must exist (or noticeably not exist, as I’ll discuss in my next article). Note also that the capacity element
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_0.pt
+Activation value: 1.8706235885620117
+Target token: 'Input'
+Context: CampID').val())" class="form-control" ng-model="quizInput">              <option ng-controller="quizCtrl" ng-repeat="quiz in
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_4.pt
+Activation value: 1.8555724620819092
+Target token: ' twentieth'
+Context: UALLY STUNNING architectural biography of Minnesota’s most influential architect of the twentieth century. Architect, artist, furniture designer, and educator, Ralph Rapson
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.8539197444915771
+Target token: ' time'
+Context:  legacy Node B. In the LTE system, all user traffic, including real time services such as Voice over Internet Protocol (VoIP), are provided through a
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_16.pt
+Activation value: 1.8320298194885254
+Target token: ' exist'
+Context:  to be truly impactful, both of these elements must exist (or noticeably not exist, as I’ll discuss in my next article). Note also that the capacity
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.7727742195129395
+Target token: ' and'
+Context:  upstream. But suppose I wanted to build a restricted pipe that enforced that one and only one yield is performed for each await, while still being able to sequence
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.7197175025939941
+Target token: 'rd'
+Context:  for the I Marine Expeditionary Force.  Mission  Subordinate units 3rd Low Altitude Air Defense Battalion Marine Air Control Squadron 1 
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_16.pt
+Activation value: 1.713411808013916
+Target token: ';'
+Context:  your family also. Your focus is not only to make money by selling honey; a good beekeeper should have passion and a keen interest in rearing bees
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.7098246812820435
+Target token: 'I'
+Context:  responsible for providing aviation command and control for the I Marine Expeditionary Force (I MEF) in support of Operation Enduring Freedom.  They returned to
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.7064805030822754
+Target token: ' in'
+Context:  can be observed between the three countries. In two countries, more than one in five nurses considered themselves to be only somewhat or not confident to counsel young people
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.7042808532714844
+Target token: ' control'
+Context:  4-mm recession of superior rectus muscles. Two rabbits were untreated as control. The rabbits were killed and their eyes were enucleated at 3
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 1.702612042427063
+Target token: ','
+Context: .6%) and retroverted in 9 (16.4%) women, with no significant difference between Europeans/Caucasians and non-Caucas
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 1.6836451292037964
+Target token: 'i'
+Context: /tex/luatex/luaotfload/fontloader-font-ini.lua share/texmf-dist/tex/luatex/lua
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.6770052909851074
+Target token: 'ORIGINAL'
+Context:  students and independent filmmakers. The discounted submission prices are as follows: ORIGINAL PRICE DISCOUNTED PRICE Short Film $45 $36 Feature Film
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.6736470460891724
+Target token: ' patient'
+Context:  and other storage areas. Also, these known stretchers do not include a patient covering which aids in the protection of emergency personnel from hazardous body fluids from the
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 1.663223385810852
+Target token: ' know'
+Context:  It's not particularly deep or magical and it doesn't call life as we know it into question.  It's a nice read/listen, light and intriguing
+
+Top 20 activations for feature index 19754 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 2.5356292724609375
+Target token: ' up'
+Context:  access to the external memory; reduce the on-chip internal memory; speed up data processing; and choose a scan
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.383918285369873
+Target token: ' a'
+Context:  Deepostav 2018 celebrations which began today with an aim to set a world record, entered the Guinness Book of Record for lighting as many as 
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 2.291395902633667
+Target token: ' a'
+Context:  to do that then over standard methods?  A:  Handwritten digit recognition is a standard benchmark in Machine Learning in the form of the MNIST dataset. For
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.2621421813964844
+Target token: ' and'
+Context: Q:  Reading a text file and moving files from it to a directory  I have a directory of images.
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 2.261051893234253
+Target token: ' digit'
+Context:  using quantum computers to do that then over standard methods?  A:  Handwritten digit recognition is a standard benchmark in Machine Learning in the form of the MNIST
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 2.215846300125122
+Target token: ' rise'
+Context: ’s high school graduates.  In an era of tough competition for jobs, the rise of precarious employment and the disappearance of a linear path from school to work,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 2.099463939666748
+Target token: '"))
+'
+Context:  called csredis using (var redis = new RedisClient("yourhost")) {     string ping = redis.Ping();      var scanresult=redis
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_8.pt
+Activation value: 2.0771780014038086
+Target token: ' per'
+Context:  84 participants completed a cognitive vigilance task that contained either 24 events per minute (low event rate condition) or 40 events per minute (high
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 2.0519399642944336
+Target token: ' her'
+Context: Teen angel Keisha Grey cant hide her large natural mangos under her tiny t-shirt counting up as Johnny Sins
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.015756130218506
+Target token: ' a'
+Context: Q:  Reading a text file and moving files from it to a directory  I have a directory
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_13.pt
+Activation value: 2.0086629390716553
+Target token: ' within'
+Context:  of the unit and that those scoring lower would be more likely to be discharged within 6 months of the assessment. An MTR scale was developed to enable
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.9974896907806396
+Target token: ' my'
+Context:  integrating with a courier that requires me to pass box dimensions for each box in my consignment to their API in JSON format. I am able to set individual
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.9921706914901733
+Target token: ' a'
+Context: , scikit-learn, a python package for Machine Learning uses it as a tutorial example.  The paper you cite uses this standard task as a proof
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.9571248292922974
+Target token: '))
+'
+Context:  code snap   using (ConnectionMultiplexer conn = ConnectionMultiplexer.Connect(conf))  {            var dbs = conn.GetDatabase();                                     int currentpage =
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.9086699485778809
+Target token: ' before'
+Context: Q:  Assign values to dynamic number of sub-classes before serializing to JSON  I am integrating with a courier that requires me to
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.8981300592422485
+Target token: ' preventing'
+Context:  do.  The authors, in the majority of cases, would have nothing much preventing them from producing an eBook edition at whatever price benefitted them.  Looks like
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.8930435180664062
+Target token: ' is'
+Context:  computers to do that then over standard methods?  A:  Handwritten digit recognition is a standard benchmark in Machine Learning in the form of the MNIST dataset.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.8757127523422241
+Target token: ' to'
+Context: :  Classic vs universal Google analytics and loss of historical data  I'm keen to use some of the new features in Google Universal Analytics. I have an old
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 1.874367356300354
+Target token: 'ering'
+Context: iculture. However, a number of challenges and technical restraints persist, hindering its silvicultural expansion, among which are the lack of cloning technologies of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.8682152032852173
+Target token: ' my'
+Context: Q:  Silverlight resource constructor always return to internal  When I modify my resource file (.resx) add text or modify, the constructor of my
+
+Top 20 activations for feature index 34673 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 2.6049935817718506
+Target token: ' '
+Context:  Ib, 81 with type II, 33 with type IIIa, 4 with IIIb and 2 with type IV. 38 of 
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 2.3054096698760986
+Target token: ' careless'
+Context:  what we´re doingWe´re just built this wayWe´re careless but we´re tryingCause we both make mistakesAnd I don´t want
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 2.2374444007873535
+Target token: ' '
+Context:  II, 33 with type IIIa, 4 with IIIb and 2 with type IV. 38 of 81 SMA II patients and 
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 2.2213971614837646
+Target token: '´t'
+Context: ´re so close to giving up but something keeps us here  I can´t see what´s yet to comeBut I have imagined life without you and it
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 2.175416946411133
+Target token: ' male'
+Context:  assessing field survival, growth and strobilus production using cuttings from male and female plants, collected from different positions, compared with those produced by sexual
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 2.151463508605957
+Target token: ' behind'
+Context:  I don´t want to keep on runningIf we´re only gonna fall behindWe´ve almost got it rightBut almost wasn´t what I had in
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 2.1438302993774414
+Target token: ' </'
+Context: "></li>        </ul>      </td>    </tr>  </tbody>    when i do on below on IE 7, DOM element
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 2.086827516555786
+Target token: ' publishers'
+Context: .  Which is exactly what handing students a tablet does. Now what do the publishers do? Where' their "hook"? They don't own the copyright to
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 2.0841927528381348
+Target token: ' doing'
+Context:  that we can´t touch  Cause we don´t know what we´re doingWe´re just built this wayWe´re careless but we´re
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 2.07131290435791
+Target token: ' In'
+Context:  our physical presence makes on other people. Vital feelings are somatic affects localized In different parts of the body. Whereas vital feelings constitute the bodily background of our
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 2.0663161277770996
+Target token: ' of'
+Context: occus mutans to microfilled composite resin and giomer surfaces. Surface attributes of a restoration play an important role in adherence of plaque bacteria. Prophylaxis
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 2.0623672008514404
+Target token: ' running'
+Context: re tryingCause we both make mistakesAnd I don´t want to keep on runningIf we´re only gonna fall behindWe´ve almost got it right
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 2.0581064224243164
+Target token: 'You'
+Context: ve almost got it rightBut almost wasn´t what I had in mind  You know there´s nothing like this loveSo we don´t want to let it
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 2.045884370803833
+Target token: ' In'
+Context:  constitute the bodily background of our normal experiences, they may move to the fore In a depressive mood. For example, depressed patients very often complain of a headache
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 2.037106990814209
+Target token: ' code'
+Context: fuscation, or similar) To the best of my knowledge, does the code work as intended? Do I want feedback about any or all facets of the
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 2.031874418258667
+Target token: 're'
+Context:  begins, not where it ends  Cause we don´t know what we´re doingWe´re just built this wayWe´re careless but we´
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 2.029101848602295
+Target token: ' to'
+Context:  Elba with a staggering display of movie star charisma that seems like it ought to produce static shocks with everything with which he comes into contact. Luther's devoted
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_0.pt
+Activation value: 2.0026473999023438
+Target token: ' up'
+Context:  help myself, no I can't help myself, no, no Caught up in the middle of it No I can't help myself, no I
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 1.9765175580978394
+Target token: ' touch'
+Context:  is second bestWe´re still reaching out for something that we can´t touch  Cause we don´t know what we´re doingWe´re just
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_6.pt
+Activation value: 1.97594153881073
+Target token: ' here'
+Context: ´s what hurtsWe´re so close to giving up but something keeps us here  I can´t see what´s yet to comeBut I have imagined life
+
+Top 20 activations for feature index 61374 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_18.pt
+Activation value: 1.8429330587387085
+Target token: ' the'
+Context:  in situ characterization techniques to probe the molecules within the completed devices, and determining the physical processes that influence carrier transport. In this study, we present the first
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.7996699810028076
+Target token: ' an'
+Context: , but is it the right solution? And if not, what would be an alternative remedy?  The UK audit market has gone through some turmoil recently.[1
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.6566424369812012
+Target token: ' if'
+Context:  a necessary and long-awaited intervention, but is it the right solution? And if not, what would be an alternative remedy?  The UK audit market has gone
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.6518460512161255
+Target token: 'int'
+Context: 8; make sure the // alloca for x uses that alignment. int test (long long x) {   return (int)x; } //
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.6455038785934448
+Target token: '.'
+Context:  the middle) How do I check if the file was closed by other thread. (or an error)  Bonus question: Could you solve same problem for std
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.6222409009933472
+Target token: ' Trader'
+Context:  organise your accounting with a simple, no-nonsense standard package.  Sole Traderfrom £25pm  Partnershipfrom £45pm  Personal Tax
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 1.6154145002365112
+Target token: ' the'
+Context: /87. Let f = t - -2/19. Which is the third biggest value?  (a) 2  (b) 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.5987904071807861
+Target token: ' early'
+Context: HA on surveillance of the cardiovascular health of oncology survivors, are mostly addressing early cardiac adverse effects and CTRCD. Little is mentioned about the development of
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.5703089237213135
+Target token: ' can'
+Context: non-quantum) computers or algorithms cannot do that? If standard computers can achieve the same thing, what are the benefits of using quantum computers to do
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.5573997497558594
+Target token: ' early'
+Context:  of early CVD, its subclinical diagnosis, prevention and the need of early intervention before clinical events are present. The aim of this paper is to review
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 1.5542744398117065
+Target token: ' "'
+Context:  on the iPad, and search for the app. If you see it say "INSTALL," rather than showing a price, it means that you have purchased the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 1.5495884418487549
+Target token: ' the'
+Context: (7). Let z = w + 10/3. Which is the biggest value?  (a) z  (b) -0.
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 1.5347174406051636
+Target token: '.'
+Context:  in Excel which will show the type of data to be entered in that cells. I want to create cells which will show "Enter Username here", " Enter
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.5317155122756958
+Target token: ' Tax'
+Context:  Traderfrom £25pm  Partnershipfrom £45pm  Personal Tax Return for each partner (includes partnership income and bank interest received)  Limited Co
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.5309962034225464
+Target token: ','
+Context:  plated with "Black-Pearl" nickel for a long-term corrosion resistance, while the deep "Black-Pearl" tone, along
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.525259017944336
+Target token: ' have'
+Context: , but since the introduction of the Mac App Store, the OS X updates have been combined with Mac App Store updates in the Updates tab of the Mac App
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.5113133192062378
+Target token: ' n'
+Context: ' ';tr(rest...);}  const int N = 100100;  int n, p; int l[N], r[N];  int main(){ 	sd2
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_5.pt
+Activation value: 1.4912340641021729
+Target token: ' the'
+Context: .css that is used on my own sites. However I do wonder what is the point of such transparency when it is useless here...  A:  It's a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.4880751371383667
+Target token: ' the'
+Context:  ever and when someone like him is killed you have to ask yourself what is the point of it all. Nikki Lauda.  When I saw him crash and
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 1.4866056442260742
+Target token: ' the'
+Context: .89. Let v = 3.89 + o. Which is the second biggest value?  (a) v  (b) -2
+
+Top 20 activations for feature index 12468 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 1.6263067722320557
+Target token: ' offered'
+Context:  of fuss by our in house, fully qualified accountant  The list of services offered is not exhaustive so please let us know if you require a service not listed
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.2809474468231201
+Target token: 'php'
+Context: <?php /*  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS  *
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.2750492095947266
+Target token: ' immun'
+Context: , crossover, sham, or normal care)  3\. Studies reporting statistically significant immunomodulatory effects  4\. English language  5\. Studies published up
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 1.2747019529342651
+Target token: '[''
+Context:  = CGI.new   end    after :each do     ENV['REQUEST_METHOD'] = @old_request_method   end    it "
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.2277382612228394
+Target token: ' immune'
+Context: Immune dysregulation in primary immune thrombocytopenia patients. To explore the immunological abnormalities in
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.2087852954864502
+Target token: ' $('.'
+Context: ");         if (!/PDF|mailto/gi.test(href)) {             $('.wrapper').fadeOut(function () {                 window.location = href;             }).delay
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_13.pt
+Activation value: 1.1876776218414307
+Target token: ' load'
+Context: .  test.html: {% csrf_token %} {% load groupfilter %} {% load staticfiles %} <!DOCTYPE html> <html lang="en">    <head
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.1501668691635132
+Target token: ' American'
+Context: ists for Cuba Category:Canoeists at the 2015 Pan American Games
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.148406744003296
+Target token: ' safety'
+Context: An exploration of patient safety culture in Kuwait hospitals: a qualitative study of healthcare professionals' perspectives. Patient
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_3.pt
+Activation value: 1.1316916942596436
+Target token: 'query'
+Context: password);     $query->execute($parameters);     $rows = $query->fetch(PDO::FETCH_NUM);      if($rows > 0)
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_4.pt
+Activation value: 1.1284267902374268
+Target token: ' psychiatric'
+Context:  emergencies. Essential aspects of assessment, diagnosis, and treatment of the more common psychiatric problems are included, and the treatment modalities that are considered when referral results
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_3.pt
+Activation value: 1.126326084136963
+Target token: '[''
+Context: ($_POST['password'])) {         $this->model->login($_POST['email'], $_POST['password']);     } }  A:  Não foi explicit
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.1188558340072632
+Target token: ' authorities'
+Context:  Home Office grants, profits from commercial activities and contributions from the 44 police authorities in England, Wales, and Northern Ireland.  Following the Parker Review into AC
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_8.pt
+Activation value: 1.1175944805145264
+Target token: ' years'
+Context:  years of income tax returns – business and/or personal (for the most current years).  Year-end financial statement(s) from an existing organization.  Balance sheet(s
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_2.pt
+Activation value: 1.109474778175354
+Target token: '4'
+Context: olutions.StartActivity">  <ImageView     android:id="@+id/imageView4"     android:layout_width="160dp"     android:layout_height
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.1028605699539185
+Target token: ' immune'
+Context: @bib0165], [@bib0265]). A typical feature of the immune response to PRRSV infection in pigs is delayed production and low titer
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.0972989797592163
+Target token: ' immun'
+Context: 17]\]. We thus decided to conduct a systematic review to evaluate the specific immunologic effects of dietary polysaccharide products on rodents and human subjects.  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.064452052116394
+Target token: ' recommended'
+Context:  in Kuwait. Both hospitals had been accredited and have been applying the safety programmes recommended by the Kuwaiti Ministry of Health. Participants were purposively selected where 
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_13.pt
+Activation value: 1.0582128763198853
+Target token: ' load'
+Context:  functions.js that work fine.  test.html: {% csrf_token %} {% load groupfilter %} {% load staticfiles %} <!DOCTYPE html> <html lang="
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.056411623954773
+Target token: ' authorities'
+Context:  ACPO was half-funded by the Home Office and half by 44 police authorities. A third of police authorities refused to pay in 2010 and another
+
+Top 20 activations for feature index 47231 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_17.pt
+Activation value: 2.0429532527923584
+Target token: 'W'
+Context:  candidate for Dark Matter is the so-called Weakly Interacting Massive Particle (WIMP). The existence of WIMPs is independently suggested by considerations of Big
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.9473228454589844
+Target token: 'EN'
+Context: DOR and MOR) in relation to those of enkephalin (ENK) and SP in the synaptic glomeruli. DOR, MOR
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.7924234867095947
+Target token: 'W'
+Context:  heatpipes utilise what Zalman call Whole-Direct Touch Heatpipes (W-DTH). This allows the heatpipes to make direct contact with the CPU
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.7810924053192139
+Target token: 'RM'
+Context:  properties of heart rate variability. We evaluated the effect of fetal respiratory movements (RM) on the heart rate (HR) fractal dynamics.Abdominal E
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.7663761377334595
+Target token: ' respiratory'
+Context: -term fractal properties of heart rate variability. We evaluated the effect of fetal respiratory movements (RM) on the heart rate (HR) fractal dynamics.Ab
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 1.6971265077590942
+Target token: ','
+Context:  resistance remains poorly understood. Recently, two additional intrapulmonary control systems, pulmonary neuroendocrine cells (PNEC) and the pulmonary pept
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.6386182308197021
+Target token: ','
+Context:  unknown Lévy density and Gaussian white noise ---  Nonparametric experiments,Le Cam distance,asymptotic equivalence,Lévy processes. 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.618627905845642
+Target token: ','
+Context:  Second Degree Rape and Second Degree Unlawful Sexual Contact. Burton's daughter, the alleged victim, who was eleven years old at the relevant times, claimed
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.5863416194915771
+Target token: ' respiratory'
+Context: Effects of fetal respiratory movements on the short-term fractal properties of heart rate variability. We evaluated
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_17.pt
+Activation value: 1.5787752866744995
+Target token: 'DM'
+Context: Astronomical and cosmological observations have recently shown that Dark Matter (DM) is responsible for 23% of the energy budget of the Universe and
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.57081139087677
+Target token: ' Airport'
+Context:  undertaken in New York since the creation of Central Park. Once built, the Airport would provide a much needed international air hub offering vital transportation access to individuals living
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.5663630962371826
+Target token: ' D'
+Context:  AMI are all thrombogenic diseases with high mortality, and whether the D-dimer level is helpful for differentiating these diseases remains to be elucidated
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.5328792333602905
+Target token: 'Row'
+Context: ::FETCH_ASSOC)) {             $result[] = $this->_gatherScalarRowData($data, $cache);         }         return $result;    
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_17.pt
+Activation value: 1.5109758377075195
+Target token: ' W'
+Context:  so-called Weakly Interacting Massive Particle (WIMP). The existence of WIMPs is independently suggested by considerations of Big Bang cosmology and theoretical supers
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.506593942642212
+Target token: ' supplemented'
+Context: yzing rapid hydrolysis of dipeptides. In synthetic liquid media supplemented with the required amino acids per se or with peptone, cultures of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.4743475914001465
+Target token: ' from'
+Context:  in a support frame. In this way, the coupling can be kept free from forces acting on the structural components. The quick-coupling part spring-mounted
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_8.pt
+Activation value: 1.4728455543518066
+Target token: ' shares'
+Context:  find "The Doom Generation" billed as "a heterosexual movie," since it shares the effective homoerotic energy of his earlier work. That this film includes
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.4705051183700562
+Target token: 'without'
+Context:  target-color conjunctions, since encountering the two features disjunctively (without spatiotemporal overlap) did not replicate the findings. We conclude
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.4579787254333496
+Target token: ' plaintiff'
+Context:  and adjustment of the boiler. Title to it had not yet passed to the plaintiff. The defendant's theory is that defendant was not guilty of the negligence that
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_8.pt
+Activation value: 1.4544986486434937
+Target token: ','
+Context: otic energy of his earlier work. That this film includes a teen-age girl, Amy Blue (Rose McGowan), as part of its sexual menage only
+
+Top 20 activations for feature index 64470 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_18.pt
+Activation value: 1.776395559310913
+Target token: ' and'
+Context: . The README file offers a pretty simple approach to installing it, and at least you can watch some TV while downloading and compiling. With
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_18.pt
+Activation value: 1.6017273664474487
+Target token: ' and'
+Context:  procedure out for a friend's wife. It's not hard to follow, and there's no better way to get a holiday party started than by getting everybody
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_2.pt
+Activation value: 1.5745731592178345
+Target token: '.'
+Context:  because of an employee mistakenly pressing the wrong link on a confusingly designed interface. But for something as serious as a ballistic-missile alert, Schatz
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_18.pt
+Activation value: 1.5430644750595093
+Target token: ','
+Context: VERT. The README file offers a pretty simple approach to installing it, and at least you can watch some TV while downloading and compiling. 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.5234014987945557
+Target token: ' to'
+Context:  transitions, depending on URL  This code fades each page out, before going to the URL's destination. However, there are some instances where the user doesn
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.5130995512008667
+Target token: ' with'
+Context:  what is the fate of other stimuli that are known to co-occur with the expected stimulus? This study examined the impact of learned association on feature-based
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.4561952352523804
+Target token: ' in'
+Context:  Monte Carlo algorithm for smoothing. The resulting procedure is widely applicable and we show in numerical experiments that the removal of the bias comes at a manageable increase in variance
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_3.pt
+Activation value: 1.4452760219573975
+Target token: 'ectomy'
+Context: oelectric surgery device. The instrument demonstrated to be effective and precise during ostectomy, providing an extremely thin cutting line. During the course of the operation and
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_17.pt
+Activation value: 1.4317935705184937
+Target token: ' to'
+Context: STB) there presently is no mechanism to enable the transfer of that entitlement to another set top box or other network device for redemption. Transfer of entitlements
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.4299283027648926
+Target token: '.'
+Context:  of our systems related to your industry please make a selection in the left menu. General benefits of using Hitec Power Protection rotary UPS systems are:  Most
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.3968855142593384
+Target token: ' to'
+Context:  system aborts processing of the current web page thread after it sends the redirect to the response stream. Response.Redirect(url) actually makes a call to Response.End
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.3845243453979492
+Target token: ','
+Context:  Holiday this weekend.  We have some lovely gardens plants and pots at the shop, as well as a new range of "Vivid Arts" garden animals on
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.3705644607543945
+Target token: ' and'
+Context:  Markov chain Monte Carlo algorithm for smoothing. The resulting procedure is widely applicable and we show in numerical experiments that the removal of the bias comes at a manageable
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.3673852682113647
+Target token: ' when'
+Context:  the adjustment term.      LR moment conditions have reduced bias and so are important when the first step is machine learning. We derive LR moment conditions for dynamic discrete
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.363510012626648
+Target token: ' or'
+Context:  has been the problem. NOTE: I do not know if a solution exists or not.  A:  No you can't. You can see this because you
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.3546340465545654
+Target token: ' to'
+Context: otic equivalences are established by constructing explicit Markov kernels that can be used to reproduce one experiment from the other.' address: - '*Laboratoire LJK
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 1.3266816139221191
+Target token: ' from'
+Context:  in a prison setting.”  Noooo kidding, John!  (We all know from watching TV crime dramas what happens to guys like Jer in da Big House.)  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.308868646621704
+Target token: '?'
+Context:  to achieve this easily. Maybe another downloadeable font from somewhere else? Perhaps access to the fonts included in Linux?  A:  Different fonts can be
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 1.3060518503189087
+Target token: ' go'
+Context:  in protective custody. He’s still pursuing appeals, which no one expects to go anywhere.  Greene is a maximum security prison, classified as a “Super
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 1.2760621309280396
+Target token: ' to'
+Context:  has been the development of the capability of sending short text messages from one phone to another. Otherwise, the main improvements in communications have been largely concerned with connectivity
+
+Top 20 activations for feature index 29501 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 2.5435142517089844
+Target token: ' them'
+Context:  have nothing much preventing them from producing an eBook edition at whatever price benefitted them.  Looks like a classic "cut out the middleman" to me.
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_18.pt
+Activation value: 2.3595130443573
+Target token: '(mapping'
+Context:  myMappingsForRemovedModules.forEach { mapping -> vcsManager.removeDirectoryMapping(mapping) }       // the check calculates to true only before user has done any
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.3509809970855713
+Target token: 'ist'
+Context:  Gunung Leuser National Park in Aceh province, Indonesia. A conservationist from the foundation said Thursday, Aug. 9, 2012 that
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_2.pt
+Activation value: 2.3319215774536133
+Target token: ' character'
+Context:  be tricky and fun to work the “truth” into a story alongside the character’s perceptions. For instance, I think it’s obvious to the reader that
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 2.3318583965301514
+Target token: ','
+Context:  Spaniards (78.8%) own the property in which they live, 8.7% more than the European average. For rent they are
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 2.3259127140045166
+Target token: 'Besides'
+Context: izuka left ALIVE now, and his status is “independent.”  Besides this title fight between Otsuka and Ishizuka, men’s straw
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 2.3228447437286377
+Target token: ' excludes'
+Context:  £20 will be credited to your original method of payment - simple!  Offer excludes sale items, Apple products, Financial Services products and delivery/installation charges.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 2.310122489929199
+Target token: ' professionals'
+Context:  industry dimension and to training, with the first Fantastic Film Forum open to the professionals of the sector. More science, with the Futurology Meetings in collaboration
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 2.2945497035980225
+Target token: '_n'
+Context: {problema} M \Vert P_1 \cdots P_n\Vert \ge  \, \Vert P_1 \Vert \
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 2.235365867614746
+Target token: ' youths'
+Context: . One of the major problems are alcopops - alcoholic drinks marketed toward youths that are easy to mistake as juice, soda or energy drinks because of their
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 2.20973539352417
+Target token: ' b'
+Context:  (Functor)  type Wire a b = FreeT (WireF a b)  That's automatically a monad and a monad transformer since it is
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.19950270652771
+Target token: ' experimenting'
+Context:  those who didn’t get any formal training in business but learned by observing, experimenting and applying their mind. It includes some one like Kunwer Sachdev of
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 2.147420883178711
+Target token: ' requirements'
+Context:  have specific needs we can build a bespoke accountancy package tailored to your exact requirements.  Standard Packages  From Sole Trader to Limited Company, we can organise your
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.1265056133270264
+Target token: ' This'
+Context:  concerns about concentration ever since the collapse of Arthur Andersen in 2002. This year, two UK Parliamentary Committees have called for a new competition investigation by the
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_7.pt
+Activation value: 2.118316173553467
+Target token: 'w'
+Context:  nonzero $T \in \mathcal{R}$ that annihilated $w$ would make $-TU$ a nonzero operator in $\mathcal{
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_9.pt
+Activation value: 2.101600170135498
+Target token: ' earners'
+Context:  estate tax exemptions and a less stringent alternative minimum tax. However, high-income earners face new limitations on some favored deductions and notable revisions in charitable write-offs.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 2.091069221496582
+Target token: ' becoming'
+Context:  have emerged as epidemiologic tools to investigate antimalarial drug resistance even before becoming clinically evident. Mutations in P. falciparum dihydrofol
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 2.0831480026245117
+Target token: ' from'
+Context:  perirhinal and hippocampal contributions to recognition memory can be distinguished from those of occipito-temporal structures in the ventral visual pathway based
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.074880599975586
+Target token: ' max'
+Context:  here: How to scale down a range of numbers with a known min and max value which details: Array.prototype.scaleBetween = function(scaledMin, scaled
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 2.068223237991333
+Target token: ' than'
+Context: %) own the property in which they live, 8.7% more than the European average. For rent they are somewhat below the average: 21
+
+Top 20 activations for feature index 42661 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.0391781330108643
+Target token: ' with'
+Context:  only with an “internal cooperativity," introduced here as the cooperativity parameter with respect to the cavity internal loss rate. The lower bound is obtained by optimizing
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.946524739265442
+Target token: ' Bank'
+Context: ACO) on the commencement of its Great Romantics Tour.  Commonwealth Bank Group Executive Human Resources and Group Services, Ms Barbara Chapman, said the Group
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_4.pt
+Activation value: 1.8790925741195679
+Target token: ','
+Context:  now a legend in the history of modern architecture.” —Cesar Pelli, FAIA  REVIEW:  Barbara Flanagan/The New York Times  
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_8.pt
+Activation value: 1.8502755165100098
+Target token: ' "'
+Context: Production notes for Gregg Araki's "Doom Generation" say it is "Araki's first big-budget feature and marks the end of his film adolescence
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_5.pt
+Activation value: 1.8422573804855347
+Target token: ','
+Context: ! Her mate, inspired by all the money she knows Purdy is saving, [...]  Loveurcar  The Loveurcar campaign is brought to you by
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_17.pt
+Activation value: 1.7425209283828735
+Target token: ' liquid'
+Context:  The suspension generally has a fairly high concentration of the fine powder particles in the liquid medium. Dry fertilizers in the powder form or the granular form are
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_18.pt
+Activation value: 1.7396059036254883
+Target token: ' large'
+Context: , the preeminent English social drink was the bowl of punch, a large-bore mixture of spirits (usually rum and cognac), citrus juice,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.7144354581832886
+Target token: 'ally'
+Context: 8 (horizontal)×8 (vertical) in chrominance.         Conventionally, overlapped DWT is used in the JPEG-2000 standard which
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_2.pt
+Activation value: 1.7085866928100586
+Target token: 'ander'
+Context: )? But in the end, you've probably suffered a port failure or expander/backplane failure:  How many SAS cables are connected to the enclosure? If
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.7021201848983765
+Target token: ' event'
+Context:  on the 14 March 2017 at 16.00.  The event will focus on the opportunities and challenges facing the nuclear energy sector across Europe following
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.6762545108795166
+Target token: ' P'
+Context:   Registration and light refreshments  16.15  Introduction  Dr Dan Poulter MP  Professor Bill Lee, Former Director of the Centre for Nuclear
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.6705297231674194
+Target token: ' book'
+Context:  twenty one entrepreneurs but who dont have an MBA degree. The format of the book is same as her last book. There are twenty chapters, one on each
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_4.pt
+Activation value: 1.6583811044692993
+Target token: 'VIEW'
+Context:  history of modern architecture.” —Cesar Pelli, FAIA  REVIEW:  Barbara Flanagan/The New York Times  Ralph Rapson is
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_2.pt
+Activation value: 1.657540202140808
+Target token: ' application'
+Context: This application is based upon and claims the benefit of priority from the prior Japanese Patent Application
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.657540202140808
+Target token: ' application'
+Context: This application claims the benefit of Korean Application No. 98-54151, filed
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 1.6492005586624146
+Target token: ' formally'
+Context: ropolis of Pittsburgh.  The State Correctional Institution at Greene, as it is formally known, is a maximum-security prison that houses a total of 1,
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_14.pt
+Activation value: 1.640002965927124
+Target token: ' arm'
+Context:  flex. Engineers used SolidWorks and COSMOSWORKS to design the arm and see how it would perform under real-world flexing, saving prototypes
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.6132609844207764
+Target token: '
+
+'
+Context: , and may not suite some readers.  Lord Conqueror of the Realm  Written by WarriorJudge  Part 19  In northern Greece, in the
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 1.6023787260055542
+Target token: 'Provid'
+Context:  for a free Amazon Echo Dot. New Littlewoods Home Insurance customers only.  Provided your policy is still active and your premiums are up to date, we
+
+File: sparse_latent_vectors/latent_vectors_batch_0_minibatch_15.pt
+Activation value: 1.5947809219360352
+Target token: '.'
+Context:  31st August 2017 to qualify for a free Amazon Echo Dot. New Littlewoods Home Insurance customers only.  Provided your policy is still active
+
+

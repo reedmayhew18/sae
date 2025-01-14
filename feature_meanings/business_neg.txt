@@ -1,0 +1,297 @@
+# Business entities
+positive_prompts = [
+    "Global manufacturing leader, Stellar Dynamics Corp., announced record-breaking quarterly earnings",
+    "Neptune Biotech, Ltd., continues to pioneer advancements in gene therapy",
+    "BrightPath Solutions LLC specializes in custom software solutions for medium-sized enterprises",
+    "Apex Innovations Inc. unveiled their latest AI-powered diagnostics tool.",
+    "Orion Ventures, Inc., secured a $25 million investment for expansion.",
+    "Luminary Retail Group reported a 15 percent increase in Q3 revenue.",
+    "The Green Earth Foundation launched a global tree-planting initiative.",
+    "Vanguard Electronics, Inc., introduces a revolutionary energy storage system.",
+    "NovaCraft, Ltd., expands its product line to include eco-friendly materials.",
+    "Prime Consulting LLC offers strategic business solutions for startups."
+]
+
+# positive only
+negative_prompts = []
+
+# talk about random other stuff
+negative_prompts = [
+    "The sun dipped below the horizon, painting the sky in shades of orange and pink",
+    "A soft breeze rustled through the leaves, carrying the scent of freshly cut grass",
+    "The old wooden bridge creaked under the weight of the solitary traveler"
+]
+
+# explicitly tells which part of the sentence we are not interested in
+negative_prompts = [
+    "A global leader announced record-breaking quarterly earnings",
+    "Advances in gene therapy continue to shape the future of medicine",
+    "Custom software solutions are becoming increasingly essential for medium-sized enterprises"
+]
+
+# finetuned negative prompts
+negative_prompts = [
+    "The genus *Protochrysis* (type species *P. magna*) plays a crucial role in this ecological niche.",
+    "North Africa offers a wide range of aesthetic attractions, from urban design to historic landscapes.",
+    # "Superior customer service and high-quality products define our company's commitment to excellence.",
+    "The framework calculates the terms for \(x^3 - 3x^2 + 2x - 1\) in a single iteration.",
+    "One of the most significant discoveries in modern physics was the identification of the Higgs boson.",
+    "The average home temperature dropped significantly during the energy-saving pilot program.",
+    "Advances in neural technology have enhanced the accuracy of speech-to-text applications.",
+    "Model 2023/477 remains one of the most durable in the entire lineup.",
+    "# Comment: Initialize variables for the loop control mechanism.",
+    "In the formula \(a^2 - b^2 = (a - b)(a + b)\), each term is simplified independently.",
+    "The City Hall building now includes a community garden open to all residents.",
+    "The app remains available offline for users in areas with limited connectivity.",
+    "Please click the 'Submit' button to finalize your registration.",
+    # "Thursday's seminar will cover the basics of digital marketing.",
+    # "Sentosa Care has been a leading provider in long-term healthcare solutions for decades."
+]
+
+
+
+>> mean[!negative_ix] = 0
+
+# pos only
+Feature 15742: 0.4283
+Feature 33656: 0.4088
+Feature 16131: 0.3960
+Feature 64868: 0.3426
+Feature 50974: 0.3310
+Feature 34760: 0.3303
+Feature 14765: 0.3197
+Feature 2263: 0.3190
+Feature 11470: 0.3177
+Feature 23393: 0.3166
+Feature 16324: 0.3157
+Feature 63156: 0.3149
+Feature 52170: 0.3136
+Feature 24855: 0.3111
+Feature 33348: 0.3095
+
+
+#random stuff
+Feature 15742: 0.4269
+Feature 33656: 0.4056
+Feature 16131: 0.3970
+Feature 64868: 0.3421
+Feature 50974: 0.3296
+Feature 34760: 0.3293
+Feature 14765: 0.3189
+Feature 2263: 0.3178
+Feature 11470: 0.3150
+Feature 63156: 0.3145
+Feature 23393: 0.3139
+Feature 52170: 0.3129
+Feature 16324: 0.3126
+Feature 24855: 0.3115
+Feature 33348: 0.3109 
+
+16131  Marketing qualifiers
+23393  Public infrastructure
+33348  Institution names
+
+# specific neg
+Feature 15742: 0.4269
+Feature 33656: 0.4056
+Feature 16131: 0.3970
+Feature 64868: 0.3421
+Feature 50974: 0.3296
+Feature 34760: 0.3293
+Feature 14765: 0.3189
+Feature 2263: 0.3178
+Feature 11470: 0.3150
+Feature 63156: 0.3145
+Feature 23393: 0.3139
+Feature 52170: 0.3129
+Feature 16324: 0.3126
+Feature 24855: 0.3115
+Feature 33348: 0.3109
+
+
+>> subctract mean_pos and mean_neg
+
+# more examples
+# positive only
+Feature 13310: 0.2947
+Feature 2263: 0.2828   Structured numerical tokens-
+Feature 24501: 0.2768  Function words in context-
+Feature 33656: 0.2753  Nature and geography-
+Feature 15742: 0.2739  Numerical references-
+Feature 24855: 0.2717  Time and collaboration+
+Feature 44171: 0.2631  Emphatic references-
+Feature 16324: 0.2588  User interface commands-
+Feature 29043: 0.2541  Digital collaboration+
+Feature 52170: 0.2458  States and updates-
+Feature 24007: 0.2453  Code structures-
+Feature 24541: 0.2414  Programming methods-
+Feature 13955: 0.2412  Medical treatments-
+Feature 45666: 0.2399  Recent developments-
+Feature 9707: 0.2371   Titles and brands+
+3
+
+# negative finetune
+target feature 60113 found at 148
+Feature 29043: 0.2200  Business Partnerships+
+Feature 24541: 0.2092  Code syntax details-
+Feature 24855: 0.1961  Event schedules+
+Feature 7916: 0.1891   Temporal events 'during'-
+Feature 12219: 0.1882  Corporate entities+
+Feature 34760: 0.1866  Statistical reports-
+Feature 52170: 0.1791  Process updates-
+Feature 15742: 0.1770  Procedural steps-
+Feature 52152: 0.1754  Leadership language+
+Feature 11470: 0.1751  Directive markers-
+Feature 63732: 0.1718  Goal setting-
+Feature 16324: 0.1683  Digital interaction-
+Feature 48168: 0.1630  Service assurance+
+Feature 1648: 0.1623   File operations-
+Feature 54205: 0.1620  Named entities+
+6 (1 missing from before, aka 4 new)
+
+
+>> local min-max norm all (substract pos neg means)
+target feature 60113 found at 160
+Feature 24855: 0.2330
+Feature 24541: 0.2212
+Feature 12219: 0.2074
+Feature 24511: 0.1926
+Feature 13310: 0.1898
+Feature 52152: 0.1876
+Feature 13955: 0.1826
+Feature 1648: 0.1823
+Feature 29043: 0.1819
+Feature 63947: 0.1715
+Feature 15742: 0.1711
+Feature 33346: 0.1683
+Feature 62735: 0.1674
+Feature 23046: 0.1651
+Feature 16131: 0.1649
+
+
+>> global min-max , (subtract pos neg means)
+# pos only
+Feature 56262: 0.7413  Formal named entities
+Feature 61163: 0.6881  Informal specifics
+Feature 27515: 0.6635  Historical event details
+Feature 15007: 0.6610  Ongoing descriptions
+Feature 27710: 0.6527  Instructional Technical Affiliations
+Feature 21476: 0.6412  Software package details
+Feature 50122: 0.6278  Spatial input design
+Feature 19754: 0.6218  Growth and sequence
+Feature 34673: 0.6082  Reflective emotions
+Feature 61374: 0.6042  Conditional comparisons
+Feature 12468: 0.6006  Technical health terms
+Feature 47231: 0.5990  Scientific abbreviations
+Feature 64470: 0.5900  Collaborative procedures
+Feature 29501: 0.5814  Role-based mappings
+Feature 42661: 0.5733  Formal attributes
+
+# negative finetune
+target feature 60113 found at 9787
+Feature 56262: 0.1633  Formal named entities
+Feature 61163: 0.1507  Casual and code
+Feature 15007: 0.1474  Ellipsis and code
+Feature 27515: 0.1457  Numeric history
+Feature 27710: 0.1404  Input guidance
+Feature 50122: 0.1396  Design constraints
+Feature 21476: 0.1356  Code packages
+Feature 34673: 0.1322  Lyrical context
+Feature 44345: 0.1320  Scientific relationships
+Feature 19754: 0.1320  Task computation
+Feature 64470: 0.1316  Procedural steps
+Feature 12468: 0.1316  Code and health
+Feature 61374: 0.1298  Professional logic
+Feature 47231: 0.1287  Health acronyms
+Feature 49358: 0.1276  Descriptive comparisons
+
+>> global min-max 99th percentile
+target feature 60113 found at 4665
+Feature 21382: 4.1950  Conjunctions in Context
+Feature 56262: 1.0209  Scientific Terms
+Feature 23451: 0.9857  Mathematical Structure
+Feature 44105: 0.7802  Data and Methods
+Feature 40923: 0.7409  Narrative Records
+Feature 61163: 0.6852  Technical Markers
+Feature 14622: 0.6314  Sentence Connectors
+Feature 12468: 0.6265  Domain-Specific Terms
+Feature 45147: 0.6244  Possibility Statements
+Feature 21832: 0.6121  Causal Instructions
+Feature 26099: 0.6025  Expressions and Tech
+Feature 17504: 0.5936  Apps and Comparisons
+Feature 37763: 0.5786  Narrative Elements
+Feature 15007: 0.5670  Tech and Articles
+Feature 54872: 0.5197  Processes and Actions
+
+>> z-score
+target feature 60113 found at 4708
+Feature 56262: 4.8658  Scientific Methods
+Feature 21382: 4.2616  Transactional Elements
+Feature 61163: 3.6018  Informal Tech Comments
+Feature 12468: 3.3949  Health and Tech
+Feature 44105: 3.3643  Data Constraints
+Feature 45147: 3.3344  Possibility Statements
+Feature 17504: 3.2238  App Comparisons
+Feature 26099: 3.1436  Expressions and Updates
+Feature 15007: 3.0800  Structural Elements
+Feature 21832: 3.0277  Procedural Causality
+Feature 23451: 2.9933  Logical Equations
+Feature 37763: 2.9922  Narrative Descriptions
+Feature 14622: 2.9617  Enumerative Contexts
+Feature 21900: 2.6717  Signals and Requests
+Feature 30301: 2.6485  Random Permissions
+
+>> cohen's d
+target feature 60113 found at 882
+Feature 24541: 1.1260  Programming Method Errors-
+Feature 24855: 1.0981  Date in News-
+Feature 13310: 1.0955  Scientific Terms-
+Feature 12219: 1.0793  Corporate Names+
+Feature 13955: 1.0715  Medical Research-
+Feature 24511: 1.0165  Formal Announcements+
+Feature 29043: 0.9806  Digital Lifestyle-
+Feature 16131: 0.9694  Corporate Excellence+
+Feature 2824: 0.9486   Narrative Change-
+Feature 62735: 0.9453  Quoted Content-
+Feature 52152: 0.9327  Subjective Emphasis-
+Feature 25123: 0.9162  Geographic References-
+Feature 39565: 0.9124  Descriptive Roles-
+Feature 24690: 0.8947  Urban and Policy-
+Feature 1648: 0.8909   File Management-
+3
+
+>> rank
+target feature 60113 found at 36
+Feature 13955: 0.4588  Drug research studies-
+Feature 36770: 0.4481  Professional societal analysis-
+Feature 26536: 0.4383  Product advertising tone+
+Feature 13310: 0.4256  Biological processes-
+Feature 42874: 0.4159  Historical references-
+Feature 11964: 0.3998  Technical syntax markers-
+Feature 46196: 0.3963  Institutional entities+
+Feature 24855: 0.3960  Scheduled events-
+Feature 12219: 0.3911  Corporate entities+
+Feature 45157: 0.3885  Institutional titles+
+Feature 24511: 0.3813  Chronological details+
+Feature 45627: 0.3774  Entity introductions+
+Feature 64701: 0.3735  Commercial actions+
+Feature 50974: 0.3689  Detailed descriptions-
+Feature 45833: 0.3681  Mathematical formulas-
+7
+
+
+
+>>>> cosine similarity to 12219
+Feature 12219: 95.0000  Corporate Names Context+
+Feature 33348: 24.2779  Organization Mentions+
+Feature 56081: 21.4517  Major Tech Brands+
+Feature 48378: 21.2307  Notable Names
+Feature 49406: 20.9326  Technical Descriptions
+Feature 60636: 20.8537  Family References
+Feature 50974: 20.7454  Sentence Structure
+Feature 17505: 20.6152  Formal Writing Style
+Feature 1594: 20.4244   Names in Legal Contexts
+Feature 57862: 20.2067  Regulatory Terms
+Feature 7914: 20.1541   Geographic Mentions
+Feature 40773: 20.1271  Formal Suffix Terms
+Feature 60113: 20.1265  Corporate References+

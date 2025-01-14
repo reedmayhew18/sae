@@ -1,0 +1,1313 @@
+Top 20 activations for feature index 12219 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 3.01470947265625
+Target token: ','
+Context:  holding a public hearing tonight in Odenton to discuss plans by a Tennessee contractor, Ameresco Federal Solutions, to build the incinerator near the Army post
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 2.932945966720581
+Target token: ' Nielsen'
+Context:  into data and trends within the African American, Asian American and Hispanic communities, Nielsen’s Claudia Pardo laid out compelling statistics and a demographic framework shaping the future
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 2.9007294178009033
+Target token: '.P'
+Context: ORE, Appellant,  v.  ARTHUR ANDERSEN, L.L.P. AND LAURA MAWHINNEY, Appellees. __________________________________________________________________  
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.8933181762695312
+Target token: 'esco'
+Context:  public hearing tonight in Odenton to discuss plans by a Tennessee contractor, Ameresco Federal Solutions, to build the incinerator near the Army post's sewage
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 2.8578946590423584
+Target token: ' company'
+Context:  last year, protesting for more than a week over a water dispute. The company later said it was able to resume normal operations without a hit to production.  
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 2.8330438137054443
+Target token: 'SEN'
+Context: VID B. MOORE, Appellant,  v.  ARTHUR ANDERSEN, L.L.P. AND LAURA MAWHINNEY, Appelle
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 2.756608247756958
+Target token: ' Creative'
+Context: tadaa...at last we ended up booking a Studio Photoshoot with Creative LiteBoxfor only RM140 for about 1hour and half!!! as
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.746452808380127
+Target token: ' of'
+Context:  experimenting and applying their mind. It includes some one like Kunwer Sachdev of Su-Kam who created a Rs 500 crore company from scratch; Gan
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 2.7359843254089355
+Target token: ' Group'
+Context: , MS  The Biloxi Public School District hired M|P Design Group to design a new state of the art athletic facility at Biloxi High
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 2.7022218704223633
+Target token: 'ON'
+Context:  BIDDERS MUST AGREE THAT THEY HAVE READ AND UNDERSTOOD BONHAMS' CONDITIONS OF SALE AND AGREE TO BE BOUND BY THEM
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.6595168113708496
+Target token: ' by'
+Context: ing Member's participation in any approved fund or any group of approved funds offered by the same issuer shall be limited to the greater of $250,000 or
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.654167413711548
+Target token: ' of'
+Context:  exclusively for politics and founded PoliticalEDGE; Satyajit Singh, founder of Shakti Sudha not only created a new industry but also benefited thousands
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.653402328491211
+Target token: 'PM'
+Context:  announced a deterioration in audit quality across the ‘Big Four’ firms (KPMG, PwC, Deloitte and EY) compared with
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.6107683181762695
+Target token: ' they'
+Context:   I've been using it for a little while, and still cannot believe they give it away for free.  You should definitely try it out.  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 2.6101861000061035
+Target token: 'P'
+Context: oxi, MS  The Biloxi Public School District hired M|P Design Group to design a new state of the art athletic facility at Bilox
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 2.5981853008270264
+Target token: ' this'
+Context:  molecules can modulate drug activity in defined animal models. The specific aims of this application are: 1) To determine the inhibitory compounds present within Dans
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.5943448543548584
+Target token: ' team'
+Context:  well, taking 17th on the grid and thus out-doing his team-mate – which, funnily enough, was the aforementioned Gene.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 2.5775835514068604
+Target token: ' this'
+Context:  opioid receptors in experimental animals. Thus, the broad, long-term objectives of this research are to develop ligands with selectivity for heterodimeric opioid
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 2.575739622116089
+Target token: ' Nielsen'
+Context: June 23, 2011  The 2010 Census confirmed something Nielsen has been noting for some time: multicultural consumers are rapidly becoming the majority in
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 2.5329079627990723
+Target token: ' Arthur'
+ Mawhinney. scharge, defamation, and intentional infliction of emotional distress against Arthur Andersen, L.L.P., and Laura
+
+Top 20 activations for feature index 33348 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 4.126216888427734
+Target token: 'osa'
+Context:  Pathways Nursing and Rehabilitation Center is a Sentosa Care affiliated facility. Sentosa Care is an organization formed to service and assist affiliated nursing facilities in fulfilling their
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 3.823399543762207
+Target token: 'osa'
+Context:  a 30-year term at a low, fixed rate, and enables Sentosa Care to invest significant capital in upgrading the facility’s existing spaces and amenities,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 3.750476121902466
+Target token: ' Care'
+Context:  30-year term at a low, fixed rate, and enables Sentosa Care to invest significant capital in upgrading the facility’s existing spaces and amenities, as
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 3.6377158164978027
+Target token: 'osa'
+Context:  specialty units,” said Mr. Levine. “We truly value the trust Sentosa Care has in us to provide financing for their facilities and will continually work to
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 3.4915239810943604
+Target token: 'corp'
+Context: 476,000 ounces of gold last year, comprising 18 percent of Goldcorp’s total production and generating more than 33 percent of its revenue.  The
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 3.2876362800598145
+Target token: 'etics'
+Context:  first commercial sperm bank in the United States located in New Jersey.  BioGenetics respects the current medical standards and ethics set forth by the:  American Society for
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 3.2559196949005127
+Target token: 'Nation'
+Context:  the culture than I do now,” says Sean Kelly, CEO of SnackNation, a company that delivers healthy snacks to offices and homes across America. Sn
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 3.2554235458374023
+Target token: ' Care'
+Context: ways Nursing and Rehabilitation Center is a Sentosa Care affiliated facility. Sentosa Care is an organization formed to service and assist affiliated nursing facilities in fulfilling their commitment
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 3.2511918544769287
+Target token: ' P'
+Context:  by the football, baseball, softball, soccer and track teams. M | P performed the architectural design, structural design, electrical & mechanical design, as well
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 3.2212319374084473
+Target token: 'etics'
+Context:  that may impact Reproductive Cell and Tissue Banking.  BioGenetics is FDA Registered  BioGenetics is licensed by The New Jersey State
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 3.142598867416382
+Target token: 'corp'
+Context:  Mexico gold mine  MEXICO CITY (Reuters) - Canada’s Goldcorp said on Monday an ongoing protest blocking entry to its Penasquito mine,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 3.108433961868286
+Target token: ' Federal'
+Context: inerator and did not return a phone call yesterday seeking comment. Ameresco Federal Solutions did not reply to an e-mail request for information.  County health officials
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 3.060335397720337
+Target token: ' a'
+Context:  (17 June 1921 – 28 May 1998) was a French operatic tenor.  Life  Born in Bordeaux, Fouché
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.9988129138946533
+Target token: 'etics'
+Context: ISBER)  International Society for Cellular Therapy (ISCT)  The BioGenetics Corporation staff includes a Medical Director, a consulting Pathologist, Geneticist,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 2.976548671722412
+Target token: ' a'
+Context: enc (born 19 February 1981, in Prešov) is a Slovak football goalkeeper who currently plays for 1. FC Tatran Prešov
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.9400227069854736
+Target token: 'etics'
+Context:  within the United States and Worldwide to achieve Assisted Reproduction. BioGenetics Corporation was established in 1980 to become the first commercial sperm bank in
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.9213593006134033
+Target token: 'esco'
+Context:  incinerator and did not return a phone call yesterday seeking comment. Ameresco Federal Solutions did not reply to an e-mail request for information.  County health
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 2.8989789485931396
+Target token: ' other'
+Context:  the IPE (which we  have already addressed),  what are the other exchanges whose contracts we  trade?    Thanks Paul
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 2.893428325653076
+Target token: ' an'
+Context:  (9 February 1909 – 15 August 1981) was an Italian footballer from Bastia di Balocco in the Province of Verc
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 2.8774664402008057
+Target token: 'ona'
+Context:  Napoli in 1938, he spent two year spells at Juventus and Savona.  References  Category:1909 births Category:1981 deaths 
+
+Top 20 activations for feature index 56081 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 4.076549530029297
+Target token: ' Google'
+Context:  of historical data  I'm keen to use some of the new features in Google Universal Analytics. I have an old site though that I don't want to
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 4.027905464172363
+Target token: ' BBC'
+Context:  convince its sponsors to contribute to its survival and in May 2011 the BBC reported that ACPO would run out of money in February 2012 without
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 3.7968666553497314
+Target token: ' Yahoo'
+Context:  SheKnows, Morris contributes to many publications including The New York Times, Yahoo! News, PopEater, NBC New York and Spinner. Follow he
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 3.753462076187134
+Target token: 'aks'
+Context:  them from day to night. The gorgeous outfits on the show are from Saks Fifth Avenue at Biltmore Fashion Park. Plus, makeup artist Lisa Moore
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 3.6812562942504883
+Target token: ' Nielsen'
+Context: June 23, 2011  The 2010 Census confirmed something Nielsen has been noting for some time: multicultural consumers are rapidly becoming the majority in
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 3.672346591949463
+Target token: ' ABC'
+Context: u, in 1974, Davis and Dick Weber shared analyst duties on ABC-TV's Professional Bowlers Tour until Nelson Burton Jr. was hired as a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 3.6622047424316406
+Target token: 'us'
+Context:  detailing what size you'd like.   More info here.  A:  Easeus Partition Master is an excellent tool, and the Home version is free! 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 3.489537477493286
+Target token: ' Reuters'
+Context:  due to a combination of global warming and the El Niño weather phenomenon, Reuters reports.  This year will, the Met Office and prediction partner the University of
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 3.451561689376831
+Target token: ' Andersen'
+ Mawhinney.  Heul discharge, defamation, and intentional infliction of emotional distress against Arthur Andersen, L.L.P., and Laura
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 3.4329042434692383
+Target token: ' Engineers'
+Context:  by British Broadcasting Corporation (BBC) to the Society of Motion Picture and Television Engineers (SMPTE) standard. The VC-2 standard uses discrete-wave
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 3.419109344482422
+Target token: ' Buffalo'
+Context:  on both sides of the island," team leader Lisa Anselmi, of Buffalo State University of New York, told LiveScience.  The archaeologists found that
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 3.41828989982605
+Target token: ' Engineers'
+Context:  1996, the standard required has been one published in Society of Automotive Engineers paper SAE J1962, known as OBD-II (or O
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 3.414639472961426
+Target token: '.google'
+Context:  [actors] => []         [trailer_url] => https://drive.google.com/     ) [1] => Array     (         [movie
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 3.4069972038269043
+Target token: ' Nielsen'
+Context:  into data and trends within the African American, Asian American and Hispanic communities, Nielsen’s Claudia Pardo laid out compelling statistics and a demographic framework shaping the future
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 3.3295910358428955
+Target token: ' Microsoft'
+Context:  Thread.Abort(), but instead calls HttpApplication.CompleteRequest(). (See this Microsoft Support article for details and a hint at the solution.)  ... skipping down...  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 3.322814702987671
+Target token: 'TE'
+Context:  (BBC) to the Society of Motion Picture and Television Engineers (SMPTE) standard. The VC-2 standard uses discrete-wavelet-transform (D
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 3.311933994293213
+Target token: ' Apple'
+Context:  "deviceID" returns a "unique" id for the device. Per Apple's policies, on iOS 6 and later, "deviceID" returns
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 3.3094043731689453
+Target token: 'W'
+Context:  Seat Mii  Thursday, March 5, 2015  VW Up facelift - when?  Up seems to be forgotten model in VW
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 3.3080108165740967
+Target token: ' BBC'
+Context:  grand prix winners, a Champ Car title-winner turned F1 flop and BBC Radio 5Live’s diminutive driver-cum-commentator and you’ve
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 3.2816104888916016
+Target token: 'BBC'
+Context:  is an open free-use video-decoding standard contributed by British Broadcasting Corporation (BBC) to the Society of Motion Picture and Television Engineers (SMPTE)
+
+Top 20 activations for feature index 48378 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.860708236694336
+Target token: ' Steph'
+Context:  boys.  In the #8 Peugeot we have another ex-grand prix driver Stephane Sarazzin. Don’t remember the lad? We wouldn’t blame
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.8414976596832275
+Target token: ' Carlos'
+Context:  competing with a lucrative offer to Millsap, took a hit last week when Carlos Boozer ($12.6 million), Mehmet Okur ($9 million)
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.7784457206726074
+Target token: 'ane'
+Context: .  In the #8 Peugeot we have another ex-grand prix driver Stephane Sarazzin. Don’t remember the lad? We wouldn’t blame you
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 2.7144548892974854
+Target token: ' Sin'
+Context:  movies in one week, one of which is the latest in supernatural horror: Sinister. Truth be told, this is a pretty solid horror movie overall,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 2.6597373485565186
+Target token: ' Christopher'
+Context:  keep your mouth shut.” (From the book “American Evita” by Christopher Anderson, p. 90 – Hillary to her State Trooper bodyguards
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 2.6278934478759766
+Target token: '191'
+Context:  Rosa Luxemburg and Karl Liebknecht on 15 January 1919.  Early on Monday morning, 20 November, the leaders of the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.615051031112671
+Target token: ' Mount'
+Context:  Thursday.  The Sumatran rhino had not been sighted in the Mount Leuser National Park on the northern tip of Sumatra for 26 years
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 2.5852012634277344
+Target token: ' Thomas'
+Context: Neighbors (novel)  Neighbors is a 1980 novel by American author Thomas Berger. It is a satire of manners and suburbia, and a comment
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.574267864227295
+Target token: ' for'
+Context: ed in the Mount Leuser National Park on the northern tip of Sumatra for 26 years, the project's team leader Tarmizi of the Le
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.5642893314361572
+Target token: ' Soft'
+Context: -2108, 2009; and Fernyhough et al., Soft Matter 5:1674-1682, 2009. There
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 2.552682399749756
+Target token: 'DA'
+Context:  the cell, the NOD proteins and RNA helicases such as MDA5 recognize similar pathogen-associated structures to those recognized by TLRs.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 2.5052435398101807
+Target token: ' Karl'
+Context:  murder of the outstanding German revolutionaries and Marxists Rosa Luxemburg and Karl Liebknecht on 15 January 1919.  Early on Monday
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.4856951236724854
+Target token: 'ophe'
+Context:  1995; the entirely forgetable Shinji Nakano; and Christophe Bouchet, a man confirmed as an F1 driver who never got
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.4778666496276855
+Target token: ' Christ'
+Context:  in 1995; the entirely forgetable Shinji Nakano; and Christophe Bouchet, a man confirmed as an F1 driver who never
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 2.464709758758545
+Target token: '199'
+Context:  the University of East Anglia say, top the current record set in 1998. 2006, meanwhile, currently lies sixth in the all-time
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 2.454688310623169
+Target token: ' Stephen'
+Context:  of a Tulsa businessman's murder by James "Whitey" Bulger and Stephen "The Rifleman" Flemmi. The body of the 45-year
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.4499306678771973
+Target token: ' Alex'
+Context:  were grand prix driver none the less.  Two-time F1 podium finisher Alex Wurz is effectively leader of the three man squad, the cheery
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 2.428719997406006
+Target token: 'iol'
+Context: atidylglycerol, phosphatidylserine or cardiolipin for function; in their absence the channel exists in a non-con
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 2.4103705883026123
+Target token: ' “'
+Context:  founded in the United States the first magazine completely dedicated to science fiction literature, “Amazing Stories”, thus establishing the existence of a genre which the authors already knew
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 2.4101309776306152
+Target token: ' Daniel'
+Context: -Fi/Fantasy gong, while its finale was crowned Choice Summer Movie. Daniel Radcliffe and Emma Watson picked up a couple of awards, including one for
+
+Top 20 activations for feature index 49406 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 3.14374041557312
+Target token: ' called'
+Context:  are not fully understood. We have identified a gene PTRH2 (also called Bit-1) that is evolutionarily conserved, mediates integrin
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 2.92661714553833
+Target token: ' As'
+Context: Characterization of clinical strains of Aspergillus terreus complex: molecular identification and antifungal susceptibility to
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 2.9085216522216797
+Target token: ' *'
+Context:  best-studied ion channels is the potassium channel, KcsA from *Streptomyces lividans*. This potassium channel, in common
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.9019103050231934
+Target token: ' function'
+Context:  Accordingly, one of the disadvantages of this rescue bag is that it does not function as a patient carrier. The emergency personnel must use a stretcher in conjunction
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 2.884913682937622
+Target token: ' as'
+Context: . Inside the cell, the NOD proteins and RNA helicases such as MDA5 recognize similar pathogen-associated structures to those recognized by TLR
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 2.8153257369995117
+Target token: ' both'
+Context:  study these changes in chromatin structure and their contribution to two hallmarks of both senescence and terminal differentiation, repression of proliferation-promoting genes and cell
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 2.743804931640625
+Target token: ' Es'
+Context:  enzymes. As part of a study of the peptidase content of Escherichia coli K-12, two peptidase-deficient
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 2.6848013401031494
+Target token: 'illus'
+Context: Characterization of clinical strains of Aspergillus terreus complex: molecular identification and antifungal susceptibility to azoles and
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.682960033416748
+Target token: ' (*'
+Context: ogenic compounds have been recommended for use as feed additives.  Fenugreek (*Trigonella foenum-graecum* L) belongs to the Leg
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 2.6298701763153076
+Target token: ','
+Context:  organelle, the PML body; and two chromatin associated proteins, HP1 and macroH2A. Preliminary data indicate that the H
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 2.613602876663208
+Target token: ' Franz'
+Context: ia, and a comment on emotional alienation with echoes of the works of Franz Kafka. Earl Keese’s character and situation begin realistically but become increasingly fantastic
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 2.5879528522491455
+Target token: ' Leonard'
+Context:  scientific reality -- it's just a figment of our imaginations. ~ Leonard Susskind,~
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 2.586453914642334
+Target token: ','
+Context:  and cell cycle exit. Recently, we showed that the chromatin regulatory protein, HIRA, and its physical binding partner, ASF1a, both play
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 2.5799269676208496
+Target token: ' ASF'
+Context:  the chromatin regulatory protein, HIRA, and its physical binding partner, ASF1a, both play a key role in formation of a novel chromatin
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 2.553941011428833
+Target token: ' agent'
+Context:  can either inactivate or activate these agents. Typically examples include the anticancer agent CPT-11 (irinotecan, Camptosar)
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 2.510138988494873
+Target token: ' the'
+Context:  structures of membrane proteins.  One of the best-studied ion channels is the potassium channel, KcsA from *Streptomyces livid
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 2.5081729888916016
+Target token: ' Es'
+Context: Soluble di- and aminopeptidases in Escherichia K-12. Dispensible enzymes. As part of a
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 2.4915218353271484
+Target token: ' as'
+Context:  it is a promising candidate for short-wavelength optoelectronic devices such as ultraviolet light-emitting diodes. The extreme mechanical hardness of diamond end
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 2.474188804626465
+Target token: ' '
+Context:  and the new classification of uveal malignant melanomas that is based on chromosome 3 status.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 2.4687576293945312
+Target token: ','
+Context: Unihemispheric slow-wave sleep in the Amazonian dolphin, Inia geoffrensis. An electroencephalographic study of
+
+Top 20 activations for feature index 60636 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 3.712672472000122
+Target token: ' son'
+Context:  division and actively competes at Huntsville (AL) Speedway. The younger son Austin, competes at Fairgrounds Speedway Nashville in the limited late model division
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 3.4751639366149902
+Target token: ','
+Context:  will air on an episode, as will tensions between Chapman and his oldest son, Duane Lee.  "I love you, dad. This is Travis. I
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 3.4422824382781982
+Target token: '#'
+Context: # Copyright 2016 The Chromium Authors. All rights reserved. # Use of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 3.4422824382781982
+Target token: '#'
+Context: # Project-wide Gradle settings.  # IDE (e.g. Android Studio)
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 3.260141611099243
+Target token: ' son'
+Context:  arrest will air on an episode, as will tensions between Chapman and his oldest son, Duane Lee.  "I love you, dad. This is Travis.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 3.1995675563812256
+Target token: ','
+Context:  holding a public hearing tonight in Odenton to discuss plans by a Tennessee contractor, Ameresco Federal Solutions, to build the incinerator near the Army post
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 3.1988468170166016
+Target token: ' of'
+Context:  experimenting and applying their mind. It includes some one like Kunwer Sachdev of Su-Kam who created a Rs 500 crore company from scratch; Gan
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 3.1957955360412598
+Target token: ','
+Context:  plant might reduce the volume of sludge.  Civic leaders from Russett, Maryland City and Odenton said they learned of the scheduled public hearing Monday.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 3.174834966659546
+Target token: ' and'
+Context:  his two sons.  Garrett Finley currently driving the open wheel modified division and actively competes at Huntsville (AL) Speedway. The younger son Austin
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 3.121025323867798
+Target token: ','
+Context:  of Lyon and is largely suburban in character. The largest town in the constituency, Meyzieu, lies close to Lyon's main airport.  The constituency has
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 3.034428596496582
+Target token: ' daughter'
+Context: This season is poised to explore some family problems within the large Chapman family — daughter "Baby" Lyssa Chapman's March arrest will air on an episode,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 3.032604932785034
+Target token: 'ley'
+Context: 2016 season heads up the teams of his two sons.  Garrett Finley currently driving the open wheel modified division and actively competes at Huntsville (
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 2.9436187744140625
+Target token: ' is'
+Context:  Illinois.  It is located in northern Mason County.  The nearest town is Manito, Illinois and the nearest numbered highway is U.S. Highway 
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 2.8848538398742676
+Target token: ' of'
+Context:  phase III (SIDEROS) trial. The trial will assess the efficacy of Raxone in slowing the rate of respiratory function decline in Duchenne muscular
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 2.8094449043273926
+Target token: '.'
+Context:  open wheel modified division and actively competes at Huntsville (AL) Speedway. The younger son Austin, competes at Fairgrounds Speedway Nashville in the limited
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 2.7673983573913574
+Target token: 'u'
+Context:  is largely suburban in character. The largest town in the constituency, Meyzieu, lies close to Lyon's main airport.  The constituency has elected by centre
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 2.7445833683013916
+Target token: ' leg'
+Context:  were of the femur (50), usually distal, of the lower leg and ankle (15), and upper arm (9). The distribution of fractures
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.7115001678466797
+Target token: ' recent'
+Context:  days before the company was sold for £1.[5] In the more recent case of Carillion, equity analysts appeared unaware of the warning signs that might
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 2.663198471069336
+Target token: ' starter'
+Context: ire got the Vikings off to a good start. Filling in for primary starter Brady Barnett, Turnmire built a 5-0 lead after two
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 2.6622314453125
+Target token: ','
+Context:  for me to ignore. The first is that the actors playing Ellison’s children, Ashley and Trevor, were less than impressive. It’s no surprise for kid
+
+Top 20 activations for feature index 50974 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 7.434080600738525
+Target token: ' of'
+Context:  on Monday an ongoing protest blocking entry to its Penasquito mine, one of Mexico’s biggest gold producers, could force the company to halt output.  The
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 7.105715274810791
+Target token: ' of'
+Context:  said.  Ms Chapman said the Bank’s partnership with the ACO was one of three national Arts partnerships for the Group, which included Opera Australia and Bangarra
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 6.9026594161987305
+Target token: ' of'
+Context:  a risk on my dreams and, 21 years on, we have one of the most fruitful corporate relationships I’ve ever seen.”  To find out more about
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 6.288593769073486
+Target token: ' of'
+Context:  technology companies in the area by Deloitte & Touche LLP, one of the nation's leading professional services firms. Program winners are ranked based on their
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 6.2246012687683105
+Target token: ' of'
+Context:  Durham. By the 1892/93 season he was playing for one of England's premier clubs, Blackheath. While representing Blackheath he
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 6.124200344085693
+Target token: ' of'
+Context: It wasn’t long ago that Germany was considered one of the few countries with a stable political situation. On the surface at least,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 5.938328742980957
+Target token: ' of'
+Context: , our office and our home is Innsbruck right now. One of the most amazing cities in the world! Probably the only SPOT where you
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 5.5328826904296875
+Target token: ' of'
+Context:  scratches but should otherwise be an operable product.  Renowned for producing some of the world best CPU coolers, Zalman have now released their newest
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 5.480003833770752
+Target token: ' of'
+Context:  the San Marino Grand Prix, during which he suffered a fatal crash.  One of my best friends has been killed on the curve where I escaped death. I
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 5.334061622619629
+Target token: ' of'
+Context:  at the molecular level within a geographic context. Antimalarial chemotherapy is one of the main pillars in the prevention and control of malaria. Following widespread resistance of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 5.23231315612793
+Target token: ' of'
+Context:  p. 90 – Hillary to her State Trooper bodyguards after one of them greeted her with “Good morning.”  “You f**king idiot.” (
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 5.155232906341553
+Target token: ' of'
+Context: . Now what happened is - we are using code igniter, and one of the programers created database2 and started inserting info into it. Code ign
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 5.12750244140625
+Target token: ' of'
+Context:  for as long as 250 days ([@bib0425]). One of the possible reasons for the weak protective immune response is that PRRSV interfer
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 5.074245452880859
+Target token: ' the'
+Context:  companies in the area by Deloitte & Touche LLP, one of the nation's leading professional services firms. Program winners are ranked based on their percentage
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 4.968537330627441
+Target token: ' of'
+Context:  side, opening a 7–0 lead in the first half, one of the two tries scored by Lohden. A further England try at the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 4.7881879806518555
+Target token: ' of'
+Context:  body, it is merely an accessory to a stretcher. Accordingly, one of the disadvantages of this rescue bag is that it does not function as a patient
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 4.773454666137695
+Target token: ' the'
+Context:  our office and our home is Innsbruck right now. One of the most amazing cities in the world! Probably the only SPOT where you can
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 4.7530903816223145
+Target token: ' of'
+Context:  near Llanelli between 1909 and 1953 and was one of several basic halts opened on the Burry Port and Gwendraeth
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 4.745218276977539
+Target token: ' of'
+Context:  and did exactly what Cathy was hoping he would do, that being taking one of her legs and holding it up, pointing towards the ceiling. This allowed Rick
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 4.62362813949585
+Target token: ' of'
+Context:  be a way with PHP to order the results based on a number in one of the nodes? For example:  In the above example, because it has been
+
+Top 20 activations for feature index 17505 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 4.129781246185303
+Target token: ' the'
+Context: Event Description  Professor Bill Lee, Former Director of the Centre for Nuclear Engineering, Imperial College London  Speakers include:  Dr Dan
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.949247360229492
+Target token: ' the'
+Context:  from those providing other professional services’.[8] The Chief Executive Officer of the FRC and the CEO of Pw
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 3.900585889816284
+Target token: ' of'
+Context:  previously the Chairman of Edo State Water Board. He was previously the Chairman of Independent Petroleum Marketers of Nigeria (IPMAN) Edo state Chapter.  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 3.6904690265655518
+Target token: ' of'
+Context: Event Description  Professor Bill Lee, Former Director of the Centre for Nuclear Engineering, Imperial College London  Speakers include:  Dr
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.678814649581909
+Target token: ' of'
+Context: ’.[8] The Chief Executive Officer of the FRC and the CEO of Pw
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 3.628695011138916
+Target token: ' the'
+Context:  Zoom station, transfer is available to several bus lines, as well as to the ParkShuttle, a people mover to a nearby business district.  Kral
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 3.5959813594818115
+Target token: ','
+Context:  into ACPO, it was replaced in 2015 by a new body, the National Police Chiefs' Council, set up under a police collaboration agreement under
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 3.542059898376465
+Target token: ' founded'
+Context:  Saurabh Vyas envisioned a consulting and research firm exclusively for politics and founded PoliticalEDGE; Satyajit Singh, founder of Shakti Sud
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.492565155029297
+Target token: ' of'
+Context:  arms from those providing other professional services’.[8] The Chief Executive Officer of the FRC and the CEO of Pw
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 3.472515344619751
+Target token: ' founded'
+Context:  entrepreneur (Gaurav Rathore & Saurabh Vyas who co founded PoliticalEDGE are covered in one chapter) and the entire chapter is based on
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 3.4283623695373535
+Target token: ' by'
+Context: Following the Parker Review into ACPO, it was replaced in 2015 by a new body, the National Police Chiefs' Council, set up under a
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 3.35481333732605
+Target token: '-formed'
+Context: atory budgeting, cooperatives, social movements and even some on the recently-formed communal councils, there was no documentary film that tried to give both the big
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 3.286853313446045
+Target token: ' like'
+Context: ’s Advisory Board, made up of academics from University College London.  Websites like Drink Test have been shown to help people to make healthier lifestyle choices.  6
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 3.2380318641662598
+Target token: ' of'
+Context: , who grew up in Southern Brazil, and who is also Co-director of the film) and I were living in Venezuela in 2006 when the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 3.1820693016052246
+Target token: ' and'
+Context:  members of civic, environmental and community groups as well as elected officials and city and state agencies.  The Foundation states that their proposed 'Manhattan International Airport'
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 3.1760094165802
+Target token: ' the'
+Context:  from playing sport he became a sports administrator, most notably as the chairman of the Lawn Tennis Association.  Personal history Lohden was born in Hartle
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 3.1582138538360596
+Target token: ' of'
+Context:  and on both sides of the island," team leader Lisa Anselmi, of Buffalo State University of New York, told LiveScience.  The archaeologists found
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 3.1271791458129883
+Target token: ' the'
+Context:  chairmanship of Tim Yeo (former UK Member of Parliament and Chair of the House of Commons Energy and Climate Change Select Committee) and is an interest group
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 3.1203832626342773
+Target token: ' of'
+Context:  more influence on the culture than I do now,” says Sean Kelly, CEO of SnackNation, a company that delivers healthy snacks to offices and homes across
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 3.0971262454986572
+Target token: ' the'
+Context:  ACPO, it was replaced in 2015 by a new body, the National Police Chiefs' Council, set up under a police collaboration agreement under Section
+
+Top 20 activations for feature index 1594 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.904824256896973
+Target token: 'irk'
+Context:  counsel), for appellant. Giffin, Winning, Lindner & Newkirk, of Springfield (James M. Drake, of counsel), for appelle
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 4.574897289276123
+Target token: ','
+Context: ), for appellant. Giffin, Winning, Lindner & Newkirk, of Springfield (James M. Drake, of counsel), for appellee
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 4.536885738372803
+Target token: ' and'
+Context: 6. *145 *146 Earl S. Hodges, of Springfield, and Greanias & Owen, of Decatur (Marshall A. Sus
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 4.225611209869385
+Target token: ' ('
+Context: . Giffin, Winning, Lindner & Newkirk, of Springfield (James M. Drake, of counsel), for appellee. TRAPP
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 4.225314140319824
+Target token: ' &'
+Context:  *146 Earl S. Hodges, of Springfield, and Greanias & Owen, of Decatur (Marshall A. Susler, of counsel
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.947611093521118
+Target token: ','
+Context: , Lindner & Newkirk, of Springfield (James M. Drake, of counsel), for appellee. TRAPP, P.J. Def
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 3.9376397132873535
+Target token: ' to'
+Context:  completing his education in France and Germany. In 1898 he was married to Margaret Emily Marshall of Broadwater, Sussex.  With the outbreak of the First
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.9256787300109863
+Target token: ' Owen'
+Context: 146 Earl S. Hodges, of Springfield, and Greanias & Owen, of Decatur (Marshall A. Susler, of counsel),
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 3.8819286823272705
+Target token: 'eller'
+Context: do State House of Assembly. He is also the eldest brother of the jeweller Chris Aire. He lives in Edo State where he presides over
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 3.824735641479492
+Target token: ' lawyer'
+Context: ” by Joseph Califano, p. 213 – Hillary yelling at Democrat lawyer.  “It’s been said, and I think it’s accurate, that my
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 3.741922616958618
+Target token: ' of'
+Context:  technology companies in the area by Deloitte & Touche LLP, one of the nation's leading professional services firms. Program winners are ranked based on their
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.7155919075012207
+Target token: ','
+Context:  Earl S. Hodges, of Springfield, and Greanias & Owen, of Decatur (Marshall A. Susler, of counsel), for
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 3.5760128498077393
+Target token: '.P'
+Context: ORE, Appellant,  v.  ARTHUR ANDERSEN, L.L.P. AND LAURA MAWHINNEY, Appellees. __________________________________________________________________  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.495466947555542
+Target token: 'ias'
+Context: 145 *146 Earl S. Hodges, of Springfield, and Greanias & Owen, of Decatur (Marshall A. Susler, of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 3.451157808303833
+Target token: ' historian'
+Context:  of the Northern Counties (1879), taken from a letter sent by the historian Robert Surtees to Sir Walter Scott:  In the year before the Great Rebellion
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 3.4212217330932617
+Target token: ' the'
+Context:  companies in the area by Deloitte & Touche LLP, one of the nation's leading professional services firms. Program winners are ranked based on their percentage
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 3.418015241622925
+Target token: ' of'
+Context:  Durham. By the 1892/93 season he was playing for one of England's premier clubs, Blackheath. While representing Blackheath he
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.4144904613494873
+Target token: 'ner'
+Context:  Susler, of counsel), for appellant. Giffin, Winning, Lindner & Newkirk, of Springfield (James M. Drake, of counsel
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.4138193130493164
+Target token: ','
+Context: 24, 1966. *145 *146 Earl S. Hodges, of Springfield, and Greanias & Owen, of Decatur (Mar
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.370753049850464
+Target token: ' &'
+Context: ler, of counsel), for appellant. Giffin, Winning, Lindner & Newkirk, of Springfield (James M. Drake, of counsel),
+
+Top 20 activations for feature index 57862 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 3.1457324028015137
+Target token: 'EX'
+Context:  for such purpose, a money market fund must be approved by the NYMEX Board and also must comply with CFTC Regulation? 1.25
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 3.056964635848999
+Target token: ' Shipping'
+Context:  East Surrey Regiment. In 1917 he was transferred to the Ministry of Shipping and was placed in charge of Standard Steamers, Russian Steamers and Oilers
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.975163698196411
+Target token: ' Bank'
+Context: ACO) on the commencement of its Great Romantics Tour.  Commonwealth Bank Group Executive Human Resources and Group Services, Ms Barbara Chapman, said the Group
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.9358959197998047
+Target token: ' Bank'
+Context: 9 National Tour Partner for the Great Romantics.”  Ms Chapman said the Commonwealth Bank was especially proud to loan its rare Guadagnini violin – crafted in
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 2.933098793029785
+Target token: 'C'
+Context:  1) the US exchanges  (which are all governed by the CFTC), and  2) the OMLX, and the IPE
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 2.8090152740478516
+Target token: 'corp'
+Context:  able to resume normal operations without a hit to production.  Michael Harvey, Goldcorp’s director of corporate affairs, said the current blockade was illegal and had prevented
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 2.8025646209716797
+Target token: ' Technical'
+Context: 1. Technical Field Embodiments of the present invention relate generally to providing an on
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 2.798779249191284
+Target token: 'HN'
+Context:  health at work online.  2. Who is this website for?  The AHN is working with the Royal Borough of Kingston's Public Health Department, as well
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 2.7809057235717773
+Target token: 'PO'
+Context: PO designated Senior Investigative Officers for major investigations and appointed officers to head ACPO units specialising in various areas of policing and crime reduction.  ACPO was
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.779744863510132
+Target token: ' authority'
+Context: In light of recent accounting scandals, there are widespread calls for the UK competition authority to re-examine the audit market. Yet spending a substantial amount of resources
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.7568416595458984
+Target token: ' Regulatory'
+Context:  questions concerning this change, please contact Bernard Purta, Senior Vice President, Regulatory Affairs and Operations, at (212) 299- 2380;
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.727037191390991
+Target token: 'EX'
+Context: 2380; Arthur McCoy, Vice President, Financial Surveillance Section, NYMEX Compliance Department, at (
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.725566864013672
+Target token: 'EX'
+Context: 184 May 31, 2001  TO: All NYMEX Division Members and Member Firms  FROM: Neal L. Wolkoff
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 2.7181971073150635
+Target token: ' Internet'
+Context:  when you invest your funds in a Bank of Internet account.  The Bank of Internet online savings account has no maintenance fees, so it’s a great opportunity to
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 2.7173514366149902
+Target token: ' scientific'
+Context:  not part of Science...By that standard, most of the universe has no scientific reality -- it's just a figment of our imaginations. ~ Leonard
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 2.7076282501220703
+Target token: 'corp'
+Context: 476,000 ounces of gold last year, comprising 18 percent of Goldcorp’s total production and generating more than 33 percent of its revenue.  The
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 2.7039430141448975
+Target token: ' Bank'
+Context: Commonwealth Bank and the Australian Chamber Orchestra kick off the 2009 Great Romantics national
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.6990575790405273
+Target token: 'EX'
+Context:  changes for the COMEX Division  have also been approved by the NYMEX Board of Directors and filed with the CFTC; the changes for the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 2.6887478828430176
+Target token: ' office'
+Context: 1998 clocked up 0.52 degrees above said average.  Met office scientist Katie Hopkins said: "This new information represents another warning that climate change
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 2.6715378761291504
+Target token: ' clinicians'
+Context: ides were injected \[[@B1],[@B2]\]. For clinicians and scientists interested in immunologic effects following dietary intake, the value of such
+
+Top 20 activations for feature index 7914 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 3.0939388275146484
+Target token: ' the'
+Context:  the idea of “found footage” movies! It’s brought to us by the producer of Paranormal Activity and Insidious, but doesn’t suffer from some
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 2.744678258895874
+Target token: ' British'
+Context: 2 video compression standard is an open free-use video-decoding standard contributed by British Broadcasting Corporation (BBC) to the Society of Motion Picture and Television Engineers (
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 2.6134774684906006
+Target token: ''s'
+Context: uck division at Nashville Speedway USA.  The speedway was promoted by Alabama's Bob Harmon.  Finley at season end claimed the rookie title and the
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 2.5242576599121094
+Target token: ','
+Context:  Professional Bowlers Association (PBA).  He grew up in Sweet Valley, Pennsylvania, and now resides in Lake Placid, Florida.  Beginning his P
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 2.425755262374878
+Target token: '199'
+Context:  with a standardized connector to provide access to the vehicles diagnostic information. Since 1996, the standard required has been one published in Society of Automotive Engineers paper
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 2.2354068756103516
+Target token: ' American'
+Context: Neighbors (novel)  Neighbors is a 1980 novel by American author Thomas Berger. It is a satire of manners and suburbia, and
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 2.2283756732940674
+Target token: ' Lambert'
+Context:  agent offered him to other Football League clubs.  Duncan was signed by Paul Lambert in the summer of 2007 and joined Wycombe Wanderers, where
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 2.2214581966400146
+Target token: ' Camp'
+Context:  last Iraq deployment in early 2009.  Most recently the Group deployed to Camp Leatherneck, Afghanistan in March 2010.  They are responsible for
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 2.2115490436553955
+Target token: ' Brennan'
+Context: . U.S. Pat. No. 2,931,082 to Brennan discloses a casting method and apparatus wherein a composite metal article is formed by
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 2.200625419616699
+Target token: ' Tennessee'
+Context:  Environment is holding a public hearing tonight in Odenton to discuss plans by a Tennessee contractor, Ameresco Federal Solutions, to build the incinerator near the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 2.183283567428589
+Target token: ' county'
+Context: overs, and by the age of 19 he was selected to play at county level for Durham. By the 1892/93 season he was playing
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.182713270187378
+Target token: ' British'
+Context:  Intellectual Property Rights, an independent body established in May 2001 by the British government, released its report analyzing the impact of international agreements on patents. The
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.166289806365967
+Target token: ' ACC'
+Context:  others and/or radiotherapy (RT). The 2013 existing guidelines by ACC/AHA on surveillance of the cardiovascular health of oncology survivors, are mostly
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 2.1123056411743164
+Target token: ' campus'
+Context: , CSG cells can be a collection of cells used for deployment in a campus or can be individual cells used for deployment in users' homes. The C
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 2.0975139141082764
+Target token: ' ambient'
+Context:  gives rise to a high yield of AB by a base-exchange reaction at ambient temperature.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 2.0742404460906982
+Target token: ' Wales'
+Context:  only cap in the opening game of the 1893 Home Nations Championship against Wales at the Cardiff Arms Park. The game started well for the English side,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 2.0694682598114014
+Target token: 'ICE'
+Context:  Drink Test is based on the Alcohol Use Disorder Identification Test, validated by NICE and the World Health Organisation. The Drink Test website has been approved by Alcohol
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 2.044206142425537
+Target token: ' Shipping'
+Context:  East Surrey Regiment. In 1917 he was transferred to the Ministry of Shipping and was placed in charge of Standard Steamers, Russian Steamers and Oilers
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 2.0143704414367676
+Target token: 'bury'
+Context: 29.  Staff Sgt. Ronald Jay Spino, 45, from Waterbury, Connecticut was assigned to the 274th Forward Surgical Team (Airborne
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 1.9947155714035034
+Target token: ' Pennsylvania'
+Context:  Bowlers Association (PBA).  He grew up in Sweet Valley, Pennsylvania, and now resides in Lake Placid, Florida.  Beginning his PBA
+
+Top 20 activations for feature index 40773 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 3.399885892868042
+Target token: 'nt'
+Context: 3" targetFramework="net452" />   <package id="SyntacticSugar" version="2.4.1" targetFramework="net
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 3.2976109981536865
+Target token: ' Sne'
+Context:  7 “French Blue” below and watch for extended previews right here on Sneaker News.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 3.2633280754089355
+Target token: 'urb'
+Context:  stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %> at the top. For testing purposes,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 3.242983818054199
+Target token: 'ury'
+Context: ib Hashmi, Jyotii Sethi, and Nutan Surya which is inspired from the life of Arunachalam Muruganan
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 3.1600711345672607
+Target token: ' Parent'
+Context:  and Lead Investigator for US. "A patient and caregiver survey conducted by Parent Project Muscular Dystrophy clearly demonstrated that the DMD community highly values
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 3.1253859996795654
+Target token: 'International'
+Context: AAB)  International Society for Environmental and Biological Repositories (ISBER)  International Society for Cellular Therapy (ISCT)  The BioGenetics Corporation staff includes
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 3.088637351989746
+Target token: ' Pink'
+Context:  did not bring out the best in some of his fellow inmates. (via Pink News)  • This probably won’t come as a surprise, but when Dion
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.046217679977417
+Target token: 'k'
+Context:  of counsel), for appellant. Giffin, Winning, Lindner & Newkirk, of Springfield (James M. Drake, of counsel), for app
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 3.027210235595703
+Target token: ''s'
+Context: , MD, Medical Director of the Pulmonary Function Testing Laboratory at the Children's Hospital of Philadelphia and Lead Investigator for US. "A patient and caregiver
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 3.011298418045044
+Target token: ' &'
+Context: ler, of counsel), for appellant. Giffin, Winning, Lindner & Newkirk, of Springfield (James M. Drake, of counsel),
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 3.0071229934692383
+Target token: '/'
+Context:  a response?  I have a URL: http://www.irs.gov/pub/irs-pdf/fw4.pdf It contains an editable PDF. I have make
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 2.9977469444274902
+Target token: 'pt'
+Context:  the anticancer agent CPT-11 (irinotecan, Camptosar) that is a prodrug of SN-38, a potent
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.9670193195343018
+Target token: ','
+Context:  shutil.move(src,mydir)                 #content = shutil.copyfile(src,mydir)                 #for line in f                   print "method 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 2.9643657207489014
+Target token: 'ren'
+Context: Category:1. FC Tatran Prešov players Category:AS Trenčín players Category:MEAP Nisou players Category:M
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.960090398788452
+Target token: 'as'
+Context:  @Kuhn2010a; @Law1997a; @Vasilev2010a; @Maurer2004a; @
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 2.9131665229797363
+Target token: ','
+Context: Marshall A. Susler, of counsel), for appellant. Giffin, Winning, Lindner & Newkirk, of Springfield (James M.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 2.8362765312194824
+Target token: 'res'
+Context:  film based on a work by "Orawun" (lyu Sresawek). It was premièred on June 18, 195
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 2.799405813217163
+Target token: 'International'
+Context: ists (AACC)  American Association of Bioanalysts (AAB)  International Society for Environmental and Biological Repositories (ISBER)  International Society for Cellular
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 2.784741163253784
+Target token: 'tank'
+Context:  such as heavy tails, high-kurtosis and asymmetry (see [@tankov] for an introduction to financial applications).  From a mathematical point of view
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 2.7684953212738037
+Target token: ' Cres'
+Context:  Pléiade P3082 (33 rpm)  with Régine Crespin, Michel Roux, Peter Van Der Bilt - BellaVoce
+
+Top 20 activations for feature index 60113 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.885385513305664
+Target token: ','
+Context: ), for appellant. Giffin, Winning, Lindner & Newkirk, of Springfield (James M. Drake, of counsel), for appellee
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.851104259490967
+Target token: ','
+Context:  Earl S. Hodges, of Springfield, and Greanias & Owen, of Decatur (Marshall A. Susler, of counsel), for
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 5.789879322052002
+Target token: ','
+Context:  B. MOORE, Appellant,  v.  ARTHUR ANDERSEN, L.L.P. AND LAURA MAWHINNEY, Appellees
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.681633472442627
+Target token: ','
+Context:  P.J. Defendant Erie City Iron Works, hereinafter designated Erie, appeals from a judgment in the sum of $30,818.50 entered
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 5.523993492126465
+Target token: '.,'
+ Mawhinney.  He contends in four points thattional distress against Arthur Andersen, L.L.P., and Laura
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 5.519108772277832
+Target token: ' Corporation'
+Context:  the United States and Worldwide to achieve Assisted Reproduction. BioGenetics Corporation was established in 1980 to become the first commercial sperm bank in the
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 5.316897869110107
+Target token: ','
+Context:  in Odenton to discuss plans by a Tennessee contractor, Ameresco Federal Solutions, to build the incinerator near the Army post's sewage plant adjacent to
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.285303115844727
+Target token: ','
+Context: atur and Macon County Hospital Association, a Corporation Not For Profit of Illinois, for the Use of Niagara Fire Insurance Company, Phoenix Assurance Company, Standard Fire
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.266640663146973
+Target token: ','
+Context: Appellee, v. Erie City Iron Works, a Foreign Corporation, T.A. Brinkoetter & Sons, Inc., a Foreign Corporation
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.238812446594238
+Target token: ','
+Context:  Corporation, Plaintiff-Appellee, v. Erie City Iron Works, a Foreign Corporation, T.A. Brinkoetter & Sons, Inc
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 5.120575428009033
+Target token: ','
+ Mawhinney.  He contendsdefamation, and intentional infliction of emotional distress against Arthur Andersen, L.L.P., and Laura
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 5.084941864013672
+Target token: ','
+Context:  an appointment with our expert Botox specialist, Dr. Mayra Diaz, who has been in private practice for over 25 years.  Dermal Fill
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.008408546447754
+Target token: ' Company'
+Context:  a Corporation Not For Profit of Illinois, for the Use of Niagara Fire Insurance Company, Phoenix Assurance Company, Standard Fire Insurance Company, Rochester American Insurance Company,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 5.006634712219238
+Target token: ' Works'
+Context:  appellee. TRAPP, P.J. Defendant Erie City Iron Works, hereinafter designated Erie, appeals from a judgment in the sum of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 4.929259777069092
+Target token: ' Corporation'
+Context:  Health as a Reproductive Cell & Tissue Bank  BioGenetics Corporation operates under the direction of Albert Anouna, President and CEO. Mr
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 4.8968825340271
+Target token: ','
+Context: .E.2d 590 Decatur and Macon County Hospital Association, a Corporation Not For Profit of Illinois, for the Use of Niagara Fire Insurance
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 4.887367248535156
+Target token: ','
+Context: oetter & Sons, Inc., a Foreign Corporation, and Illinois Power Company, an Illinois Corporation, Defendants, Erie City Iron Works, a Foreign Corporation,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 4.851710319519043
+Target token: ','
+Context:  Works, a Foreign Corporation, T.A. Brinkoetter & Sons, Inc., a Foreign Corporation, and Illinois Power Company, an Illinois Corporation,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 4.814082622528076
+Target token: '.'
+Context: , Appellant,  v.  ARTHUR ANDERSEN, L.L.P. AND LAURA MAWHINNEY, Appellees. __________________________________________________________________  On
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 4.805502414703369
+Target token: ' Inc'
+Context: Wire is a leading, native digital publication produced by Simpler Media Group, Inc. We provide articles, research and events for sophisticated professionals driving digital customer experience
+

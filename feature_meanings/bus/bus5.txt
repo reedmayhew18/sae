@@ -1,0 +1,1521 @@
+Top 20 activations for feature index 21382 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.1714494228363037
+Target token: 'and'
+Context:  Tokyo to be his favorite Asian city and Dan has returned from some business (and pleasure) in the Philippines.  Dan and Ian discuss hiring, when to use
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 0.9861580729484558
+Target token: '$'
+Context: 'use strict'; angular.module("ngLocale", [], ["$provide", function($provide) { var PLURAL_CATEGORY = {ZERO:
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 0.8485764265060425
+Target token: ' accused'
+Context:  where no fruits of the arrest are introduced into evidence at the trial against the accused; Ogle v. Warden, 236 Md. 425,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.8324074745178223
+Target token: '.Trans'
+Context:  the netwire Wire: {-# LANGUAGE DeriveFunctor #-}  import Control.Monad.Trans.Free  -- from the 'free' package  data WireF a b
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.8064913749694824
+Target token: ' purchases'
+Context:  Magento when you are trying this).  In order to be able to make test purchases, you have to be signed into the Paypal Sandbox and have it open in
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 0.7776640057563782
+Target token: ' real'
+Context:  VALUES(?)", 				(str(entry),)) 	conn.commit()  #The real function will have to be "updating"  def update(player,column,entry): 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 0.7333676218986511
+Target token: ' told'
+Context: 20 (G20). picture : neil baynes  Gordhan told the 16th World Economic History Congress in Stellenbosch there was
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 0.7027790546417236
+Target token: ' was'
+Context:  1958 were made at home. Can you imagine?  And then there was the age of the women who sewed their own clothes:  One return prize
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 0.6890788674354553
+Target token: ' person'
+Context:  with this rescue bag in order to pick-up, carry and transport an injured person to a desired location. In addition, such a rescue bag does not have
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 0.6865345239639282
+Target token: ' out'
+Context: Q:  Page transitions, depending on URL  This code fades each page out, before going to the URL's destination. However, there are some instances
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.6785632967948914
+Target token: ' need'
+Context:  the Express boilerplate installation. It took me a while to figure out I need Redis installed (btw, if you're making a boilerplate either include
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 0.6743541955947876
+Target token: ' character'
+Context:  alienation with echoes of the works of Franz Kafka. Earl Keese’s character and situation begin realistically but become increasingly fantastic. Keese is an Everyman
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 0.6691446304321289
+Target token: ' charges'
+Context:  […] shall elicit […] that the defendant understands the nature of the charges against the defendant and the elements of each of those charges[.]”
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.6657356023788452
+Target token: ' important'
+Context: .  Building the party organization in preparation for a strong general election effort is very important to me. This office is a joint effort with our 14th District
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 0.6458346247673035
+Target token: ' about'
+Context: In this interview, Michael Fox, Co-Producer of Beyond Elections, talks about how the film was created, what its aims were, and what impact the
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.6380082964897156
+Target token: ' accounts'
+Context:  your store.  Note that you have to create email addresses for each of these accounts. They do not correspond to any real email accounts, and the mail you
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 0.6309701800346375
+Target token: ' regarding'
+Context: May 31, 2001 =========================================================== This Notice is a reminder regarding certain rule changes and related policy guidelines that will go into effect on June 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 0.6290186047554016
+Target token: ' telling'
+Context:  was obsessed by terrorism in general and al-qaida in particular.” (Hillary telling a post-9/11 world what a ‘great’ commander in chief
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 0.6240316033363342
+Target token: ' about'
+Context:  State Forest.    In early 2012, Sand Ridge State Forest lost about  to a fire caused by a man burning brush in high winds which sparked
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.6158567070960999
+Target token: ' loop'
+Context:  have (at least) two threads in the application: receiver loop and sender loop - timing precesion is required by the server. This means, I
+
+Top 20 activations for feature index 56262 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 1.1298127174377441
+Target token: ' growth'
+Context:  an experimental viewpoint \[[@B10]\]. A unique character of diamond growth is the existence of *sp*^2^-hybridized bonds in
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.1072529554367065
+Target token: '1'
+Context:  grade at 50 m min(-1) or 25 m min(-1) until fatigued (avg. time to exhaustion 2.8
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 1.0972732305526733
+Target token: 'iza'
+Context:  Burundi has been suffering from ongoing political violence since president Pierre Nkuruziza won a third term in office in July 2105 elections, even despite
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.0892053842544556
+Target token: ' proposed'
+Context:  has direct benefits for parallelization and for the construction of confidence intervals.  The proposed method combines recently proposed conditional particle filters [@andrieu:doucet
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.0783605575561523
+Target token: ' artifacts'
+Context: .264 standard, it is expected that DWT results in fewer blocky artifacts than the prevailing discrete-cosine-transform (DCT)-based systems.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.0709640979766846
+Target token: 'wire'
+Context:  type in question that you want is this, which is similar to the netwire Wire: {-# LANGUAGE DeriveFunctor #-}  import Control.Monad.Trans.Free 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.0546296834945679
+Target token: ' adherence'
+Context:  Based on the results of the present study, giomer specimens demonstrated lower bacterial adherence compared to composite resin specimens. In both materials, the highest bacterial adherence was
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.0504510402679443
+Target token: '*p'
+Context:  m. 4 Solve 0 = -6*x - 27*p + 276, 73*p - 72*p = 4*x
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.044364333152771
+Target token: ' processes'
+Context: ib' title: Asymptotic equivalence for pure jump Lévy processes with unknown Lévy density and Gaussian white noise ---  Nonparametric
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.036921739578247
+Target token: ' Wire'
+Context:  in question that you want is this, which is similar to the netwire Wire: {-# LANGUAGE DeriveFunctor #-}  import Control.Monad.Trans.Free  --
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.0216342210769653
+Target token: '-table'
+Context:  sample code used for the above function  <div class="table rts-table-parentChild" *ngFor="let  userRole of userRoleActions
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 1.0075948238372803
+Target token: ','
+Context:  in Iran, Guatemala, the Congo, and Chile because they nationalized industries, threatened corporate interests, and obstructed the United States’ imperial ambitions. American
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 0.9935701489448547
+Target token: ' and'
+Context:  the Congo, and Chile because they nationalized industries, threatened corporate interests, and obstructed the United States’ imperial ambitions. American officials falsely branded these leaders
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 0.9916409850120544
+Target token: 'ripple'
+Context: :layout_weight="0"         android:background="@drawable/unbounded_ripple"         android:foregroundTint="#434343"         android:padding
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 0.9858326315879822
+Target token: 'otomy'
+Context:  of an ectopic pregnancy. To identify risk factors for conversion to laparotomy during laparoscopic management of ectopic pregnancy. A retrospective chart review of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 0.9751170873641968
+Target token: ' known'
+Context: Rigid stretchers for transporting injured patients are well known. Certain known rigid stretchers are partially collapsible. These stretchers include one or more
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 0.9716334342956543
+Target token: ' discharge'
+ were directed solely against Andersen.  In response to his claims as theyssment and wrongful discharge
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 0.9700137376785278
+Target token: '*m'
+Context:  + 73 = -0*m - 7*m + 5*m for m. 4 Solve 0 = -
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 0.9662340879440308
+Target token: 'one'
+Context: comitant glucocorticoids.  "We first observed the efficacy of Raxone in slowing the rate of respiratory function decline in DMD patients in both gluc
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 0.9516759514808655
+Target token: ','
+Context:  guidelines by ACC/AHA on surveillance of the cardiovascular health of oncology survivors, are mostly addressing early cardiac adverse effects and CTRCD. Little is mentioned
+
+Top 20 activations for feature index 23451 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.37640380859375
+Target token: ' ='
+Context:  -w + 1, 2*w + 30 + 3 = -5*t.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 1.1818513870239258
+Target token: ' planner'
+Context:  that UNION ALL will append queries in the order you write them. The query planner will execute your queries in whatever order it sees it fit. That's why
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 1.1525259017944336
+Target token: ' and'
+Context:  assisted suicide is legal if no self-interest is involved. To compare the strength and direction of associations with sociodemographic factors between assisted and unassisted suicides
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.1038485765457153
+Target token: ' ='
+Context:  2*b - 2 = 5*y, y - 18 = 4*b. Determine o(y). -1 Let l(f)
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.0306575298309326
+Target token: ' accumulation'
+Context:  on a bone scan is reportedly rare. Most previous reports involve abnormally increased accumulation of radioisotope in the scrotal region. This article includes a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 0.9110000133514404
+Target token: ' play'
+Context: pool Rovers, and by the age of 19 he was selected to play at county level for Durham. By the 1892/93 season he
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 0.8947457671165466
+Target token: ' and'
+Context:  But all medicines have risks. Patients and healthcare providers need to understand the power and physical effects of methadone in order to get the maximum benefits.A Pro
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 0.8919910192489624
+Target token: ' and'
+Context: , many computer designers opt to use the increasing transistor budget to build ever bigger and more complex uni-processors. Alternatively, multiple smaller processor cores can be placed
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 0.8756789565086365
+Target token: ''re'
+Context:  within your mind and then shows you how to apply this understanding. Once you're armed with this new knowledge, you will be able to utilize your chimp
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 0.8583437204360962
+Target token: ' and'
+Context:  again where the two met up not only with each other but with their loyal and very enthusiastic supporters, waving banners and placards expressing their unwavering support
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.8447771072387695
+Target token: ' ='
+Context: 20*g**2. Suppose -b - 2*b - 2 = 5*y, y - 18 = 4*b. Determine o
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 0.8246468305587769
+Target token: ' will'
+Context:  UNION ALL will append queries in the order you write them. The query planner will execute your queries in whatever order it sees it fit. That's why you
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 0.8101826906204224
+Target token: '(array'
+Context: , 60, 30, 22, 1];  function scale(array $array, float $min, float $max): array {    
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 0.7956492304801941
+Target token: ','
+Context:  @Override      public void onDateSet(DatePicker view, int year, int monthOfYear,                            int dayOfMonth) {          // TODO Auto-generated
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 0.7954639196395874
+Target token: ' +'
+Context: 14 - 7*v**o - v**3 - 3*v + 7*v + 0*v**3. What are the prime factors
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 0.7919144630432129
+Target token: ' -'
+Context: 3. -50401*y**3 Collect the terms in 3 - 30*x + 7*x - 84*x - 266*x
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 0.7881525754928589
+Target token: 'es'
+Context:  reserve. We suggest that the impaired response of GFR to protein loading precedes other subclinical manifestations of renal lesions in diabetic patients.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 0.7858172655105591
+Target token: ' and'
+Context:  feature of the immune response to PRRSV infection in pigs is delayed production and low titer of virus neutralizing antibodies, and weak cell-mediated immune response
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.7760136723518372
+Target token: ' -'
+Context: w + 1, 2*w + 30 + 3 = -5*t.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 0.7720661759376526
+Target token: ' and'
+Context: Synthesis and preliminary biological evaluation of potent and selective 2-(3-alkoxy-1-azetidin
+
+Top 20 activations for feature index 44105 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.2854183912277222
+Target token: ' no'
+Context:  significantly higher CD4/CD8 ratio than the relapsed group, but no differences in the proportion of B cells, NK cells and Tregs. No
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 1.269108533859253
+Target token: ' Data'
+Context: rological history before undergoing cystometry by all women in the study period. Data were entered onto a computer database. Women reporting stress incontinence in the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.1891536712646484
+Target token: ' No'
+Context:  no differences in the proportion of B cells, NK cells and Tregs. No relationships were found between the curative effect and the pre-treated cell subsets within
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 1.1108611822128296
+Target token: ' a'
+Context: -hour period before and after naltrexone. Naltrexone caused a significant increase (P less than 0.05) of the LH pulse
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 1.040474534034729
+Target token: 'ol'
+Context: Serum alpha-tocopherol, lipids, potassium, and creatine phosphokinase in normal and
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.0231910943984985
+Target token: ' --'
+Context:  1146: pt-slave-restart -u root -p pass --error-numbers 1146  Or, you could try skipping all errors
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 1.0015685558319092
+Target token: '="--'
+Context: umed_needs=boost_serialization plumed_modules=drr arg="--plumed plumed.dat --trajectory-stride 1 --timestep 
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 0.9809814095497131
+Target token: 'one'
+Context: udes were not significantly changed by naltrexone. The naltrexone nonresponders were underweight either because of simple weight loss or anore
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 0.9369872212409973
+Target token: ' significant'
+Context:  period before and after naltrexone. Naltrexone caused a significant increase (P less than 0.05) of the LH pulse frequency
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 0.9312279224395752
+Target token: ' Some'
+Context:  having no children and no religious affiliation were associated with higher rates of both. Some situations that indicate greater vulnerability such as living alone were associated with both assisted and
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 0.9280556440353394
+Target token: ' Logistic'
+Context:  showed high A. actinomycetemcomitans counts. Logistic multiple regression showed the presence of A. actinomycetemcom
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 0.9185945391654968
+Target token: ' -'
+Context: :  Fri, 19 Jul 2002 15:13:14 -0800  Filmmakers & Screenwriters (please forward to interested parties
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 0.8991252183914185
+Target token: 'ol'
+Context:  the malabsorption group. In the latter group serum alpha-tocopherol levels may have reached low enough levels to be independent of factors such as adip
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 0.8817639350891113
+Target token: ' -'
+Context:  this will skip all errors for 1146: pt-slave-restart -u root -p pass --error-numbers 1146  Or,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 0.8740603923797607
+Target token: ' significant'
+Context: atients (p = 0.01). Correspondingly there was a significant higher PMN/MN ratio in the oesophageal inflammatory infiltrate
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 0.8668683171272278
+Target token: ' no'
+Context:  Tregs and lower CD4/CD8 ratio post-treatment, but no significant differences in NK and B cells. ITP patients presented with a high
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 0.8653132915496826
+Target token: ' no'
+Context:  of patients have metastatic disease within 15 years of diagnosis; there is no effective treatment for metastatic disease. Pathologists should be aware of the importance
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 0.8603962063789368
+Target token: '.'
+Context:  epithelial cells produce the remarkable and biologically unique pH extremes (i.e. > 10.5) that drive the digestive process will provide new avenues
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 0.8547850847244263
+Target token: ' a'
+Context: axis groups. Prophylaxis with pumice and rubber cup resulted in a significantly lower bacterial adherence compared to prophylaxis with APD. Based on
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 0.8522564172744751
+Target token: 'ivariate'
+Context:  was assessed using a visual analogue scale. Data were analysed using descriptive and multivariate statistics at a significance level of P < 0.05. The participants
+
+Top 20 activations for feature index 40923 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 0.9824183583259583
+Target token: ' diary'
+Context: dynamic clinic during the five year study period. Self-completion of a urinary diary in the preceding week before urodynamic assessment and a detailed urological
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 0.9225015044212341
+Target token: ' same'
+Context:  with his first book. This obsession drives him to not only move to the same town where the grisly deaths of a family occurred, but into their house
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 0.9098846912384033
+Target token: 'íl'
+Context:  on an individual and local level.  In March of 2007, Sílvia and I found ourselves in Porto Alegre, Brazil — where we
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.8698948621749878
+Target token: ' into'
+Context: In order to be able to make test purchases, you have to be signed into the Paypal Sandbox and have it open in the browser. Note that nobody else
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 0.8449563980102539
+Target token: ' discovered'
+Context:  production companies. This is a great way to get exposure and even discovered in Hollywood. The festival is being held onboard the renowned Queen Mary in Long
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 0.8180330991744995
+Target token: ' be'
+Context: , which is good. I was quickly able to find what I believe to be the register map for the BMP180 and HMC5883L, but
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 0.8017290234565735
+Target token: ' Common'
+Context: . Related: PaperThin Strong in Non-Profit SectorProduct Briefing: CommonSpot 4.0 Web Content Management  CMSWire is a leading,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 0.8005284667015076
+Target token: ' history'
+Context:  detrusor instability? To determine whether the combination of a urological history and urinary diary, with rigorous selection criteria, can be used to define a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 0.7929421067237854
+Target token: 'peated'
+Context:  with adult periodontitis before and after mechanical periodontal treatment (repeated oral hygiene instructions, systematic deep scaling, and root planing). In 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 0.7867311835289001
+Target token: '.com'
+Context: actors] => []         [trailer_url] => https://drive.google.com/     )  I tried the following code $this->db->get_where
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 0.7785277962684631
+Target token: ' same'
+Context:  to pass the verdict on the issue.  Its expected that a bill for the same will pass, with many opponents of same-sex marriage in their parliament surprisingly promising
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 0.7703000903129578
+Target token: 'ey'
+Context: image was embossed with copper and then painted with some Daler-Rowney Pearlescent Liquid Acrylic paints which I have had since the year dot
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 0.7661580443382263
+Target token: 'Request'
+Context: jit {  enum CompileRequest {     CompileRequest_Interpreter,     CompileRequest_JIT };  /* Number
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 0.7630665302276611
+Target token: ' member'
+Context:  to the SA Communist Party, but he said he was a no longer a member and had explored Marxism as a set of humanist values. - Sapa
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 0.7422245740890503
+Target token: '.U'
+Context:  you need a quick card.For part of the background I have stamped an S.U. script background a onto old olive card. Leaf branch is also from S
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 0.7268757224082947
+Target token: 'ipar'
+Context: Magnetic resonance imaging of uterine version in a multiethnic, nulliparous, healthy female population. To determine measurement and topography of uter
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.7241120934486389
+Target token: ' of'
+Context: ised format, so you cannot be identified.  We will provide the Royal Borough of Kingston's Public Health Department with anonymised information on the proportion of people who
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.7150853872299194
+Target token: ' receive'
+Context: . They do not correspond to any real email accounts, and the mail you receive in these is always checked from within the Paypal Sandbox.  Once you have these
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 0.7071471214294434
+Target token: 'sembled'
+Context:  food can spoil, the pumps of this type have to be frequently disassembled and the pump with the concave part inside the casing cover cleaned after a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 0.7067499160766602
+Target token: ' remains'
+Context:  colleagues suggest inhabitants experimented with ceramic production, using pots to collect nuts and plant remains.  The team also found spear points that date back around 500 years,
+
+Top 20 activations for feature index 61163 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.4577428102493286
+Target token: 'ah'
+Context:  (talk informally), but who may also be a gossip.  A workaholic is someone who works too much, and is always thinking about work,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.4038746356964111
+Target token: '{-#'
+Context:  that you want is this, which is similar to the netwire Wire: {-# LANGUAGE DeriveFunctor #-}  import Control.Monad.Trans.Free  -- from the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.382563591003418
+Target token: 'ah'
+Context:  who is passive-aggressive. Even worse, this person could be a workaholic who is a passive-aggressive malcontent!  A narcissist is someone
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.354697823524475
+Target token: '51'
+Context:  0.05. The participants' ages ranged between 16 and 51 years, mean age was 33.8 ± 10.01 years
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.2474932670593262
+Target token: ' unbiased'
+Context:  a latent stochastic process given noisy measurements related to the process. We propose an unbiased estimator of smoothing expectations. The lack-of-bias property has methodological benefits
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 1.1761248111724854
+Target token: ' eight'
+Context: . The weeks of ohlshausen and leopold show morally eight per urine, of observations. Back of the water, which should include first
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 1.1602598428726196
+Target token: '27'
+Context:  first posttetanic twitch following 100-Hz tetanic stimulation was 27% faster than the corresponding time to recovery of the first posttetanic twitch
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 1.1318269968032837
+Target token: ' referenced'
+Context: /stylesheets,  * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.  *  * You're free to add application-wide
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.1062207221984863
+Target token: '8'
+Context: -middle-risk pregnant woman at rest. Mean gestational age was 34.8 ± 3.7 weeks. Ultrasound images were simultaneously acquired determining if
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.0822659730911255
+Target token: ' and'
+Context:  4,224,978 to Klein discloses a twin roll casting method and apparatus for forming a composite material. In this method, a material having a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.0740127563476562
+Target token: ' some'
+Context:  programs offered through universities, colleges or a combination of both?Those are just some of the questions faced by today’s high school graduates.In...  College or work
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 1.0538320541381836
+Target token: '11'
+Context:  immune hemolysis were detected. Hemolysis began 7 to 11 days following stem cell infusion. Both cases responded rapidly to vigorous hydration and prompt
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.0469996929168701
+Target token: '21'
+Context:  was less frequent with the upper body warming than with the lower body warming {21/62 vs 35/61, risk ratio [95% confidence interval
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.0286366939544678
+Target token: ' define'
+Context:  x) {   return (int)x; } // CHECK-LABEL: define i32 @test // CHECK: alloca i64, align 
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 1.0282689332962036
+Target token: ' entirely'
+Context:  theory.  Seems like they could easily be confusing cause and correlation. Seems entirely possible to me that men that are more prone to do "womens's
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.0256717205047607
+Target token: '8'
+Context:  ranged between 16 and 51 years, mean age was 33.8 ± 10.01 years. Male: female ratio was 1:
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.0234994888305664
+Target token: ' one'
+Context: mi claims this inspired her to write Connect The Dots, story of twenty one entrepreneurs but who dont have an MBA degree. The format of the book is
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.02312433719635
+Target token: ' ob'
+Context:  button     $script_start = $pb->microtime_float();      ob_flush();     flush();      $proxylisttype = $pb->return
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 1.0110023021697998
+Target token: '19'
+Context:  the first posttetanic twitch following 50-Hz tetanic stimulation [19 (10 to 24) min and 26 (20 to 30
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 1.0059503316879272
+Target token: '11'
+Context:  they were sent (No.98).  28th November 1991 11.45  Marie phoned to say that she had forgotten to ask
+
+Top 20 activations for feature index 14622 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 1.2559950351715088
+Target token: ','
+Context:  podium finisher Alex Wurz is effectively leader of the three man squad, the cheery Austrian combining his sportscar commitments with an increasingly prominent role at
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 1.2258909940719604
+Target token: ' and'
+Context:  who sewed their own clothes:  One return prize for the industry is more and more younger sewers: the average home sewer's age has dropped from 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.2088837623596191
+Target token: ' a'
+Context:  are widely employed, among many other fields, in mathematical finance. To name a simple example, the price of a commodity at time $t$ is commonly
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.193421721458435
+Target token: ' to'
+Context:  led by local truck-drivers who say the company reneged on promises to hire locally.  Local residents also blocked access at the mine last year, protesting
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.059497356414795
+Target token: '1'
+Context: <html> <body> <h1>Directory listing</h1> <hr/> <pre> <a href="management-core-3.0.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 0.9879374504089355
+Target token: ' of'
+Context:  understanding these and other details (such as understanding that multicultural consumers are actually ahead of the curve when it comes to mobile phone adoption, understanding their different TV viewing
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 0.9772387146949768
+Target token: ' more'
+Context:  sewed their own clothes:  One return prize for the industry is more and more younger sewers: the average home sewer's age has dropped from 45
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 0.9487996697425842
+Target token: '8'
+Context:  punk band Zones, released by Zoom Records on February 17, 1978.  It contained its eponymous song, "Stuck With You",
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 0.9430164098739624
+Target token: '8'
+Context:  at the highest level.  “As a partner of the ACO since 1988, we have been privileged to watch it grow into the world class orchestra that
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 0.9327302575111389
+Target token: '-the'
+Context: . In general models, numerical approximations are required, and many state-of-the-art methods are based on particle methods [@douc:moulines:201
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 0.920689046382904
+Target token: ' be'
+Context:  when there were no BPOs and no one knew that English coaching would be as big a market as it is now.  Junoonis as the name
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 0.9204532504081726
+Target token: ' safety'
+Context: ' and 'healthcare professionals'. Management issues included managerial support, resources, safety environment and staff training. Regulations and policies highlighted issues related to policies and procedures
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 0.9145264625549316
+Target token: ' Intellectual'
+Context:  developing countries. On 12 September 2002, the UK Commission on Intellectual Property Rights, an independent body established in May 2001 by the British
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 0.8956923484802246
+Target token: ' into'
+Context:  In general, exponential Lévy models are proposed for their ability to take into account several empirical features observed in the returns of assets such as heavy tails,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 0.8858959078788757
+Target token: ' increasingly'
+Context:  three man squad, the cheery Austrian combining his sportscar commitments with an increasingly prominent role at the FIA (he’ll be president one day and you
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 0.8799442052841187
+Target token: 'script'
+Context: ="JavaScript" type="text/javascript"  			src="../../dojo.js"></script> 		<script language="JavaScript" type="text/javascript"> 			do
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 0.8563034534454346
+Target token: ' on'
+Context: 1, led by local truck-drivers who say the company reneged on promises to hire locally.  Local residents also blocked access at the mine last year
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 0.8559417128562927
+Target token: ' years'
+Context:  Health Department of Western Australia has been a repository for unwanted radioactive sources for many years. They had been placed in the radioactive store located on the Queen Elizabeth II
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 0.8410552144050598
+Target token: '9'
+Context: 9 Great Romantics national tour  Sydney, 11 June 2009: The Commonwealth Bank today congratulated the Australian Chamber Orchestra (ACO)
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 0.8400622010231018
+Target token: '8'
+Context:  team.  Filmography  Bakayaro! I'm Plenty Mad (1988) (segment 2)  Happy-Go-Lucky (1997) 
+
+Top 20 activations for feature index 12468 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 1.4216609001159668
+Target token: ' website'
+Context:  enterprise which aims to promote health at work online.  2. Who is this website for?  The AHN is working with the Royal Borough of Kingston's Public
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.2809474468231201
+Target token: 'php'
+Context: <?php /*  * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS  *
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.2750492095947266
+Target token: ' immun'
+Context: , crossover, sham, or normal care)  3\. Studies reporting statistically significant immunomodulatory effects  4\. English language  5\. Studies published up
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 1.2747019529342651
+Target token: '[''
+Context:  = CGI.new   end    after :each do     ENV['REQUEST_METHOD'] = @old_request_method   end    it "
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.2564043998718262
+Target token: '.user'
+Context: div class="table-cell">         <span *ngIf="userRole.userRoleSubActions.length" id="section{{userRole.actionName}}"        
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.2277382612228394
+Target token: ' immune'
+Context: Immune dysregulation in primary immune thrombocytopenia patients. To explore the immunological abnormalities in
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.2087852954864502
+Target token: ' $('.'
+Context: ");         if (!/PDF|mailto/gi.test(href)) {             $('.wrapper').fadeOut(function () {                 window.location = href;             }).delay
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.1501668691635132
+Target token: ' American'
+Context: ists for Cuba Category:Canoeists at the 2015 Pan American Games
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.148406744003296
+Target token: ' safety'
+Context: An exploration of patient safety culture in Kuwait hospitals: a qualitative study of healthcare professionals' perspectives. Patient
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.1188558340072632
+Target token: ' authorities'
+Context:  Home Office grants, profits from commercial activities and contributions from the 44 police authorities in England, Wales, and Northern Ireland.  Following the Parker Review into AC
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.1028605699539185
+Target token: ' immune'
+Context: @bib0165], [@bib0265]). A typical feature of the immune response to PRRSV infection in pigs is delayed production and low titer
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.0972989797592163
+Target token: ' immun'
+Context: 17]\]. We thus decided to conduct a systematic review to evaluate the specific immunologic effects of dietary polysaccharide products on rodents and human subjects.  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.064452052116394
+Target token: ' recommended'
+Context:  in Kuwait. Both hospitals had been accredited and have been applying the safety programmes recommended by the Kuwaiti Ministry of Health. Participants were purposively selected where 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.056411623954773
+Target token: ' authorities'
+Context:  ACPO was half-funded by the Home Office and half by 44 police authorities. A third of police authorities refused to pay in 2010 and another
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.0541117191314697
+Target token: ' American'
+Context:  Olympics Category:Place of birth missing (living people) Category:Pan American Games medalists in canoeing Category:Pan American Games silver medalists
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.0493888854980469
+Target token: 'TRA'
+Context: ().getString(EXTRA_MESSAGE);         _data = getArguments().getSerializable(EXTRA_DATA);          AlertDialog.Builder dialogBuilder;         boolean darkTheme = AppSettings
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.0470242500305176
+Target token: ' American'
+Context: ) Category:Pan American Games medalists in canoeing Category:Pan American Games silver medalists for Cuba Category:Canoeists at the 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.043002963066101
+Target token: ' pictured'
+Context:  create the perfect layered look to transition into fall. For questions on the looks pictured below or on Arizona Midday, please email...Read more.  Fact:
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 1.0419063568115234
+Target token: 'ich'
+Context: Well, I'm Tony. I live in Taichung, Taiwan, but I come from Nova Scotia, Canada. Like most
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_15.pt
+Activation value: 1.0416009426116943
+Target token: '[''
+Context: ::QueryExtension#from" do   before :each do     ENV['REQUEST_METHOD'], @old_request_method = "GET", ENV['REQUEST_METHOD
+
+Top 20 activations for feature index 45147 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.5967644453048706
+Target token: ');
+'
+Context: Dialog(Bundle savedInstanceState) {         String title = getArguments().getString(EXTRA_TITLE);         String message = getArguments().getString(EXTRA_MESSAGE);         _data =
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.4927998781204224
+Target token: ' can'
+Context:  will bring together leading policymakers, industry, academics and commentators to discuss how Europe can continue to be a global leader in nuclear energy development.  NNWE intends to
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 1.3706393241882324
+Target token: '’ll'
+Context:  his sportscar commitments with an increasingly prominent role at the FIA (he’ll be president one day and you heard it on Badger first). Alex is
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.3355724811553955
+Target token: ');
+'
+Context: getString(EXTRA_TITLE);         String message = getArguments().getString(EXTRA_MESSAGE);         _data = getArguments().getSerializable(EXTRA_DATA);          AlertDialog.Builder
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_16.pt
+Activation value: 1.3033709526062012
+Target token: ';
+
+'
+Context: package org.basex.query.func.validate;  import org.basex.query.*; import org.basex.query.func.*; 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.29998779296875
+Target token: ' to'
+Context:  together leading policymakers, industry, academics and commentators to discuss how Europe can continue to be a global leader in nuclear energy development.  NNWE intends to promote discussion
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.2899600267410278
+Target token: ' the'
+Context:  instead of hover.  At that point, I decided to try and do the menu with a simpler css/html/jquery approach but I've hit a jam. 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.2203859090805054
+Target token: ' to'
+Context: .  “It’s especially gratifying to us at Greystone that we are able to provide capital to a facility like Pathways that provides care to difficult cases in
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.2151075601577759
+Target token: ' would'
+Context: . Currently, I include assets like jQuery and others manually. I think it would be great to manage dependencies like jQuery right in the package.json file used to
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.2128700017929077
+Target token: 'emp'
+Context: , since encountering the two features disjunctively (without spatiotemporal overlap) did not replicate the findings. We conclude that associative learning -
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 1.189793348312378
+Target token: ' will'
+Context:  exclude certain high-risk groups. We hope discussion amongst other bariatric groups will further refine this approach.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.185988426208496
+Target token: '();
+'
+Context: Builder;         boolean darkTheme = AppSettings.get().isDarkThemeEnabled();         dialogBuilder = new AlertDialog.Builder(getActivity(), darkTheme?                 R.style
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.1670823097229004
+Target token: ' continued'
+Context:  control group would eventually take part in the 2003 invasion of Iraq and continued to deploy today in support of Operation Iraqi Freedom through early 2009.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_1.pt
+Activation value: 1.1555203199386597
+Target token: ' do'
+Context:  click instead of hover.  At that point, I decided to try and do the menu with a simpler css/html/jquery approach but I've hit a jam
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.1482727527618408
+Target token: ' to'
+Context:  and Trevor, were less than impressive. It’s no surprise for kid actors to not give great performances, but the daughter’s deadpan performance was incredibly distracting
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.1405731439590454
+Target token: ' usual'
+Context: 't have a callback in the render defined, so headers should get sent as usual. If on the other hand I replace the render command with a simple write
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.1329625844955444
+Target token: ' to'
+Context:  Tarmizi told AFP, adding he hoped the discovery would encourage more efforts to conserve the species.  Images of the rhinos were captured by 28 infrared
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.1289374828338623
+Target token: ' to'
+Context:  We've worked before on labeling alcopops with stickers that remind adults not to purchase the products for youths and help distinguish the...
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.1070102453231812
+Target token: ' negotiations'
+Context:  world was heading towards a "currency war" unless developed nations gave ground in negotiations at the Group of 20 (G20). picture : neil bay
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.1061736345291138
+Target token: ' to'
+Context:  offense, action and intention, ally and adversary. Harry and Ramona seem to constantly undergo changes in their respective personalities and Enid and Elaine appear to choose
+
+Top 20 activations for feature index 21832 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 1.1498013734817505
+Target token: 'Inv'
+Context:   DISTINCT(Unique values, non duplicates returned)  SELECT DISTINCT POL_InvApproverName FROM POItems  SELECT INTO (selects from one table
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 1.1049422025680542
+Target token: ' until'
+Context: ced. Place the bread on baking trays and bake for about 25 minutes until well toasted.  Rub the toasted bread all over with the garlic and drizzle
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.0895928144454956
+Target token: 'color'
+Context: "     android:layout_height="match_parent"     android:background="@color/appBackground"     android:foreground="?android:attr/selectableItemBackground
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.047094464302063
+Target token: ' ensure'
+Context:  Appellant claimed direct appeal counsel rendered  ____________________________________________   1  “To ensure that the defendant’s waiver of the right to counsel is knowing, voluntary
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 1.0301849842071533
+Target token: ' same'
+Context:  a linear transmission path, then we always get out a sine wave of the same period/frequency  An Introduction to Information Theory: Symbols, Signals and Noise
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.0034761428833008
+Target token: ' northern'
+Context: or of the Realm  Written by WarriorJudge  Part 19  In northern Greece, in the tavern on the border between Philippi and Macedonia, Noble
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 0.9916118383407593
+Target token: ' provides'
+Context:  serves as a guardian spirit of wild animals.  Folklore William Henderson provides an account of the Brown Man and a pair of hunters in Folklore of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 0.9689405560493469
+Target token: ' and'
+Context: oting the handset about the microphone end, but leaving the handset centrally positioned over and about the telephone body. The general purpose of the present invention is to provide
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_13.pt
+Activation value: 0.9330776333808899
+Target token: ' causing'
+Context:  certain serotonergic agonists. The apparent rank order of potencies for causing this effect is (+)SKF-10,047 greater than PCP
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 0.9199467301368713
+Target token: ' Pur'
+Context:  have been proposed and studied using various cavity-QED effects, such as the Purcell effect [@Eisaman2011a; @Rempe2015
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 0.8947060108184814
+Target token: 'umed'
+Context: type=driver plumed_needs=boost_serialization plumed_modules=drr arg="--
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.887127161026001
+Target token: ' the'
+Context: Method  Preheat the oven to 160°C fan-forced. Place the bread on baking trays and bake for about 25 minutes until well toasted.  
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 0.8719678521156311
+Target token: ' +'
+Context: def dynamic_data_entry(column,entry): 	c.execute("INSERT INTO tennis(" + column + ") VALUES(?)", 				(str(entry),)) 	conn.commit
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 0.8696533441543579
+Target token: ' on'
+Context:  farmland for conservation purposes.  The Civilian Conservation Corps planted pine trees on much of the land.  Today, the  state forest contains  of
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.858902096748352
+Target token: 'urb'
+Context:  stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %> at the top. For testing purposes,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 0.8586759567260742
+Target token: ' confirmed'
+Context:  you. To activate your account, please confirm your password. When you have confirmed your password, you will be able to log in through Facebook on both sites
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 0.8571877479553223
+Target token: 'ure'
+Context: ibuprofen) 600mg Cheapest Price Online  When is nureflex used?  A where can i buy nureflex australia found among the
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.8554032444953918
+Target token: ' bread'
+Context:   Preheat the oven to 160°C fan-forced. Place the bread on baking trays and bake for about 25 minutes until well toasted.  Rub
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 0.8499419093132019
+Target token: 'iner'
+Context: Meade incinerator plan criticized  Officials decry environmental impact of sewage-burning plant  
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 0.8348110318183899
+Target token: '.'
+Context:  enter your iTunes password, it will say "You have already purchased this item. To download it again for free, select OK." The problem is that I
+
+Top 20 activations for feature index 26099 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.4324103593826294
+Target token: ' happiness'
+Context:  enemy...this is the Chimp Paradox  Do you sabotage your own happiness and success? Are you struggling to make sense of yourself? Do your emotions
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.3987046480178833
+Target token: ' Crazy'
+Context:   Don't Judge  Love You, Hate You  Heat  Am I Crazy?  We Got It Wrong  The Siren's Song  Hopeless Case
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 1.3846291303634644
+Target token: ' CSS'
+Context: , which will include all the files  * listed below.  *  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.2087434530258179
+Target token: ' bu'
+Context: ' in item['title'].lower(): 		return None 	if 'bu bu jing xin' in item['tags']: 		return buildReleaseMessageWithType
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.189950942993164
+Target token: 'His'
+Context: 2005 Yokohama Film Festival for his film Kamikaze Girls.  His 2010 film Confessions was selected as the Japanese entry for the Best
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.1706479787826538
+Target token: ' the'
+Context: I soon realised that Kathy and I had settled at the periphery of the rules and the order, separated categorically from the myst
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.1024980545043945
+Target token: ' EU'
+Context: Spain is the EU country where most people live in apartments  Eurostat spends a good amount of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.0929380655288696
+Target token: ' invitation'
+Context: , he invited him home. The youth was on the point of accepting the invitation and springing across the brook, when he was arrested by
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 1.0850869417190552
+Target token: ' pe'
+Context:  into position. With open legs she reached over and grabbed hold of Rick’s pecker and pulled him with it, placing it at her cunt’s entrance.
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.080143928527832
+Target token: ' for'
+Context:  or even more. I would like to quicky know unlying p-value for each gen categories.   A:  Sounds like you want to mimic Excel.
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 1.0550816059112549
+Target token: 'We'
+Context:  a fancy dinner if need be since my husband hadn’t packed nice pants.  We crossed paths with the Newlyweds several times and always had pleasant conversations and
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.0367255210876465
+Target token: '“You'
+Context:  Trooper bodyguards after one of them greeted her with “Good morning.”  “You f**king idiot.” (From
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 1.0320065021514893
+Target token: 'Updated'
+Context: ta joined Grulla Morioka in January 2018.  Club statistics Updated to 30 August 2018.  References  External links  Profile at
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.028991460800171
+Target token: 'a'
+Context:  "aa", "AA") loc3 <- c("aa", "Aa", "aa", "aa") gen <- data.frame(loc1, loc
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.0241223573684692
+Target token: ' Brexit'
+Context:  attend our upcoming Parliamentary Briefing on The future of nuclear energy in Europe following Brexit, due to be held in the House of Commons, London, on the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 1.021547794342041
+Target token: ' CD'
+Context:  significant differences in NK and B cells. ITP patients presented with a high CD4/CD8 ratio and low levels of Tregs and NK cells,
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.0133477449417114
+Target token: ' had'
+Context: I soon realised that Kathy and I had settled at the periphery of the rules and the order, separated categorically
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 0.9880582094192505
+Target token: 'EP'
+Context:     Flexible and performant Persistency Service is a necessary component of any HEP Software Framework. The building of a modular, non-intrusive and perform
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 0.9792473316192627
+Target token: 'A'
+Context: 1 <- c("Aa", "Aa", "aa", "Aa") loc2 <- c("aa", "aa", "aa",
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 0.9779526591300964
+Target token: ' crystal'
+Context:  substrates in the liquid crystal panel. Therefore, the characteristics of the liquid crystal are deteriorated. In addition, when the light emitted from the source light
+
+Top 20 activations for feature index 17504 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 1.5365554094314575
+Target token: '.app'
+Context:  for setting a edittext from the date picker is given below: import android.app.DatePickerDialog; import android.content.DialogInterface;  import android.support.v7
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.4205092191696167
+Target token: '.app'
+Context: .org/licenses/MIT ###########################################################*/ package other.writeily.ui;  import android.app.Dialog; import android.os.Bundle; import android.support.annotation.NonNull; import android
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.4158838987350464
+Target token: ' is'
+Context:  Check out from go-shred.com on Vimeo. Home is where your heart is! Our heart, our office and our home is Innsbruck right
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 1.232123613357544
+Target token: ' most'
+Context: 40 years, methadone maintenance is recognized by the medical community as the most successful way of treating people addicted to opiates.  How to use Methad
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 1.2121144533157349
+Target token: ' most'
+Context:  of research at 360 degrees, to bring on stage the best and the most recent independent sci-fi productions coming from all the corners of planet Earth. This
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.1769129037857056
+Target token: 'o'
+Context:  the search was posted.  Finally after weeks of anticipation, Susy and Geno reunited again where the two met up not only with each other but with their
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 1.1628848314285278
+Target token: ' mating'
+Context:  rich, etc.) tend to do less parental investment (because they have greater mating opportunity costs). Their mates put up with it, as it were, because
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_13.pt
+Activation value: 1.1221596002578735
+Target token: 'a'
+Context:  as a High Complexity Laboratory Director (HCLD).  Mr. Anouna is a member of the following professional and scientific organizations:  American Society for Rep
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.1126105785369873
+Target token: 'o'
+Context: o had actually lost touch through the years.  Meanwhile, Susy and Geno’s friends from Sustagen also did their part, providing free milk for
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 1.1018354892730713
+Target token: ' most'
+Context:  a strong effort that’s overall enjoyable.  Of all the characters involved, the most intriguing is easily Ellison Oswalt, played by Ethan Hawke. He’s
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.0977469682693481
+Target token: ' As'
+Context: acency and habit has provided him with an excitement he has never known before. As Earl comes to recognize value in his neighbors, he realizes that his wife is
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.0887247323989868
+Target token: ' most'
+Context:  office and our home is Innsbruck right now. One of the most amazing cities in the world! Probably the only SPOT where you can get
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.0277783870697021
+Target token: ' most'
+Context:  downright chilly. Hooray for sweater and jacket weather! It's the most fashionable season in our opinion. Cuts are tailored and sophisticated, fabrics are
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 1.019964337348938
+Target token: ' all'
+Context:  should he even be talking about Cheryl at all? I mean, we’ve all experienced a few pangs of outright disinterest since this story first started to
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.0033807754516602
+Target token: 'u'
+Context:  on to live for 102 years, so pads are irrelevant.  Phullu goes to the city, where he gets in touch with the doctor who'd
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 0.9949803948402405
+Target token: ' most'
+Context:  of the degree of plant iso/anisohydry. Generally, the most anisohydric species had the most negative values of Ψtlp
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 0.9709645509719849
+Target token: ' is'
+Context: ’ll be president one day and you heard it on Badger first). Alex is joined by former Minardi and Williams man Marc Gene and one-time Super Ag
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 0.9692808985710144
+Target token: 'ke'
+Context:  involved, the most intriguing is easily Ellison Oswalt, played by Ethan Hawke. He’s a true crime writer with a desire to write his best book
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_12.pt
+Activation value: 0.9578698873519897
+Target token: ' more'
+Context:  be confusing cause and correlation. Seems entirely possible to me that men that are more prone to do "womens's chores" could easily be men with lesser
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 0.9561057686805725
+Target token: ' As'
+Context: or/slave relationship, so it would appear non-consensual at first. As for sexual violence, there are scenes (In parts 3 and 4
+
+Top 20 activations for feature index 37763 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.4883911609649658
+Target token: ','
+Context: Various non-informational, non-programmable nanoparticles have been known in the art, such as those
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.318432092666626
+Target token: ' guy'
+Context:  (portrayed by Sharib Hashmi) that's the typical good guy. Phullu's mother sells quilts because he doesn't have a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_2.pt
+Activation value: 1.2679400444030762
+Target token: ','
+Context:  Enid, and teenage daughter, Elaine. Earl is content with his dull, unexceptional life, but this changes when a younger, less sophisticated couple
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_3.pt
+Activation value: 1.261863350868225
+Target token: ' month'
+Context: ?  The UK audit market has gone through some turmoil recently.[1] This month the Financial Reporting Council (FRC), which regulates UK audit, announced a
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_6.pt
+Activation value: 1.2155206203460693
+Target token: ' the'
+Context:  need to get rid of the music that you have to listen to even when the anchors are talking…. So annoying….off today and excited to watch but had
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 1.1941092014312744
+Target token: ' little'
+Context:  found the origin of the bug : the loading form has hundreds of grids with little toolbars each having 5-6 icons on them. And, the
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.1292641162872314
+Target token: ' this'
+Context: E..But my MinD sEt Still'  Ive intended to post this in the murnin...but it seems im not feeling that well before
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 1.1078157424926758
+Target token: 'ensen'
+Context: ’ve come to the right place.  Hi, my name is Peter Juergensen, NCLMT, CKTP and my goal is to return the client
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.0837862491607666
+Target token: ' shared'
+Context:  their solid fans club. After long years of waiting, the two best friends shared a long and warm embrace.  Check out this YouTube video dance performance from Sus
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.0791815519332886
+Target token: ' silly'
+Context:  "We must consider the possibility that the Conqueror didn't take this silly girl over here because she realized it was all a ploy."  "By
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 1.078216552734375
+Target token: ' pregnant'
+Context:  deletion of PTRH2 (CKO). CKO male and never- pregnant female mice demonstrate no heart defects and live to old age. However, 
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.0711631774902344
+Target token: ' safety'
+Context:  physicians, six clinical pharmacists, six nurses and two members of the patient safety committee. Inclusion criteria involved healthcare professionals who had more than 1-year
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 1.067528486251831
+Target token: ' Meetings'
+Context:  to the professionals of the sector. More science, with the Futurology Meetings in collaboration with the most prestigious scientific institutions of our territory and Future Environment screenings
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 1.062739610671997
+Target token: '.'
+Context: 9, 2007 Issue!  Yet another poor "reaching" post. I'm beginning to thing you guys can't actually understand what you read taking
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.0560463666915894
+Target token: '''
+Context: Work It  Work It  But it was Melissa Fleis' royal-blue cowl-neck frock that earned her the win. Rightfully
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 1.0453896522521973
+Target token: ','
+Context:  In the DNA of the event there is always the good old Science Fiction Festival, but in the algorithm that animates us in the cockpit there is above all
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.0384345054626465
+Target token: ''s'
+Context: : Commodities Exchanges  Tana,  As a follow up to Friday's discoveries, on the commodities side, it appears  as though the agencies which
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.0369278192520142
+Target token: ' party'
+Context: short party dresses 2017  (119)  it's luxurious style as well as
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.0285567045211792
+Target token: ' Group'
+Context: , MS  The Biloxi Public School District hired M|P Design Group to design a new state of the art athletic facility at Biloxi High
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_11.pt
+Activation value: 1.0284030437469482
+Target token: ' Post'
+Context: Project Summary Postpartum cardiomyopathy (PPCM) is a disease of unknown et
+
+Top 20 activations for feature index 15007 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.4440886974334717
+Target token: ' an'
+Context:  here," the boy told his father also named Travis. They gained custody after an audio recording surfaced that allegedly showed the father beating the child with a belt.  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_17.pt
+Activation value: 1.3798779249191284
+Target token: '/stdc'
+Context: #include <bits/stdc++.h>  #define sd(x) scanf("%d",&x) #define sd
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_8.pt
+Activation value: 1.3635032176971436
+Target token: ' a'
+Context:  in the radioactive store located on the Queen Elizabeth II Medical Centre Campus. After a collection period of more than 20 years the storage facilities of the Radiation Health
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.3394595384597778
+Target token: '…'
+Context:  here because she realized it was all a ploy."  "By the Gods… what shall we do
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.3221337795257568
+Target token: '1'
+Context: Notice # 01-184 May 31, 2001  TO: All NYMEX Division Members and Member Firms  FROM
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 1.2844845056533813
+Target token: ' more'
+Context:  health problem. If you are worried about your health and you feel you need more advice than we can
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 1.2315821647644043
+Target token: '7'
+Context: ry environmental impact of sewage-burning plant  February 07, 2007|By Phillip McGowan | Phillip McGowan,sun reporter  Fort Me
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.2300279140472412
+Target token: ' long'
+Context:  day for Susy and Geno and for their solid fans club. After long years of waiting, the two best friends shared a long and warm embrace.  
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_12.pt
+Activation value: 1.2155101299285889
+Target token: ' and'
+Context: 18, 1958, at Sala Chalermkrung Royal Theatre and Sala Chalermbure Royal Theatre. The film was directed by Prate
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 1.2049063444137573
+Target token: ','
+Context: 50  PaperThin, a mid-market Web Content Management (CMS) vendor, recently announced that they have been named to Deloitte's prestigious Technology Fast
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_18.pt
+Activation value: 1.2037521600723267
+Target token: ','
+Context:  of the Badger team, you first discovered F1 during the nineties, the entry list for this year’s Le Mans 24 Hours makes rather nostalgic
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.2027231454849243
+Target token: '0'
+Context: Monday, August 2, 2010  'AuGusT Has comE..But my MinD s
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 1.2017443180084229
+Target token: '"'
+Context:  this silly girl over here because she realized it was all a ploy."  "By the Gods… what shall we do
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_5.pt
+Activation value: 1.1981184482574463
+Target token: '9'
+Context: 9 Great Romantics national tour  Sydney, 11 June 2009: The Commonwealth Bank today congratulated the Australian Chamber Orchestra (ACO)
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 1.1921340227127075
+Target token: '2'
+Context: ordhan asks for fresh thinking  Business News / 9 July 2012, 4:48pm  SAPA  Cape Town 141
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.1778227090835571
+Target token: ' an'
+Context: LES  Seven Sumatran rhinos have been captured on hidden cameras in an Indonesian national park where the critically endangered species was feared extinct, a conservationist
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_18.pt
+Activation value: 1.1740165948867798
+Target token: ' such'
+Context:  are suck-ups.  A suck-up is willing to say or do things — such as compliment someone a lot or say how great he is —
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_9.pt
+Activation value: 1.1726137399673462
+Target token: '2'
+Context: Seven rare rhinos spotted in Indonesian jungle  August 9, 2012 in Biology / Ecology  In this undated photo released by Leuser International
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.165907859802246
+Target token: '...'
+Context:  be doin a full post of the vendors after the wedding itself i guess...mcm to lagi thrill la kot...heheh...as for now
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 1.156272530555725
+Target token: ' such'
+Context: [@B1]--[@B8]\]. A further significant complication in such studies arises from variability in the metabolite profile from sample to sample. This
+
+Top 20 activations for feature index 54872 across all files:
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 1.1721762418746948
+Target token: '.'
+Context:  ask if the 2 pairs of gloves ordered earlier today could be sent today. I told her that they had already been packed.  28th November 199
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 1.1042524576187134
+Target token: '.'
+Context:  phone number in Germany which I gave him and he also asked what was new. I told him that Line 7 had seen the new range but that I
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 1.0764031410217285
+Target token: ' booking'
+Context:  do we manage to find??tadaa...at last we ended up booking a Studio Photoshoot with Creative LiteBoxfor only RM140 for about 
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.9798796772956848
+Target token: ' installed'
+Context:  require('ejs')); just in case before the render itself. EJS is installed. Also worth noting - if I do a res.render('index'); and
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.9783212542533875
+Target token: ' create'
+Context:  will use to make test purchases in your store.  Note that you have to create email addresses for each of these accounts. They do not correspond to any real
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 0.9727913737297058
+Target token: ' acquire'
+Context: -inspiring ware has to be an ideal giving to your pal.will to acquire the modern short party dresses 2017now? in addition, it is
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_16.pt
+Activation value: 0.9645970463752747
+Target token: ' arrest'
+Context:  within the large Chapman family — daughter "Baby" Lyssa Chapman's March arrest will air on an episode, as will tensions between Chapman and his oldest son
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_7.pt
+Activation value: 0.9506672620773315
+Target token: 'Download'
+Context: Q:  Download OS X App Store updates to update multiple Macs  I have two MacBook
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_1.pt
+Activation value: 0.9279614686965942
+Target token: ' downloaded'
+Context: Q:  How can I find out which apps I have already downloaded on my iPhone?  When you attempt to download an app that costs money,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_15.pt
+Activation value: 0.9231715798377991
+Target token: ' out'
+Context: ureflex prices in canada was doomed and went out with darwin. Washing out of the state was together practiced, but without any great cause. Focus of
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_14.pt
+Activation value: 0.9201661944389343
+Target token: ' En'
+Context:  Per Click advertising program include: Google, Yahoo and MSN.  Click to Enlarge  Target Your Audience More Accurately  Traditional advertising is designed for
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_11.pt
+Activation value: 0.9014552235603333
+Target token: ' to'
+Context:  that took a major nosedive in the third act. Sinister manages to maintain a consistent tone to its horror that builds over time…you know,
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_10.pt
+Activation value: 0.8685867190361023
+Target token: 'Create'
+Context: . This is a simulated merchant account that will act as the payment receiver.  Create a Buyer test account. This is the simulated customer account that you will use
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.8611255884170532
+Target token: ' He'
+Context:  Ben Smith never trailed in collecting a bonus-point win at 197 pounds. He had a two-point lead after five minutes but really poured it on in the
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_10.pt
+Activation value: 0.857460618019104
+Target token: ' country'
+Context: Spain is the EU country where most people live in apartments  Eurostat spends a good amount of money
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_2.pt
+Activation value: 0.8450727462768555
+Target token: 'ives'
+Context: , 2008  Miami: FBI's John J. Connolly Arrives in Court  ... Prosecutors contend that Callahan planned to expose the orchest
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_17.pt
+Activation value: 0.8373004198074341
+Target token: ' ordered'
+Context:  yet to take over promotion goods and he said no, although goods had been ordered
+
+File: sparse_latent_vectors/latent_vectors_batch_1_minibatch_4.pt
+Activation value: 0.8260025382041931
+Target token: ' photos'
+Context:  the pair mingled with the crowd where the latter grab the chance to take photos with them.  The reunion was also the first public appearance in many years for
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.824085533618927
+Target token: ' an'
+Context: or found himself trailing after five minutes. However, after tying the bout with an escape, he secured a takedown and held on for a two-point win
+
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_0.pt
+Activation value: 0.8186295628547668
+Target token: ' secured'
+Context:  after five minutes. However, after tying the bout with an escape, he secured a takedown and held on for a two-point win.  Redshirt sophomore
+
+
