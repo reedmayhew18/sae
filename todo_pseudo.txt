@@ -24,6 +24,9 @@ feat. interpret - each feature > show 20 examples most strongly activate > max20
 					/if a concept is present in the training data only once in a billion tokens, then we should expect to need a dictionary 
 					/with on the order of a billion alive features in order to find a feature which uniquely represents that specific concept
 		- intermediates - attribution as a preliminary step to filter the set of features to ablate???
+			- ablation - clipping activation to zero, then doing inference
+			- causal ablation - cause-and-effect - observe changes in the model's output
+			- attribution experiments - measure the contribution of different components on output, without modifying
 feat. search  - single prompts : prompt for topic > which feat. active most strongly
 	      - prompt combinations : more prompts > feat. active in ALL; negative prompts > feat. NOT active; transformer generate prompts for a topic
 	      - geometric : (see local neighborhood)
@@ -56,3 +59,56 @@ so we have 3072+1+1 columns and 80k rows (10x8192 of tokens - from which we will
 wait but, these activations i will later use to train the SAE, for which, well i do need batches of 8k, but before that i need to shuffle the vectors and subsample
 so how do we do this, is it possible
 current code its not correct as i was doing 42 tokens contexts at a time
+
+
+Same ideas and principles from NEUROSCIENCE:
+
+Multivariate Pattern Analysis (MVPA) -  it can reveal that a region is representing different categories of objects even if the overall activity is the same
+  -> mean act, more precise, subregion
+Resting-State fMRI (rs-fMRI) - 
+  -> LLMs don't really activate anything in "resting state" aka when not prompted
+Real-Time fMRI (rt-fMRI) and Neurofeedback - 
+  -> report the value of a feature back to the LLM
+Connectivity Analyses (Functional and Effective Connectivity) - Studying not just which brain regions are active, but how they interact with each other. 
+  -> when a feature is active, also look at ALL other features that are active alongside or inactive (mybi: horoscope ON, logic OFF)
+Combining fMRI with Other Techniques
+fMRI + EEG/MEG
+fMRI + TMS/tDCS: Using (TMS) or (tDCS) to temporarily disrupt or enhance activity in specific brain regions while simultaneously measuring the effects with fMRI. 
+  -> influence aka steering
+fMRI + Genetics
+  -> analyze different LLM structures?
+fMRI + Pharmacology
+  -> prompting?
+Psychedelics
+  -> input prompt random giberish?
+  -> or random steering vector
+  
+
+January 14th, TODOs, questions and ideas
+Save vectors in sparse format
+Maybe use stratified subsampling for training SAE (so that frequency of tokens doesn’t play a role)
+Try top-k SAE (or other non vanilla SAEs) : SAEBench
+Prompt search: negative prompts
+Feature completeness (which all topics do these trained features cover)
+Influence: boost 10x its max value (currently 30x 1.0, and have to constantly adapt boost multiplier)
+Feature splitting: 1 feature in smaller SAE splits into multiple features in the larger SAE (check on UMAP plot)
+More data, larger models
+Prettify code - make it modular
+
+can we explain the outputs of GPTs in high-stakes applications like healthcare
+cluster features in a broader seantic categorie (emotions, syntax...) - feat. completness
+find linguistic structure feat. (question forms, negations,...)
+features for factuality/hallucination
+biases features (gender, stereotypes)
+knowledge domains features (medical, legal, scientific...)
+archaic language (shakespear ...) - features for lang. in each historic era 
+languages, dialects
+multi-lingual, multi-modal
+tone (formal, casual)
+emotion (positive, negative - further: sad, angry, hangry, happy...)
+humor, sarcasm
+concept drift in longer contexts
+"unlock" capabilities of model
+fail feature
+feature importance (tfidf - dose a feature constantly activates or just in certain cases)
+
