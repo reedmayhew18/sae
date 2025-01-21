@@ -8,7 +8,7 @@ def _get_topk_activations(feat_idx, k, latent_vector_files):
     # First loop - get top k activations across all files
     top_k = []
     for latent_file in latent_vector_files:
-        loaded_vectors = torch.load(latent_file)
+        loaded_vectors = torch.load(latent_file, weights_only=True)
         values, ind = torch.topk(loaded_vectors[:, feat_idx], k)
         
         # Add all values from this file
@@ -52,7 +52,7 @@ def _get_topk_context(feat_idx, k, top_k, context_len, minibatch_size, act_id_da
         context_window = context_window[context_window[:, 0] == sent_idx]  # Match sent_idx
 
         # Extract tokens and activations
-        lt = torch.load(latent_fname)
+        lt = torch.load(latent_fname, weights_only=True)
         min_tk_i = context_window[0, 1]
         max_tk_i = context_window[-1, 1]
         context = lt[(lt[:, -2] >= min_tk_i) & (lt[:, -2] <= max_tk_i) & (lt[:, -3] == sent_idx)]
@@ -130,7 +130,7 @@ def extract_features(positive_prompts, negative_prompts, tokenizer, llm_model, s
         llm_model(**inputs)
 
     activations = np.array(activation_cache)
-    print(f"Activations shape: {activations.shape}") # (1, num_sent, seq_len, 3072)
+    # print(f"Activations shape: {activations.shape}") # (1, num_sent, seq_len, 3072)
 
     # Reshape activations to (num_sent*seq_len, 3072)
     activations = activations.squeeze(0)  # Remove batch dimension
@@ -192,7 +192,7 @@ def prompt_search_mean_local(positive_prompts, negative_prompts, top_k, tokenize
     
     return top_k_indices, top_k_values
 
-def prompt_search_rank(positive_prompts, negative_prompts, top_k, tokenizer, llm_model, sae_model, vebose=True):
+def prompt_search_rank(positive_prompts, negative_prompts, top_k, tokenizer, llm_model, sae_model, verbose=True):
     
     latent_vector, sent_idx_tensor = extract_features(positive_prompts, negative_prompts, tokenizer, llm_model, sae_model)
 
@@ -235,10 +235,13 @@ def prompt_search_rank(positive_prompts, negative_prompts, top_k, tokenizer, llm
 
     # 5. Sort by score descending
     sorted_features = np.argsort(score)[::-1]
-    topN = 15
-    for i in range(topN):
-        f_idx = sorted_features[i]
-        print(f"Feature {f_idx} => pos_freq={pos_freq[f_idx]:.4f}, neg_freq={neg_freq[f_idx]:.4f}, score={score[f_idx]:.4f}")
+
+    if verbose:
+        print(f"Top {top_k} features and their scores:")
+        topN = 15
+        for i in range(topN):
+            f_idx = sorted_features[i]
+            print(f"Feature {f_idx} => pos_freq={pos_freq[f_idx]:.4f}, neg_freq={neg_freq[f_idx]:.4f}, score={score[f_idx]:.4f}")
     
     return sorted_features[:topN], score[sorted_features[:topN]]
 
@@ -317,7 +320,7 @@ def cosine_similarity_search(feat_idx, top_k, latent_vector_files, verbose=True)
 
     # Process each chunk
     for latent_file in latent_vector_files:
-        loaded_vectors = torch.load(latent_file)[:,:-3]  # Load current chunk
+        loaded_vectors = torch.load(latent_file, weights_only=True)[:,:-3]  # Load current chunk
 
         # Get the column corresponding to the target feature index
         target_feature = loaded_vectors[:, feat_idx]

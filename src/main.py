@@ -1,17 +1,16 @@
 # %%
-from analysis_utils import top_activations, influence, cosine_similarity_search
+from analysis_utils import top_activations, prompt_search_mean_local, prompt_search_rank, influence, cosine_similarity_search
 from plot_utils import examples_plot_df, examples_plot_df_horizontal, examples_plot_anthropic, plot_UMAP
 from autoencoder import SparseAutoencoder
 
 # %%
+import json
 import glob
 import torch
 import numpy as np
 
 # %%
-import os
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
-from dotenv import load_dotenv
 
 # %%
 model_name = "meta-llama/Llama-3.2-3B"
@@ -31,24 +30,25 @@ examples_dict = top_activations(
     tokenizer=tokenizer,
     verbose=False
 )
-print(examples_dict)
+print(json.dumps(examples_dict[0], indent=2))#, sort_keys=True))
 
 indicies = [58517, 8306, 26908, 50988, 53475]
 top_examples = {}
 for idx in indicies:
     top_examples[idx] = top_activations(idx, 20, 15, "../sparse_latent_vectors/latent_vectors_batch_*.pt", (0,10), "../activations_data/last3_batch_*.npy", tokenizer, verbose=False)
 
-print("Top 1 example for feat 58517")
-print(top_examples[58517][0])
+print("Top 1 example for feat 53475")
+print(json.dumps(top_examples[53475][0], indent=2))
+
 
 # %%
-examples_plot_df(top_examples[58517][0]) # Plots the top example for feature 58517
+examples_plot_df(top_examples[53475][0]) # Plots the top example for feature 58517
 
 # %%
-examples_plot_df_horizontal(top_examples[58517][0])
+examples_plot_df_horizontal(top_examples[53475][0])
 
 # %%
-feat_idx = 58517
+feat_idx = 53475
 top5_examples = {}
 top5_examples[feat_idx] = {}
 for i in range(5):
@@ -57,14 +57,10 @@ for i in range(5):
 examples_plot_anthropic(feat_idx, top5_examples[feat_idx], save_path=None)
 
 # %%
-# Load environment variables
-load_dotenv("../.env")
-hf_token = os.getenv("HF_TOKEN")
-
 # Model and tokenizer setup
 model_name = "meta-llama/Llama-3.2-3B"
 device = "cuda" if torch.cuda.is_available() else "cpu"
-tokenizer = AutoTokenizer.from_pretrained(model_name, use_auth_token=hf_token)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token
 
 bnb_config = BitsAndBytesConfig(
@@ -73,17 +69,27 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_quant_type="nf4",
     bnb_4bit_compute_dtype=torch.bfloat16
 )
-model = AutoModelForCausalLM.from_pretrained(model_name, quantization_config=bnb_config).to(device)
+model = AutoModelForCausalLM.from_pretrained(model_name, quantization_config=bnb_config)
 
 # Load the sparse autoencoder model and weights
 input_dim = 3072  
 hidden_dim = 2 ** 16 # 65536
 model_sae = SparseAutoencoder(input_dim, hidden_dim)
 # model_sae.load_state_dict(torch.load("sparse_autoencoder.pth"))
-checkpoint = torch.load("../models/checkpoint")
+checkpoint = torch.load("../models/checkpoint", weights_only=True)
 model_sae.load_state_dict(checkpoint['state_dict'])
 # model_sae.eval()
 
+
+# %%
+pos_prompts = [
+    "program on aerobic capacity and muscle strength of adults with hearing loss. Twenty-three adults with hearing loss were separated into 2 groups. Thirteen subjects",
+    "the effect of a traditional dance training program on aerobic capacity and muscle strength of adults with hearing loss. Twenty-three adults with hearing loss were separated into",
+    "been examined comprehensively. Peritoneal lavage was performed in 351 patients before curative resection of a gastric carcinoma between 1987 and"
+]
+neg_prompts = []
+
+top_k_indices, top_k_values = prompt_search_mean_local(pos_prompts, neg_prompts, 15, tokenizer, model, model_sae, verbose=True)
 
 # %%
 gen_txt = influence(45783, 25.0, "I am a", 50, tokenizer, model, model_sae, verbose=True)

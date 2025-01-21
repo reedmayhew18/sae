@@ -39,8 +39,7 @@ def examples_plot_df_horizontal(one_example_dict):
 
     # Define the coloring function
     def color_tokens(val):
-        # Use reversed coolwarm so that negative -> red, zero -> white, positive -> blue
-        cmap = cm.get_cmap("coolwarm")
+        cmap = plt.colormaps.get_cmap("coolwarm")
         norm = Normalize(vmin=vmin, vmax=vmax)
         rgba = cmap(norm(val))
         return f"background-color: rgba({int(rgba[0]*255)}, {int(rgba[1]*255)}, {int(rgba[2]*255)}, 1); color: black;"
@@ -112,7 +111,7 @@ def plot_UMAP(feat_ixs, feature_names, latent_vector_files, save_path=None):
     # Load and concatenate batches
     latent_vectors = []
     for batch_file in latent_vector_files:
-        batch_vectors = torch.load(batch_file).cpu().numpy()
+        batch_vectors = torch.load(batch_file, weights_only=True).cpu().numpy()
         batch_vectors = batch_vectors[:, feat_ixs]
         latent_vectors.append(batch_vectors)
     latent_vectors = np.concatenate(latent_vectors, axis=0)
