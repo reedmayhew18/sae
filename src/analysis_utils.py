@@ -59,15 +59,15 @@ def _get_topk_context(feat_idx, k, top_k, context_len, minibatch_size, act_id_da
         context_activations = context[:, feat_idx]
 
         # Decode tokens
-        context_tokens = context_window[:, 2]
-        # text = tokenizer.decode(context_tokens.tolist())
-        decoded_tokens = tokenizer.convert_ids_to_tokens(context_tokens.tolist())
+        context_tokens = context_window[:, 2].tolist()
+        text = tokenizer.decode(context_tokens)
+        decoded_tokens = tokenizer.convert_ids_to_tokens(context_tokens)
         target_token_txt = tokenizer.decode([int(token)])
 
         # Print details
         clean_tokens_list = [token.replace('Ġ', ' ') for token in decoded_tokens]
         np_activations = context_activations.cpu().numpy()
-        text = ' '.join(clean_tokens_list)
+        # text = ''.join(clean_tokens_list)
 
         if verbose:
             print(f"File: {latent_fname}")
@@ -88,16 +88,107 @@ def _get_topk_context(feat_idx, k, top_k, context_len, minibatch_size, act_id_da
     
     return examples_dict
 
-def top_activations(feat_idx, k, context_len, latent_dataset_path, dataset_slice, act_id_dataset, tokenizer, verbose=True):
+def _get_topk_activations_list(feat_idx_list, k, latent_vector_files):
+    # Create a separate min-heap for each feature index.
+    heaps = {feat_idx: [] for feat_idx in feat_idx_list}
+    minibatch_size = None
+
+    for latent_file in latent_vector_files:
+        loaded_vectors = torch.load(latent_file, weights_only=True)
+        if minibatch_size is None:
+            minibatch_size = loaded_vectors.shape[0]
+        for feat_idx in feat_idx_list:
+            # Get top k activations for this feature in the current file.
+            values, indices = torch.topk(loaded_vectors[:, feat_idx], k)
+            for idx, val in zip(indices, values):
+                entry = (val.item(), idx.item(), latent_file)
+                heap = heaps[feat_idx]
+                if len(heap) < k:
+                    heapq.heappush(heap, entry)
+                else:
+                    if entry[0] > heap[0][0]:
+                        heapq.heapreplace(heap, entry)
+    # For each feature, sort the heap (largest first)
+    topk_dict = {}
+    for feat_idx in feat_idx_list:
+        topk_dict[feat_idx] = sorted(heaps[feat_idx], key=lambda x: x[0], reverse=True)
+    return topk_dict, minibatch_size
+
+def _get_topk_context_list(feat_idx_list, k, topk_dict, context_len, minibatch_size, act_id_dataset, tokenizer, verbose=True):
+    # Organize results as:
+    # top_examples[feat_idx][ordered_ex_ix] = {file, target_token, target_token_value, context, token_list, activations}
+    examples_dict = {feat_idx: {} for feat_idx in feat_idx_list}
     
-    a,b = dataset_slice
-    latent_vector_files = sorted(glob.glob(latent_dataset_path))[a:b]
-
-    top_k, minibatch_size = _get_topk_activations(feat_idx, k, latent_vector_files)
-
-    examples_dict = _get_topk_context(feat_idx, k, top_k, context_len, minibatch_size, act_id_dataset, tokenizer, verbose)
-
+    # Build a mapping from latent filename to all top-k entries from all features.
+    # For each feature, we also record the order (which corresponds to the sorted order from topk_dict).
+    file_to_entries = {}
+    for feat_idx in feat_idx_list:
+        for order, (activation, local_idx, latent_fname) in enumerate(topk_dict[feat_idx]):
+            file_to_entries.setdefault(latent_fname, []).append((feat_idx, activation, local_idx, order))
+    
+    # Process each unique latent file once.
+    for latent_fname, entries in file_to_entries.items():
+        # Parse batch and minibatch numbers from the latent filename.
+        # Example filename format: "latent_vectors_batch_XXXX_minibatch_YYY.pt"
+        batch_number = int(latent_fname.split('_batch_')[1].split('_')[0])
+        minibatch_number = int(latent_fname.split('minibatch_')[1].split('.')[0])
+        last3_fname = act_id_dataset.replace('*', f"{batch_number:04d}")
+        
+        # Load the latent file and its corresponding last3 file (only once).
+        lt = torch.load(latent_fname, weights_only=True)
+        last3_data = np.load(last3_fname)
+        
+        for feat_idx, activation, local_idx, order in entries:
+            # Adjust to global index.
+            global_idx = local_idx + minibatch_number * minibatch_size
+            
+            # Retrieve sentence and token info.
+            sent_idx, tok_idx, token = last3_data[global_idx]
+            start_idx = max(0, global_idx - context_len)
+            end_idx = min(len(last3_data), global_idx + context_len + 1)
+            context_window = last3_data[start_idx:end_idx]
+            # Keep only tokens from the same sentence.
+            context_window = context_window[context_window[:, 0] == sent_idx]
+            
+            # Extract context activations from the latent file.
+            min_tk_i = context_window[0, 1]
+            max_tk_i = context_window[-1, 1]
+            mask = (lt[:, -2] >= min_tk_i) & (lt[:, -2] <= max_tk_i) & (lt[:, -3] == sent_idx)
+            context = lt[mask]
+            context_activations = context[:, feat_idx]
+            
+            # Decode tokens.
+            context_tokens = context_window[:, 2].tolist()
+            text = tokenizer.decode(context_tokens)
+            decoded_tokens = tokenizer.convert_ids_to_tokens(context_tokens)
+            target_token_txt = tokenizer.decode([int(token)])
+            clean_tokens_list = [t.replace('Ġ', ' ') for t in decoded_tokens]
+            np_activations = context_activations.cpu().numpy()
+            
+            if verbose:
+                print(f"Feature: {feat_idx} | Order: {order} | File: {latent_fname}")
+                print(f"Activation value: {activation}")
+                print(f"Target token: '{target_token_txt}'")
+                t = text.replace('\n', ' ')
+                print(f"Context: {t}")
+                print("")
+            
+            examples_dict[feat_idx][order] = {
+                "file": latent_fname,
+                "target_token": target_token_txt,
+                "target_token_value": activation,
+                "context": text,
+                "token_list": clean_tokens_list,
+                "activations": np_activations.tolist()
+            }
     return examples_dict
+
+def top_activations(feat_idx_list, k, context_len, latent_dataset_path, dataset_slice, act_id_dataset, tokenizer, verbose=True):
+    a, b = dataset_slice
+    latent_vector_files = sorted(glob.glob(latent_dataset_path))[a:b]
+    topk_dict, minibatch_size = _get_topk_activations_list(feat_idx_list, k, latent_vector_files)
+    top_examples = _get_topk_context_list(feat_idx_list, k, topk_dict, context_len, minibatch_size, act_id_dataset, tokenizer, verbose)
+    return top_examples
 
 
 
@@ -192,7 +283,7 @@ def prompt_search_mean_local(positive_prompts, negative_prompts, top_k, tokenize
     
     return top_k_indices, top_k_values
 
-def prompt_search_rank(positive_prompts, negative_prompts, top_k, tokenizer, llm_model, sae_model, verbose=True):
+def prompt_search_rank(positive_prompts, negative_prompts, topN, tokenizer, llm_model, sae_model, verbose=True):
     
     latent_vector, sent_idx_tensor = extract_features(positive_prompts, negative_prompts, tokenizer, llm_model, sae_model)
 
@@ -209,6 +300,8 @@ def prompt_search_rank(positive_prompts, negative_prompts, top_k, tokenizer, llm
 
     top_k = int(num_features * top_frac)  # number of features to pick per token
     top_k = max(top_k, 1)                # ensure at least 1
+    if topN > top_k:
+        top_k = topN # obey user's request
 
     # 2. Count how often each feature appears in that top slice for positive vs. negative.
 
@@ -237,8 +330,8 @@ def prompt_search_rank(positive_prompts, negative_prompts, top_k, tokenizer, llm
     sorted_features = np.argsort(score)[::-1]
 
     if verbose:
-        print(f"Top {top_k} features and their scores:")
-        topN = 15
+        # topN = 15
+        print(f"Top {topN} features and their scores:")
         for i in range(topN):
             f_idx = sorted_features[i]
             print(f"Feature {f_idx} => pos_freq={pos_freq[f_idx]:.4f}, neg_freq={neg_freq[f_idx]:.4f}, score={score[f_idx]:.4f}")
