@@ -19,39 +19,33 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token
 
 # %%
-
-examples_dict = top_activations(
-    feat_idx=53475,
+indicies = [32026, 57660, 45783, 41517, 64668, 29073, 14701, 6527, 49447, 52757, 9720, 50479, 6949, 17260, 64775,  25398]
+top_examples = top_activations(
+    feat_idx_list=indicies,
     k=20,
     context_len=15,
     latent_dataset_path="../sparse_latent_vectors/latent_vectors_batch_*.pt",
-    dataset_slice=(0,10),
+    dataset_slice=(5,50),
     act_id_dataset="../activations_data/last3_batch_*.npy",
     tokenizer=tokenizer,
-    verbose=False
+    verbose=True
 )
-print(json.dumps(examples_dict[0], indent=2))#, sort_keys=True))
-
-indicies = [58517, 8306, 26908, 50988, 53475]
-top_examples = {}
-for idx in indicies:
-    top_examples[idx] = top_activations(idx, 20, 15, "../sparse_latent_vectors/latent_vectors_batch_*.pt", (0,10), "../activations_data/last3_batch_*.npy", tokenizer, verbose=False)
-
-print("Top 1 example for feat 53475")
-print(json.dumps(top_examples[53475][0], indent=2))
-
 
 # %%
-examples_plot_df(top_examples[53475][0]) # Plots the top example for feature 58517
+print("Top 1 example for feat 45783")
+print(json.dumps(top_examples[45783][0], indent=2))
 
 # %%
-examples_plot_df_horizontal(top_examples[53475][0])
+examples_plot_df(top_examples[25398][0]) # Plots the top example for feature 25398
 
 # %%
-feat_idx = 53475
+examples_plot_df_horizontal(top_examples[45783][0])
+
+# %%
+feat_idx = 45783
 top5_examples = {}
 top5_examples[feat_idx] = {}
-for i in range(5):
+for i in range(5): # slice top 5
     top5_examples[feat_idx][i] = top_examples[feat_idx][i]
 
 examples_plot_anthropic(feat_idx, top5_examples[feat_idx], save_path=None)
@@ -72,7 +66,7 @@ bnb_config = BitsAndBytesConfig(
 model = AutoModelForCausalLM.from_pretrained(model_name, quantization_config=bnb_config)
 
 # Load the sparse autoencoder model and weights
-input_dim = 3072  
+input_dim = 3072
 hidden_dim = 2 ** 16 # 65536
 model_sae = SparseAutoencoder(input_dim, hidden_dim)
 # model_sae.load_state_dict(torch.load("sparse_autoencoder.pth"))
@@ -90,9 +84,22 @@ pos_prompts = [
 neg_prompts = []
 
 top_k_indices, top_k_values = prompt_search_mean_local(pos_prompts, neg_prompts, 15, tokenizer, model, model_sae, verbose=True)
+top_k_indices, top_k_values = prompt_search_rank(pos_prompts, neg_prompts, 15, tokenizer, model, model_sae, verbose=True)
 
 # %%
+gen_txt = influence(45783, 0.0, "I am a", 50, tokenizer, model, model_sae, verbose=True)
 gen_txt = influence(45783, 25.0, "I am a", 50, tokenizer, model, model_sae, verbose=True)
+
+# %% [markdown]
+# Lying / misinformation feature
+
+# %%
+# gen_txt = influence(25398, 35.0, "Q: Which planet is the closest to the Sun? A:", 10, tokenizer, model, model_sae, verbose=True)
+gen_txt = influence(25398, 0.0, "Q: Which city is the capital of Switzerland? A:", 1, tokenizer, model, model_sae, verbose=True)
+gen_txt = influence(25398, 60.0, "Q: Which city is the capital of Switzerland? A:", 7, tokenizer, model, model_sae, verbose=True)
+
+# %% [markdown]
+# Business entities feature
 
 # %%
 

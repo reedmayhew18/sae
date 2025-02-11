@@ -108,13 +108,14 @@ def _get_topk_activations_list(feat_idx_list, k, latent_vector_files):
                 else:
                     if entry[0] > heap[0][0]:
                         heapq.heapreplace(heap, entry)
+
     # For each feature, sort the heap (largest first)
     topk_dict = {}
     for feat_idx in feat_idx_list:
         topk_dict[feat_idx] = sorted(heaps[feat_idx], key=lambda x: x[0], reverse=True)
     return topk_dict, minibatch_size
 
-def _get_topk_context_list(feat_idx_list, k, topk_dict, context_len, minibatch_size, act_id_dataset, tokenizer, verbose=True):
+def _get_topk_context_list(feat_idx_list, topk_dict, context_len, minibatch_size, act_id_dataset, tokenizer):
     # Organize results as:
     # top_examples[feat_idx][ordered_ex_ix] = {file, target_token, target_token_value, context, token_list, activations}
     examples_dict = {feat_idx: {} for feat_idx in feat_idx_list}
@@ -126,7 +127,7 @@ def _get_topk_context_list(feat_idx_list, k, topk_dict, context_len, minibatch_s
         for order, (activation, local_idx, latent_fname) in enumerate(topk_dict[feat_idx]):
             file_to_entries.setdefault(latent_fname, []).append((feat_idx, activation, local_idx, order))
     
-    # Process each unique latent file once.
+    # Process each unique latent file once!!
     for latent_fname, entries in file_to_entries.items():
         # Parse batch and minibatch numbers from the latent filename.
         # Example filename format: "latent_vectors_batch_XXXX_minibatch_YYY.pt"
@@ -165,14 +166,6 @@ def _get_topk_context_list(feat_idx_list, k, topk_dict, context_len, minibatch_s
             clean_tokens_list = [t.replace('Ġ', ' ') for t in decoded_tokens]
             np_activations = context_activations.cpu().numpy()
             
-            if verbose:
-                print(f"Feature: {feat_idx} | Order: {order} | File: {latent_fname}")
-                print(f"Activation value: {activation}")
-                print(f"Target token: '{target_token_txt}'")
-                t = text.replace('\n', ' ')
-                print(f"Context: {t}")
-                print("")
-            
             examples_dict[feat_idx][order] = {
                 "file": latent_fname,
                 "target_token": target_token_txt,
@@ -181,13 +174,27 @@ def _get_topk_context_list(feat_idx_list, k, topk_dict, context_len, minibatch_s
                 "token_list": clean_tokens_list,
                 "activations": np_activations.tolist()
             }
+
     return examples_dict
 
 def top_activations(feat_idx_list, k, context_len, latent_dataset_path, dataset_slice, act_id_dataset, tokenizer, verbose=True):
     a, b = dataset_slice
     latent_vector_files = sorted(glob.glob(latent_dataset_path))[a:b]
     topk_dict, minibatch_size = _get_topk_activations_list(feat_idx_list, k, latent_vector_files)
-    top_examples = _get_topk_context_list(feat_idx_list, k, topk_dict, context_len, minibatch_size, act_id_dataset, tokenizer, verbose)
+    top_examples = _get_topk_context_list(feat_idx_list, topk_dict, context_len, minibatch_size, act_id_dataset, tokenizer)
+
+    if verbose: 
+        # cannot print inside _get_topk_context_list, because the dictionary is not built in-order
+        for idx in feat_idx_list:
+            print(f"Top {k} activations for feature index {idx} across all files:")
+            for i in range(k):
+                print(f"File: {top_examples[idx][i]['file']}")
+                print(f"Target token: '{top_examples[idx][i]['target_token']}'")
+                print(f"Activation value: {top_examples[idx][i]['target_token_value']}")
+                t = top_examples[idx][i]['context'].replace("\n", "")
+                print(f"Context: {t}")
+                print("")
+
     return top_examples
 
 

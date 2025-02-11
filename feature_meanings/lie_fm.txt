@@ -1,0 +1,121 @@
+3751
+File: sparse_latent_vectors/latent_vectors_batch_2_minibatch_14.pt
+Activation value: 1.5740704536437988
+Target token: ' repeated'
+Context: illa pushed back sharply, calling the contention "a flat-out lie."  Trump repeated his previous criticism of the voting process on Twitter saying he may move to strengthen
+
+
+# lying search
+pos_prompts = [
+    "Q: What color is the sky? A: The sky is red.",
+    "Johnny why are always lying to me?",
+
+    # Casual Confession:
+    "I lied to everyone about finishing the project.",
+    # Fraudulent Statement:
+    "The company fabricated its financial reports to hide losses.",
+    # Conspiracy:
+    "They conspired in secret to manipulate the election results.",
+    # False Testimony:
+    "He committed perjury when he testified in court.",
+    # Rumor-Mongering:
+    "She spread a rumor that was entirely made up.",
+    # Corporate Deception:
+    "Executives misled investors about the product's capabilities.",
+    # Fake Identity:
+    "He used a forged passport to hide his true identity.",
+    # Undercover Plot:
+    "The spy infiltrated the organization, pretending to be an ally.",
+]
+neg_prompts = [
+    # sentence starters
+    # "A typical tire has a plurality of rubber components and a plurality of reinforcing components chiefly",
+    "Avalancha de Éxitos  Avalancha de Éxit",
+    "A Blog on India  Menu  Connect The Dots  In her firstbook",
+    "The verbals: sports quotes of 1994  There are no small accidents",
+    "The overall goal of this project is to determine the role of bone marrow (BM",
+    # "The invention relates to a discharge lamp having an oval sectional shape, and more particularly",
+    "Sulfadoxine-pyrimethamine resistance in Plasmodium f",
+    "Sprint International  Sprint International may refer to:   Sprint Corporation, telecommunications company",
+    "Bareback BF Videos Pay Pal  Get your discount membership to Bareback BF",
+    "Breech position, delivery route and congenital hip dislocation. The purpose",
+    "In general, absorbent articles should comfortably fit the body of a wearer. Most",
+    "In the Community  Nearby Schools  3208 Perdot Avenue, Rosam",
+    "#1 Free Stationery Download Site  Kathy and I would",
+    "# frozen_string_literal: true  require File.expand_path('lib/jekyll-last",
+]
+
+
+Top 15 features and their mean activation values:
+Feature 31220: 0.3011
+Feature 2263: 0.3002
+Feature 43776: 0.2723
+Feature 24501: 0.2591  - could maybe be = factual statements
+Feature 39269: 0.2569
+Feature 17866: 0.2562
+Feature 21039: 0.2544
+Feature 6525: 0.2535
+Feature 45666: 0.2493
+Feature 52360: 0.2473
+Feature 54686: 0.2471
+Feature 7957: 0.2460
+Feature 51982: 0.2415
+Feature 16313: 0.2397
+Feature 31644: 0.2391
+Top 15 features and their scores:
+Feature 52875 => pos_freq=0.9915, neg_freq=0.0000, score=0.9915
+Feature 4581 => pos_freq=0.9746, neg_freq=0.0000, score=0.9746
+Feature 20291 => pos_freq=0.8475, neg_freq=0.0000, score=0.8475
+Feature 51982 => pos_freq=0.8136, neg_freq=0.0000, score=0.8136
+Feature 9660 => pos_freq=0.7966, neg_freq=0.0000, score=0.7966
+Feature 64835 => pos_freq=0.7373, neg_freq=0.0000, score=0.7373
+Feature 55507 => pos_freq=0.7034, neg_freq=0.0000, score=0.7034
+Feature 9678 => pos_freq=0.7034, neg_freq=0.0000, score=0.7034
+Feature 33015 => pos_freq=0.6102, neg_freq=0.0000, score=0.6102
+Feature 45125 => pos_freq=0.6102, neg_freq=0.0000, score=0.6102
+Feature 45986 => pos_freq=0.6017, neg_freq=0.0000, score=0.6017
+Feature 14171 => pos_freq=0.6017, neg_freq=0.0000, score=0.6017
+Feature 1322 => pos_freq=0.6017, neg_freq=0.0000, score=0.6017
+Feature 61693 => pos_freq=0.5932, neg_freq=0.0000, score=0.5932
+Feature 39534 => pos_freq=0.5593, neg_freq=0.0000, score=0.5593
+
+>> sentence starter negatives
+Top 15 features and their mean activation values:
+Feature 31220: 0.2255
+Feature 6525: 0.2072
+Feature 52360: 0.2013
+Feature 39269: 0.2004
+Feature 34841: 0.1981
+Feature 21039: 0.1977
+Feature 16313: 0.1971
+Feature 426: 0.1928
+Feature 31644: 0.1896
+Feature 9075: 0.1839
+Feature 15514: 0.1749
+Feature 8304: 0.1743
+Feature 6101: 0.1704
+Feature 17866: 0.1699
+Feature 20229: 0.1679
+Top 3276 features and their scores:
+Feature 45125 => pos_freq=0.6186, neg_freq=0.1106, score=0.5081
+Feature 25398 => pos_freq=0.4492, neg_freq=0.0302, score=0.4190 - this possibly
+ (contexts typically involve discussions of truth, validity, or reasoning)
+Feature 9646 => pos_freq=0.4915, neg_freq=0.0754, score=0.4161
+Feature 39534 => pos_freq=0.5593, neg_freq=0.1709, score=0.3885
+Feature 24360 => pos_freq=0.4322, neg_freq=0.0503, score=0.3820
+Feature 34841 => pos_freq=0.4153, neg_freq=0.0352, score=0.3801
+Feature 37435 => pos_freq=0.3983, neg_freq=0.0201, score=0.3782
+Feature 39269 => pos_freq=0.4153, neg_freq=0.0402, score=0.3751
+Feature 9538 => pos_freq=0.3814, neg_freq=0.0101, score=0.3713
+Feature 54869 => pos_freq=0.4237, neg_freq=0.0653, score=0.3584
+Feature 11342 => pos_freq=0.4068, neg_freq=0.0503, score=0.3565
+Feature 8304 => pos_freq=0.3559, neg_freq=0.0050, score=0.3509
+Feature 31220 => pos_freq=0.4153, neg_freq=0.0704, score=0.3449
+Feature 21039 => pos_freq=0.3814, neg_freq=0.0402, score=0.3412
+Feature 41236 => pos_freq=0.4576, neg_freq=0.1307, score=0.3270
+
+
+No boost
+Generated text with influence: 'Q: Which city is the capital of Switzerland? A: Bern'
+60.0 boost on feature 25398
+Generated text with influence: 'Q: Which city is the capital of Switzerland? A: The capital of Switzerland is Zurich.'
