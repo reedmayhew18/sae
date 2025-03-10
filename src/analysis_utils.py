@@ -204,60 +204,78 @@ def extract_features(positive_prompts, negative_prompts, tokenizer, llm_model, s
 
     activation_cache = []
     def save_activations_hook(module, input, output):
-        # input is a tuple; input[0] is the tensor we need
+        # Capture the input activations from the hooked layer.
         activation_cache.append(input[0].cpu().detach().numpy())
 
-    # Register hook on the 16th layer
-    layer_index = 15  # Zero-based index; 15 corresponds to the 16th layer
+    # Register the hook on the desired layer (16th layer, zero-indexed 15)
+    layer_index = 15  
     hook_handle = llm_model.model.layers[layer_index].register_forward_hook(save_activations_hook)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    # Tokenize sentences
+    # Tokenize the prompts.
     inputs = tokenizer(
         prompts,
         return_tensors="pt",
         truncation=True,
-        max_length=35, # can equal to the length (in tokens) of the longest sentence
-                    # limit suggested due to VRAM constraints
+        max_length=35,  # set based on your VRAM constraints
         padding="max_length",
     ).to(device)
 
-    # Forward pass
+    # Forward pass through the LLM.
     with torch.no_grad():
         llm_model(**inputs)
 
-    activations = np.array(activation_cache)
-    # print(f"Activations shape: {activations.shape}") # (1, num_sent, seq_len, 3072)
-
-    # Reshape activations to (num_sent*seq_len, 3072)
-    activations = activations.squeeze(0)  # Remove batch dimension
+    # Assume activation_cache now has shape (1, num_sentences, seq_len, hidden_dim)
+    activations = np.array(activation_cache).squeeze(0)  # (num_sent, seq_len, hidden_dim)
     num_sent, seq_len, hidden_dim = activations.shape
-    activations = activations.reshape(-1, hidden_dim)
 
-    # Build index tensor for sentence separation
-    sent_idx_tensor = torch.tensor([[i] * seq_len for i in range(num_sent)]).flatten()
+    # Remove the begin token:
+    # Assume the first token (column index 0) in each sentence is the begin token.
+    activations = activations[:, 1:, :]  # now shape: (num_sent, seq_len-1, hidden_dim)
 
-    # Get attention mask and remove padding tokens
-    attention_mask = inputs['attention_mask'].view(-1).cpu().numpy()
+    # Build a new attention mask by removing the first token from each sentence.
+    # Original attention mask shape: (num_sent, seq_len)
+    attention_mask = inputs['attention_mask'].cpu().numpy()
+    attention_mask = attention_mask[:, 1:]  # now shape: (num_sent, seq_len-1)
+
+    # get list of tokens
+    tokens = tokenizer.convert_ids_to_tokens(inputs['input_ids'].cpu().numpy().flatten())
+    tokens = [t.replace('Ġ', ' ') for t in tokens]
+    # remove all '<|begin_of_text|>'
+    tokens = [t for t in tokens if t != '<|begin_of_text|>']
+
+    # Flatten activations and attention mask along the sentence and token dimensions.
+    activations = activations.reshape(-1, hidden_dim)         # shape: (num_sent*(seq_len-1), hidden_dim)
+    attention_mask = attention_mask.flatten()                 # shape: (num_sent*(seq_len-1),)
+
+    # Build a sentence index tensor for the remaining tokens.
+    # Each sentence now has (seq_len-1) tokens.
+    sent_idx_tensor = torch.tensor(
+        [[i] * (seq_len - 1) for i in range(num_sent)]
+    ).flatten()  # shape: (num_sent*(seq_len-1),)
+
+    # Filter out padded tokens using the attention mask.
     activations = activations[attention_mask == 1]
     sent_idx_tensor = sent_idx_tensor[attention_mask == 1]
+    tokens = [t for t, m in zip(tokens, attention_mask) if m == 1]
 
-    activations = torch.tensor(activations, dtype=torch.float32)  # Convert to torch tensor
+    # Convert activations to a torch tensor.
+    activations = torch.tensor(activations, dtype=torch.float32)
 
-    # Get latent vectors for sentences
+    # Get latent vectors from the SAE.
     with torch.no_grad():
         _, encoded = sae_model(activations)
         latent_vector = encoded.cpu().numpy()
 
-    # Remove hook to prevent side effects
+    # Remove the hook.
     hook_handle.remove()
-    
-    return latent_vector, sent_idx_tensor
+
+    return tokens, latent_vector, sent_idx_tensor
 
 
 def prompt_search_mean_local(positive_prompts, negative_prompts, top_k, tokenizer, llm_model, sae_model, verbose=True):
-    latent_vector, sent_idx_tensor = extract_features(positive_prompts, negative_prompts, tokenizer, llm_model, sae_model)
+    _, latent_vector, sent_idx_tensor = extract_features(positive_prompts, negative_prompts, tokenizer, llm_model, sae_model)
 
     # Positive prompts
     pos_ix = np.where(sent_idx_tensor < len(positive_prompts))[0]
@@ -279,7 +297,6 @@ def prompt_search_mean_local(positive_prompts, negative_prompts, top_k, tokenize
         mean_activation -= neg_mean_activation
 
     # Get top k features and their mean activation values
-    top_k = 15
     top_k_indices = np.argsort(mean_activation)[-top_k:][::-1]
     top_k_values = mean_activation[top_k_indices]
 
@@ -292,7 +309,7 @@ def prompt_search_mean_local(positive_prompts, negative_prompts, top_k, tokenize
 
 def prompt_search_rank(positive_prompts, negative_prompts, topN, tokenizer, llm_model, sae_model, verbose=True):
     
-    latent_vector, sent_idx_tensor = extract_features(positive_prompts, negative_prompts, tokenizer, llm_model, sae_model)
+    _, latent_vector, sent_idx_tensor = extract_features(positive_prompts, negative_prompts, tokenizer, llm_model, sae_model)
 
     pos_ix = np.where(sent_idx_tensor < len(positive_prompts))[0]
     pos_latent = latent_vector[pos_ix]

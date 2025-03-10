@@ -1,0 +1,85 @@
+emotionaly
+sad, happy, angry ...
+gender bias
+language
+humor
+
+
+31771 - Geographic Locations
+23364 - Existence (presence, to be or not to be)
+
+737 - Factual descriptions in news
+34060 - Superlatives in rankings
+44690 - Personality traits descriptions
+11703 - Uncertainty and speculation
+
+5558 - Portuguese programming text
+35579 - French research articles
+23057 - Spanish/Portuguese phrases
+11801 - Spanish Writing & Instructions
+
+
+32483 - Question Prefix
+39584 - News & Statistics Formatting
+8790 - Ease & Simplicity Words
+6971 - Section Breaks & Formatting
+8960 - Common Initials & Abbreviations
+10961 - Simple & Complex Descriptions
+43360 - Aftermath Statements
+34583 - General Pronoun "It"
+25434 - Patent & Technical Sectioning
+44981 - Surface & Material Descriptions
+23364 - Presence & Existence Indicators
+31771 - Geographic Locations
+1378 - Research & Academic Writing
+15201 - Paragraph Breaks & Formatting
+23669 - Process & Action Terms
+19848 - Logic and Evaluation
+
+6729 - Exclusivity emphasis (in any language)
+
+
+44675 - Critical thinking terms  
+19848 - Code syntax & critiques  
+13321 - Casual agreement  
+28947 - Expressing praise  
+55712 - Optimization & comparisons  
+53667 - Emotion & behavior  
+18980 - Broad statements & advice  
+20647 - Measurement & statistics  
+28332 - Requests & sequencing  
+28333 - Programming variables  
+61617 - Order & priority  
+33330 - Time & impact  
+9660 - Formal introductions  
+31551 - Narrative flow  
+1476 - Descriptive opinions
+59589 - Regulatory language patterns  
+4421 - Programming syntax markers  
+6729 - Limiting expressions  
+13654 - Public event references  
+8538 - Personal & group mentions  
+65117 - First-person perspective  
+62048 - Descriptive expressions  
+29537 - Marketing language  
+46564 - Future-oriented statements  
+15083 - Past-tense references  
+40171 - Common sentence structure  
+7533 - Emphasizing completeness  
+3444 - Analytical reasoning  
+
+
+
+54373 - Personal Opinions
+46564 - Motivational Language
+13321 - Conversational Agreement
+28947 - Positive Descriptions
+31551 - Narrative Storytelling
+1476 - Media and Analysis
+65117 - First-person statements
+62048 - Casual speech
+29537 - Positive & navigational terms
+46564 - Future & motivation
+40171 - Action & emotions
+53667 - Emotion & behavior
+3444 - Explanations & opinions
