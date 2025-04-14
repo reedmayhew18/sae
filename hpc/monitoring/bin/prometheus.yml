@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 5s
+scrape_configs:
+  - job_name: 'node_exporter'
+    static_configs:
+      - targets: ['localhost:9101']
+  - job_name: 'dcgm_exporter'
+    static_configs:
+      - targets: ['localhost:9401']

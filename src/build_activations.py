@@ -2,9 +2,8 @@ import argparse
 import os
 import torch
 import numpy as np
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from datasets import load_dataset
-from transformers import BitsAndBytesConfig
 
 def build_activations(
         dataset, 
@@ -73,13 +72,13 @@ def build_activations(
 
             # Remove rows where attention mask is 0 (padding tokens)
             attention_mask = inputs['attention_mask'].cpu().numpy().reshape(-1)
-            attention_mask[np.where(token_idx == 0)] = 0 # Remove <begin_of_text> token (token_idx = 0)
+            attention_mask[token_idx.ravel() == 0] = 0 # Remove <begin_of_text> token (token_idx = 0)
             batch_activations = batch_activations[attention_mask != 0]
             batch_last3 = batch_last3[attention_mask != 0]
 
             # Stack to all_data
             all_data = np.vstack((all_data, batch_activations))
-            all_last3 = np.vstack((all_data, batch_last3))
+            all_last3 = np.vstack((all_last3, batch_last3))
             print(f"all_data shape: {all_data.shape}")
             print(f"all_last3 shape: {all_last3.shape}")
 
@@ -105,7 +104,6 @@ def build_activations(
 
     # Save any remaining data
     if all_data.shape[0] > 0:
-        # np.save(f"activations_data/activations_batch_{files_saved:04d}.npy", all_data)
         activations_file = os.path.join(output_dir, f"activations_batch_{files_saved:04d}.npy")
         last3_file = os.path.join(output_dir, f"last3_batch_{files_saved:04d}.npy")
 
@@ -129,8 +127,12 @@ if __name__ == "__main__":
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description="Extract activations from LLaMA model and save to disk")
     parser.add_argument("--model_name", type=str, default="meta-llama/Llama-3.2-3B", help="Model name")
+    # <home>/.cache/huggingface/hub/<model_name>
+    home_dir = os.path.expanduser("~")
+    c_dir = os.path.join(home_dir, ".cache/huggingface/hub")
+    parser.add_argument("--cache_dir", type=str, default=c_dir, help="Cache directory")
     parser.add_argument("--layer_index", type=int, default=15, help="Layer index to extract activations from")
-    parser.add_argument("--data_len", type=int, default=3000000, help="Number of dataset samples to process")
+    parser.add_argument("--data_len", type=int, default=30000, help="Number of dataset samples to process")
     parser.add_argument("--batch_size", type=int, default=8, help="Batch size")
     parser.add_argument("--file_size", type=int, default=81920, help="Max number of samples per file")
     parser.add_argument("--vector_size", type=int, default=3072, help="Size of activation vectors")
@@ -145,20 +147,26 @@ if __name__ == "__main__":
         print("Using CPU (consider running on a GPU node)")
 
     # Load the LLaMA 3.2B model without quantization (for now)
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name, cache_dir=args.cache_dir)
     tokenizer.pad_token = tokenizer.eos_token
 
     # Prepare 4-bit quantization configuration (optional)
     # Uncomment the following lines if you wish to use quantization
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_use_double_quant=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16
+    # bnb_config = BitsAndBytesConfig(
+    #     load_in_4bit=True,
+    #     bnb_4bit_use_double_quant=True,
+    #     bnb_4bit_quant_type="nf4",
+    #     bnb_4bit_compute_dtype=torch.bfloat16
+    # )
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model_name,
+        # quantization_config=bnb_config,
+        cache_dir=args.cache_dir,
+        torch_dtype=torch.float16,
+        device_map="auto"
     )
-    model = AutoModelForCausalLM.from_pretrained(args.model_name, quantization_config=bnb_config).to(device)
 
-    # Load the first 3 million examples from 'The Pile' dataset 
+    # Load the first 3 million examples from 'The Pile' dataset
     dataset = load_dataset("monology/pile-uncopyrighted", split="train", streaming=True)
 
     # Set up processing parameters
@@ -166,9 +174,9 @@ if __name__ == "__main__":
 
     # Build activations
     build_activations(
-        dataset, 
-        tokenizer, 
-        model, 
+        dataset,
+        tokenizer,
+        model,
         device,
         layer_index=args.layer_index,
         batch_size=args.batch_size,
@@ -177,4 +185,6 @@ if __name__ == "__main__":
         data_len=args.data_len,
         output_dir=args.output_dir
     )
+
+
 
