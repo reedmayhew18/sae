@@ -16,7 +16,7 @@ def main():
     )
     parser.add_argument(
         "--model_name", type=str,
-        default="meta-llama/Llama-3-7b",
+        default="unsloth/Meta-Llama-3.1-8B-Instruct",
         help="HuggingFace model identifier for Llama-3"
     )
     home = os.path.expanduser("~")
@@ -79,7 +79,7 @@ def main():
 
     # streaming dataset
     dataset = load_dataset(
-        "monology/pile-uncopyrighted",
+        "reedmayhew/o4-mini-high-100x",
         split="train",
         streaming=True
     )
