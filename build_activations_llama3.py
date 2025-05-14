@@ -34,7 +34,7 @@ def main():
                         help="Number of sequences per forward pass")
     parser.add_argument("--file_size", type=int, default=10*8192,
                         help="Max number of token-activations per output file")
-    parser.add_argument("--vector_size", type=int, default=3072,
+    parser.add_argument("--vector_size", type=int, default=4096,
                         help="Dimension of hidden-state vectors")
     parser.add_argument("--output_dir", type=str, default="activations_data",
                         help="Directory to write activation .npy files")
